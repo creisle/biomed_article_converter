@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Manual">
+            <PMID Version="1">23122784</PMID>
+            <DateCompleted>
+                <Year>2013</Year>
+                <Month>04</Month>
+                <Day>03</Day>
+            </DateCompleted>
+            <DateRevised>
+                <Year>2026</Year>
+                <Month>01</Month>
+                <Day>28</Day>
+            </DateRevised>
+            <Article PubModel="Print-Electronic">
+                <Journal>
+                    <ISSN IssnType="Electronic">1474-5488</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>14</Volume>
+                        <Issue>1</Issue>
+                        <PubDate>
+                            <Year>2013</Year>
+                            <Month>Jan</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>The Lancet. Oncology</Title>
+                    <ISOAbbreviation>Lancet Oncol</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Lapatinib plus capecitabine in patients with previously untreated
+                    brain metastases from HER2-positive metastatic breast cancer (LANDSCAPE): a
+                    single-group phase 2 study.</ArticleTitle>
+                <Pagination>
+                    <StartPage>64</StartPage>
+                    <EndPage>71</EndPage>
+                    <MedlinePgn>64-71</MedlinePgn>
+                </Pagination>
+                <ELocationID EIdType="doi" ValidYN="Y">10.1016/S1470-2045(12)70432-1</ELocationID>
+                <ELocationID EIdType="pii" ValidYN="Y">S1470-2045(12)70432-1</ELocationID>
+                <Abstract>
+                    <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Brain metastases occur
+                        in 30-50% of patients with metastatic HER2-positive breast cancer. In the
+                        case of diffuse brain metastases, treatment is based on whole brain
+                        radiotherapy (WBRT). Few systemic options are available. We aimed to
+                        investigate the combination of lapatinib plus capecitabine for the treatment
+                        of previously untreated brain metastases from HER2-positive breast cancer.</AbstractText>
+                    <AbstractText Label="METHODS" NlmCategory="METHODS">In this single-arm phase 2,
+                        open-label, multicentre study, eligible patients had HER2-positive
+                        metastatic breast cancer with brain metastases not previously treated with
+                        WBRT, capecitabine, or lapatinib. Tretament was given in 21 day cycles:
+                        patients received lapatinib (1250 mg, orally) every day and capecitabine
+                        (2000 mg/m(2), orally) from day 1 to day 14. The primary endpoint was the
+                        proportion of patients with an objective CNS response, defined as a 50% or
+                        greater volumetric reduction of CNS lesions in the absence of increased
+                        steroid use, progressive neurological symptoms, and progressive extra-CNS
+                        disease. All responses had to be confirmed 4 weeks after initial response.
+                        Efficacy analyses included all patients who received the study drugs and
+                        were assessable for efficacy criteria. This trial is registered with
+                        ClinicalTrials.gov, number NCT00967031.</AbstractText>
+                    <AbstractText Label="FINDINGS" NlmCategory="RESULTS">Between April 15, 2009, to
+                        Aug 2, 2010, we enrolled 45 patients, 44 (98%) of whom were assessable for
+                        efficacy, with a median follow-up of 21&#xb7;2 months (range
+                        2&#xb7;2-27&#xb7;6). 29 patients had an objective CNS response (65&#xb7;9%,
+                        95% CI 50&#xb7;1-79&#xb7;5); all were partial responses. Of all 45 treated
+                        patients, 22 (49%) had grade 3 or grade 4 treatment-related adverse events,
+                        of which the most common were diarrhoea in nine (20%) patients and hand-foot
+                        syndrome in nine (20%) patients. 14 (31%) patients had at least one severe
+                        adverse event; treatment was discontinued because of toxicity in four
+                        patients. No toxic deaths occurred.</AbstractText>
+                    <AbstractText Label="INTERPRETATION" NlmCategory="CONCLUSIONS">The combination
+                        of lapatinib and capecitabine is active as first-line treatment of brain
+                        metastases from HER2-positive breast cancer. A phase 3 trial is warranted.</AbstractText>
+                    <AbstractText Label="FUNDING" NlmCategory="BACKGROUND">GlaxoSmithKline-France
+                        and UNICANCER.</AbstractText>
+                    <CopyrightInformation>Copyright &#xa9; 2013 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Bachelot</LastName>
+                        <ForeName>Thomas</ForeName>
+                        <Initials>T</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Medical Oncology and L&#xe9;on-B&#xe9;rard
+                                Centre, Lyon, France. thomas.bachelot@lyon.unicancer.fr</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Romieu</LastName>
+                        <ForeName>Gilles</ForeName>
+                        <Initials>G</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Campone</LastName>
+                        <ForeName>Mario</ForeName>
+                        <Initials>M</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Di&#xe9;ras</LastName>
+                        <ForeName>V&#xe9;ronique</ForeName>
+                        <Initials>V</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Cropet</LastName>
+                        <ForeName>Claire</ForeName>
+                        <Initials>C</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Dalenc</LastName>
+                        <ForeName>Florence</ForeName>
+                        <Initials>F</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Jimenez</LastName>
+                        <ForeName>Marta</ForeName>
+                        <Initials>M</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Le Rhun</LastName>
+                        <ForeName>Emilie</ForeName>
+                        <Initials>E</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Pierga</LastName>
+                        <ForeName>Jean-Yves</ForeName>
+                        <Initials>JY</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Gon&#xe7;alves</LastName>
+                        <ForeName>Anthony</ForeName>
+                        <Initials>A</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Leheurteur</LastName>
+                        <ForeName>Marianne</ForeName>
+                        <Initials>M</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Domont</LastName>
+                        <ForeName>Julien</ForeName>
+                        <Initials>J</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Gutierrez</LastName>
+                        <ForeName>Maya</ForeName>
+                        <Initials>M</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Cur&#xe9;</LastName>
+                        <ForeName>Herv&#xe9;</ForeName>
+                        <Initials>H</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Ferrero</LastName>
+                        <ForeName>Jean-Marc</ForeName>
+                        <Initials>JM</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Labbe-Devilliers</LastName>
+                        <ForeName>Catherine</ForeName>
+                        <Initials>C</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <DataBankList CompleteYN="Y">
+                    <DataBank>
+                        <DataBankName>ClinicalTrials.gov</DataBankName>
+                        <AccessionNumberList>
+                            <AccessionNumber>NCT00967031</AccessionNumber>
+                        </AccessionNumberList>
+                    </DataBank>
+                </DataBankList>
+                <PublicationTypeList>
+                    <PublicationType UI="D017427">Clinical Trial, Phase II</PublicationType>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                    <PublicationType UI="D016448">Multicenter Study</PublicationType>
+                    <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2012</Year>
+                    <Month>11</Month>
+                    <Day>02</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>England</Country>
+                <MedlineTA>Lancet Oncol</MedlineTA>
+                <NlmUniqueID>100957246</NlmUniqueID>
+                <ISSNLinking>1470-2045</ISSNLinking>
+            </MedlineJournalInfo>
+            <ChemicalList>
+                <Chemical>
+                    <RegistryNumber>6804DJ8Z9U</RegistryNumber>
+                    <NameOfSubstance UI="D000069287">Capecitabine</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0W860991D6</RegistryNumber>
+                    <NameOfSubstance UI="D003841">Deoxycytidine</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>U3P01618RT</RegistryNumber>
+                    <NameOfSubstance UI="D005472">Fluorouracil</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0VUA21238F</RegistryNumber>
+                    <NameOfSubstance UI="D000077341">Lapatinib</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D011799">Quinazolines</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 2.7.10.1</RegistryNumber>
+                    <NameOfSubstance UI="D018719">Erb-b2 Receptor Tyrosine Kinases</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 2.7.10.1</RegistryNumber>
+                    <NameOfSubstance UI="C508053">ERBB2 protein, human</NameOfSubstance>
+                </Chemical>
+            </ChemicalList>
+            <CitationSubset>IM</CitationSubset>
+            <CommentsCorrectionsList>
+                <CommentsCorrections RefType="CommentIn">
+                    <RefSource>Lancet Oncol. 2013 Jan;14(1):8-9. doi: 10.1016/S1470-2045(12)70449-7.</RefSource>
+                    <PMID Version="1">23122783</PMID>
+                </CommentsCorrections>
+                <CommentsCorrections RefType="CommentIn">
+                    <RefSource>Nat Rev Clin Oncol. 2012 Dec;9(12):669. doi:
+                        10.1038/nrclinonc.2012.205.</RefSource>
+                    <PMID Version="1">23149895</PMID>
+                </CommentsCorrections>
+                <CommentsCorrections RefType="CommentIn">
+                    <RefSource>Lancet Oncol. 2013 Jan;14(1):e2-3. doi:
+                        10.1016/S1470-2045(12)70518-1.</RefSource>
+                    <PMID Version="1">23276368</PMID>
+                </CommentsCorrections>
+                <CommentsCorrections RefType="CommentIn">
+                    <RefSource>Lancet Oncol. 2013 Jan;14(1):e3. doi: 10.1016/S1470-2045(12)70557-0.</RefSource>
+                    <PMID Version="1">23276370</PMID>
+                </CommentsCorrections>
+            </CommentsCorrectionsList>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000971" MajorTopicYN="N">Antineoplastic Combined
+                        Chemotherapy Protocols</DescriptorName>
+                    <QualifierName UI="Q000008" MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D001932" MajorTopicYN="N">Brain Neoplasms</DescriptorName>
+                    <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+                    <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+                    <QualifierName UI="Q000556" MajorTopicYN="N">secondary</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D001943" MajorTopicYN="N">Breast Neoplasms</DescriptorName>
+                    <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+                    <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+                    <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000069287" MajorTopicYN="N">Capecitabine</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D002490" MajorTopicYN="N">Central Nervous System</DescriptorName>
+                    <QualifierName UI="Q000187" MajorTopicYN="N">drug effects</QualifierName>
+                    <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D003841" MajorTopicYN="N">Deoxycytidine</DescriptorName>
+                    <QualifierName UI="Q000008" MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                    <QualifierName UI="Q000009" MajorTopicYN="N">adverse effects</QualifierName>
+                    <QualifierName UI="Q000031" MajorTopicYN="Y">analogs &amp; derivatives</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D064420" MajorTopicYN="N">Drug-Related Side Effects and
+                        Adverse Reactions</DescriptorName>
+                    <QualifierName UI="Q000139" MajorTopicYN="N">chemically induced</QualifierName>
+                    <QualifierName UI="Q000145" MajorTopicYN="N">classification</QualifierName>
+                    <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D023381" MajorTopicYN="N">Endpoint Determination</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005472" MajorTopicYN="N">Fluorouracil</DescriptorName>
+                    <QualifierName UI="Q000008" MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                    <QualifierName UI="Q000009" MajorTopicYN="N">adverse effects</QualifierName>
+                    <QualifierName UI="Q000031" MajorTopicYN="Y">analogs &amp; derivatives</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000077341" MajorTopicYN="N">Lapatinib</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D009367" MajorTopicYN="N">Neoplasm Staging</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D011799" MajorTopicYN="N">Quinazolines</DescriptorName>
+                    <QualifierName UI="Q000008" MajorTopicYN="Y">administration &amp; dosage</QualifierName>
+                    <QualifierName UI="Q000009" MajorTopicYN="N">adverse effects</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D018719" MajorTopicYN="N">Erb-b2 Receptor Tyrosine Kinases</DescriptorName>
+                    <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+                </MeshHeading>
+            </MeshHeadingList>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2012</Year>
+                    <Month>11</Month>
+                    <Day>6</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2012</Year>
+                    <Month>11</Month>
+                    <Day>6</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2013</Year>
+                    <Month>4</Month>
+                    <Day>4</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>ppublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">23122784</ArticleId>
+                <ArticleId IdType="doi">10.1016/S1470-2045(12)70432-1</ArticleId>
+                <ArticleId IdType="pii">S1470-2045(12)70432-1</ArticleId>
+            </ArticleIdList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>

@@ -1,0 +1,866 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+            <PMID Version="1">34307865</PMID>
+            <DateRevised>
+                <Year>2021</Year>
+                <Month>07</Month>
+                <Day>27</Day>
+            </DateRevised>
+            <Article PubModel="Electronic-eCollection">
+                <Journal>
+                    <ISSN IssnType="Electronic">2376-5992</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>7</Volume>
+                        <PubDate>
+                            <Year>2021</Year>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>PeerJ. Computer science</Title>
+                    <ISOAbbreviation>PeerJ Comput Sci</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>The coefficient of determination R-squared is more informative than
+                    SMAPE, MAE, MAPE, MSE and RMSE in regression analysis evaluation.</ArticleTitle>
+                <Pagination>
+                    <StartPage>e623</StartPage>
+                    <MedlinePgn>e623</MedlinePgn>
+                </Pagination>
+                <ELocationID EIdType="pii" ValidYN="Y">e623</ELocationID>
+                <ELocationID EIdType="doi" ValidYN="Y">10.7717/peerj-cs.623</ELocationID>
+                <Abstract>
+                    <AbstractText>Regression analysis makes up a large part of supervised machine
+                        learning, and consists of the prediction of a continuous independent target
+                        from a set of other predictor variables. The difference between binary
+                        classification and regression is in the target range: in binary
+                        classification, the target can have only two values (usually encoded as 0
+                        and 1), while in regression the target can have multiple values. Even if
+                        regression analysis has been employed in a huge number of machine learning
+                        studies, no consensus has been reached on a single, unified, standard metric
+                        to assess the results of the regression itself. Many studies employ the mean
+                        square error (MSE) and its rooted variant (RMSE), or the mean absolute error
+                        (MAE) and its percentage variant (MAPE). Although useful, these rates share
+                        a common drawback: since their values can range between zero and +infinity,
+                        a single value of them does not say much about the performance of the
+                        regression with respect to the distribution of the ground truth elements. In
+                        this study, we focus on two rates that actually generate a high score only
+                        if the majority of the elements of a ground truth group has been correctly
+                        predicted: the coefficient of determination (also known as <i>R</i>-squared
+                        or <i>R</i> <sup>2</sup>) and the symmetric mean absolute percentage error
+                        (SMAPE). After showing their mathematical properties, we report a comparison
+                        between <i>R</i> <sup>2</sup> and SMAPE in several use cases and in two real
+                        medical scenarios. Our results demonstrate that the coefficient of
+                        determination (<i>R</i>-squared) is more informative and truthful than
+                        SMAPE, and does not have the interpretability limitations of MSE, RMSE, MAE
+                        and MAPE. We therefore suggest the usage of <i>R</i>-squared as standard
+                        metric to evaluate regression analyses in any scientific domain.</AbstractText>
+                    <CopyrightInformation>&#xa9; 2021 Chicco et al.</CopyrightInformation>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Chicco</LastName>
+                        <ForeName>Davide</ForeName>
+                        <Initials>D</Initials>
+                        <Identifier Source="ORCID">0000-0001-9655-7142</Identifier>
+                        <AffiliationInfo>
+                            <Affiliation>Institute of Health Policy Management and Evaluation,
+                                University of Toronto, Toronto, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Warrens</LastName>
+                        <ForeName>Matthijs J</ForeName>
+                        <Initials>MJ</Initials>
+                        <Identifier Source="ORCID">0000-0002-7302-640X</Identifier>
+                        <AffiliationInfo>
+                            <Affiliation>Groningen Institute for Educational Research, University of
+                                Groningen, Groningen, Netherlands.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Jurman</LastName>
+                        <ForeName>Giuseppe</ForeName>
+                        <Initials>G</Initials>
+                        <Identifier Source="ORCID">0000-0002-2705-5728</Identifier>
+                        <AffiliationInfo>
+                            <Affiliation>Data Science for Health Unit, Fondazione Bruno Kessler,
+                                Trento, Italy.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2021</Year>
+                    <Month>07</Month>
+                    <Day>05</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>PeerJ Comput Sci</MedlineTA>
+                <NlmUniqueID>101660598</NlmUniqueID>
+                <ISSNLinking>2376-5992</ISSNLinking>
+            </MedlineJournalInfo>
+            <KeywordList Owner="NOTNLM">
+                <Keyword MajorTopicYN="N">Coefficient of determination</Keyword>
+                <Keyword MajorTopicYN="N">Mean absolute error</Keyword>
+                <Keyword MajorTopicYN="N">Mean square error</Keyword>
+                <Keyword MajorTopicYN="N">Regression</Keyword>
+                <Keyword MajorTopicYN="N">Regression analysis</Keyword>
+                <Keyword MajorTopicYN="N">Regression evaluation</Keyword>
+                <Keyword MajorTopicYN="N">Regression evaluation rates</Keyword>
+            </KeywordList>
+            <CoiStatement>Davide Chicco is an Academic Editor for PeerJ Computer Science.</CoiStatement>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="received">
+                    <Year>2021</Year>
+                    <Month>3</Month>
+                    <Day>26</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="accepted">
+                    <Year>2021</Year>
+                    <Month>6</Month>
+                    <Day>15</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2021</Year>
+                    <Month>7</Month>
+                    <Day>26</Day>
+                    <Hour>6</Hour>
+                    <Minute>42</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2021</Year>
+                    <Month>7</Month>
+                    <Day>27</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2021</Year>
+                    <Month>7</Month>
+                    <Day>27</Day>
+                    <Hour>6</Hour>
+                    <Minute>1</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pmc-release">
+                    <Year>2021</Year>
+                    <Month>7</Month>
+                    <Day>5</Day>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>epublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">34307865</ArticleId>
+                <ArticleId IdType="pmc">PMC8279135</ArticleId>
+                <ArticleId IdType="doi">10.7717/peerj-cs.623</ArticleId>
+                <ArticleId IdType="pii">cs-623</ArticleId>
+            </ArticleIdList>
+            <ReferenceList>
+                <Reference>
+                    <Citation>Allen DM. Mean square error of prediction as a criterion for selecting
+                        variables. Technometrics. 1971;13(3):469&#x2013;475.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Allen MP. Understanding Regression Analysis. Boston: Springer; 1997.
+                        The coefficient of determination in multiple regression; pp. 91&#x2013;95.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Allen MP. Understanding regression analysis. Berlin, Germany: Springer
+                        Science &amp; Business Media; 2004.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Altman N, Krzywinski M. Simple linear regression. Nature Methods.
+                        2015;12(11):999&#x2013;1000.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">26824102</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Applegate RA, Ballentine C, Gross H, Sarver EJ, Sarver CA. Visual
+                        acuity as a function of Zernike mode and level of root mean square error.
+                        Optometry and Vision Science. 2003;80(2):97&#x2013;105.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">12597324</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Armstrong JS. Long-range forecasting: from crystal ball to computer.
+                        Hoboken: John Wiley &amp; Sons; 1985.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Armstrong JS, Collopy F. Error measures for generalizing about
+                        forecasting methods: empirical comparisons. International Journal of
+                        Forecasting. 1992;08:69&#x2013;80.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Barrett JP. The coefficient of determination&#x2014;some limitations.
+                        The American Statistician. 1974;28(1):19&#x2013;20.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Barrett GB. The coefficient of determination: understanding r2 and R2.
+                        The Mathematics Teacher. 2000;93(3):230&#x2013;234.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Bartlett PL, Long PM, Lugosi G, Tsigler A. Benign overfitting in
+                        linear regression. Proceedings of the National Academy of Sciences of the
+                        USA. 2020;117(48):30063&#x2013;30070. doi: 10.1073/pnas.1907378117.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1073/pnas.1907378117</ArticleId>
+                        <ArticleId IdType="pmc">PMC7720150</ArticleId>
+                        <ArticleId IdType="pubmed">32332161</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Berk RA. Regression analysis: a constructive critique. Vol. 11.
+                        Thousand Oaks: Sage; 2004.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Berk RA. Statistical Learning from a Regression Perspective. Berlin:
+                        Springer International Publishing; 2020. Statistical learning as a
+                        regression problem; pp. 1&#x2013;72.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Blomquist NS. A note on the use of the coefficient of determination.
+                        Scandinavian Journal of Economics. 1980;82(3):409&#x2013;412. doi:
+                        10.2307/3439750.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.2307/3439750</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Botchkarev A. Evaluating performance of regression machine learning
+                        models using multiple error metrics in Azure machine learning studio. SSRN
+                        Electronic Journal. 2018a;3:3177507. doi: 10.2139/ssrn.3177507.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.2139/ssrn.3177507</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Botchkarev A. Performance metrics (error measures) in machine learning
+                        regression, forecasting and prognostics: properties and typology.
+                        http://arxiv.org/abs/1809.03006 arXiv preprint. 2018b</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Botchkarev A. A new typology design of performance metrics to measure
+                        errors in machine learning regression algorithms. Interdisciplinary Journal
+                        of Information, Knowledge, and Management. 2019;14:045&#x2013;076. doi:
+                        10.28945/4184.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.28945/4184</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Breiman L. Random forests. Machine Learning. 2001;45(1):5&#x2013;32.
+                        doi: 10.1023/A:1010933404324.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1023/A:1010933404324</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Brown JD. The coefficient of determination. 2009.
+                        https://hosted.jalt.org/test/bro_16.htm. [22 January 2021].
+                        https://hosted.jalt.org/test/bro_16.htm</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Buuren SV, Groothuis-Oudshoorn K. Mice: multivariate imputation by
+                        chained equations in R. Journal of Statistical Software.
+                        2010;45(3):1&#x2013;68.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Chai T, Draxler RR. Root mean square error (RMSE) or mean absolute
+                        error (MAE)? Arguments against avoiding RMSE in the literature.
+                        Geoscientific Model Development. 2014;7(3):1247&#x2013;1250. doi:
+                        10.5194/gmd-7-1247-2014.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.5194/gmd-7-1247-2014</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Chan S, Chu J, Zhang Y, Nadarajah S. Count regression models for
+                        COVID-19. Physica A: Statistical Mechanics and its Applications.
+                        2021;563:125460. doi: 10.1016/j.physa.2020.125460.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/j.physa.2020.125460</ArticleId>
+                        <ArticleId IdType="pmc">PMC7604061</ArticleId>
+                        <ArticleId IdType="pubmed">33162665</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Chatterjee S, Hadi AS. Regression analysis by example. Hoboken: John
+                        Wiley &amp; Sons; 2015.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Chatterjee S, Simonoff JS. Handbook of regression analysis. Vol. 5.
+                        Hoboken: John Wiley &amp; Sons; 2013.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Chen C, Twycross J, Garibaldi JM. A new accuracy measure based on
+                        bounded relative error for time series forecasting. PLOS ONE.
+                        2017;12(3):e0174202.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5365136</ArticleId>
+                        <ArticleId IdType="pubmed">28339480</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Chicco D, Jurman G. The advantages of the Matthews correlation
+                        coefficient (MCC) over F1 score and accuracy in binary classification
+                        evaluation. BMC Genomics. 2020;21(1):1&#x2013;13.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6941312</ArticleId>
+                        <ArticleId IdType="pubmed">31898477</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Chicco D, Jurman G. An ensemble learning approach for enhanced
+                        classification of patients with hepatitis and cirrhosis. IEEE Access.
+                        2021;9:24485&#x2013;24498.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Chicco D, Starovoitov V, Jurman G. The benefits of the Matthews
+                        correlation coefficient (MCC) over the diagnostic odds ratio (DOR) in binary
+                        classification assessment. IEEE Access. 2021;9:47112&#x2013;47124.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Chicco D, T&#xf6;tsch N, Jurman G. The Matthews correlation
+                        coefficient (MCC) is more reliable than balanced accuracy, bookmaker
+                        informedness, and markedness in two-class confusion matrix evaluation.
+                        BioData Mining. 2021;14(1):1&#x2013;22.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7863449</ArticleId>
+                        <ArticleId IdType="pubmed">33541410</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Chicco D, Warrens MJ, Jurman G. The Matthews correlation coefficient
+                        (MCC) is more informative than Cohen&#x2019;s Kappa and Brier score in
+                        binary classification assessment. IEEE Access. 2021;9:78368&#x2013;78381.
+                        doi: 10.1109/ACCESS.2021.3084050.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1109/ACCESS.2021.3084050</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Cornell JA, Berger RD. Factors that influence the value of the
+                        coefficient of determination in simple linear and nonlinear regression
+                        models. Phytopathology. 1987;77(1):63&#x2013;70. doi: 10.1094/Phyto-77-63.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1094/Phyto-77-63</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Cox DR, Wermuth N. A comment on the coefficient of determination for
+                        binary responses. The American Statistician. 1992;46(1):1&#x2013;4.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>
+                        CrossValidated, editor. Is R2 useful or dangerous? 2011a.
+                        https://stats.stackexchange.com/questions/13314/is-r2-useful-or-dangerous/13317#13317.
+                        [23 February 2021].
+                        https://stats.stackexchange.com/questions/13314/is-r2-useful-or-dangerous/13317#13317</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>CrossValidated, editor. When is R squared negative? 2011b.
+                        https://stats.stackexchange.com/questions/12900/when-is-r-squared-negative.
+                        [19 February 2021].
+                        https://stats.stackexchange.com/questions/12900/when-is-r-squared-negative</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>David IP, Sukhatme BV. On the bias and mean square error of the ratio
+                        estimator. Journal of the American Statistical Association.
+                        1974;69(346):464&#x2013;466. doi: 10.1080/01621459.1974.10482975.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1080/01621459.1974.10482975</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>De Myttenaere A, Golden B, Le Grand B, Rossi F. Using the mean
+                        absolute percentage error for regression models. Proceedings of ESANN,
+                        2015&#x2014;The 23rd European Symposium on Artificial Neural Networks,
+                        Computational Intelligence and Machine Learning; Louvain: Presses
+                        Universitaires de Louvain; 2015. p. 113.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>De Myttenaere A, Golden B, Le Grand B, Rossi F. Mean absolute
+                        percentage error for regression models. Neurocomputing.
+                        2016;192(1):38&#x2013;48. doi: 10.1016/j.neucom.2015.12.114.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/j.neucom.2015.12.114</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>De-La-Hoz-Correa E, Mendoza-Palechor FE, De-La-Hoz-Manotas A,
+                        Morales-Ortega RC, Adriana SHB. Obesity level estimation software based on
+                        decision trees. Journal of Computer Science. 2019;15(1):67&#x2013;77. doi:
+                        10.3844/jcssp.2019.67.77.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.3844/jcssp.2019.67.77</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Di Bucchianico A. Encyclopedia of Statistics in Quality and
+                        Reliability. Hoboken: Wiley; 2008. Coefficient of determination (R2) p. 1.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Dougherty ER, Kim S, Chen Y. Coefficient of determination in nonlinear
+                        signal processing. Signal Processing. 2000;80(10):2219&#x2013;2235. doi:
+                        10.1016/S0165-1684(00)00079-7.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/S0165-1684(00)00079-7</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Draper NR, Smith H. Applied regression analysis. Vol. 326. Hoboken:
+                        John Wiley &amp; Sons; 1998.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Farebrother RW. Further results on the mean square error of ridge
+                        regression. Journal of the Royal Statistical Society. Series B.
+                        1976;38(3):248&#x2013;250. doi: 10.1111/j.2517-6161.1976.tb01588.x.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1111/j.2517-6161.1976.tb01588.x</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Flores BE. A pragmatic view of accuracy measurement in forecasting.
+                        Omega. 1986;14(2):93&#x2013;98. doi: 10.1016/0305-0483(86)90013-7.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/0305-0483(86)90013-7</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Freund RJ, Wilson WJ, Sa P. Regression analysis. Amsterdam,
+                        Netherlands: Elsevier; 2006.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Gambhir E, Jain R, Gupta A, Tomer U. Regression analysis of COVID-19
+                        using machine learning algorithms. Proceedings of ICOSEC, 2020&#x2014;The
+                        2nd International Conference on Smart Electronics and Communication;
+                        Piscataway: IEEE; 2020. pp. 65&#x2013;71.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Gilroy EJ, Hirsch RM, Cohn TA. Mean square error of regression-based
+                        constituent transport estimates. Water Resources Research.
+                        1990;26(9):2069&#x2013;2077. doi: 10.1029/WR026i009p02069.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1029/WR026i009p02069</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Golberg MA, Cho HA. Introduction to regression analysis. Ashurst, New
+                        Forest: WIT Press; 2004.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Goodwin P, Lawton R. On the asymmetry of the symmetric MAPE.
+                        International Journal of Forecasting. 1999;15(4):405&#x2013;408. doi:
+                        10.1016/S0169-2070(99)00007-2.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/S0169-2070(99)00007-2</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Hahn GJ. The coefficient of determination exposed. Chemical
+                        Technology. 1973;3(10):609&#x2013;612.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Hancock GR, Freeman MJ. Power and sample size for the root mean square
+                        error of approximation test of not close fit in structural equation
+                        modeling. Educational and Psychological Measurement.
+                        2001;61(5):741&#x2013;758. doi: 10.1177/00131640121971491.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1177/00131640121971491</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Hannay K. Everything is a regression: in search of unifying paradigms
+                        in statistics. 2020.
+                        https://towardsdatascience.com/everything-is-just-a-regression-5a3bf22c459c.
+                        [15 March 2021].
+                        https://towardsdatascience.com/everything-is-just-a-regression-5a3bf22c459c</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Hoffmann G, Bietenbeck A, Lichtinghagen R, Klawonn F. Using machine
+                        learning techniques to generate laboratory diagnostic pathways&#x2014;a case
+                        study. Journal of Laboratory and Precision Medicine. 2018;3:58. doi:
+                        10.21037/jlpm.2018.06.01.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.21037/jlpm.2018.06.01</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Huber PJ. Breakthroughs in Statistics. Berlin: Springer; 1992. Robust
+                        estimation of a location parameter; pp. 492&#x2013;518.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Hyndman RJ. Errors on percentage errors. 2014.
+                        https://robjhyndman.com/hyndsight/smape/ [26 February 2021].
+                        https://robjhyndman.com/hyndsight/smape/</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Hyndman RJ, Koehler AB. Another look at measures of forecast accuracy.
+                        International Journal of Forecasting. 2006;22(4):679&#x2013;688. doi:
+                        10.1016/j.ijforecast.2006.03.001.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/j.ijforecast.2006.03.001</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Ihaka R, Gentleman R. R: a language for data analysis and graphics.
+                        Journal of Computational and Graphical Statistics. 1996;5(3):299&#x2013;314.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Imbens GW, Newey WK, Ridder G. Mean-square-error calculations for
+                        average treatment effects. Cambridge: Harvard University; 2005. Technical
+                        report.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Jaqaman K, Danuser G. Linking data to models: data regression. Nature
+                        Reviews Molecular Cell Biology. 2006;7(11):813&#x2013;819. doi:
+                        10.1038/nrm2030.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1038/nrm2030</ArticleId>
+                        <ArticleId IdType="pubmed">17006434</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Kelley K, Lai K. Accuracy in parameter estimation for the root mean
+                        square error of approximation: sample size planning for narrow confidence
+                        intervals. Multivariate Behavioral Research. 2011;46(1):1&#x2013;32. doi:
+                        10.1080/00273171.2011.543027.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1080/00273171.2011.543027</ArticleId>
+                        <ArticleId IdType="pubmed">26771579</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Kreinovich V, Nguyen HT, Ouncharoen R. How to estimate forecasting
+                        quality: a system-motivated derivation of symmetric mean absolute percentage
+                        error (SMAPE) and other similar characteristics. El Paso: University of
+                        Texas at El Paso; 2014. Technical Report UTEP-CS-14-53.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Krzywinski M, Altman N. Multiple linear regression. Nature Methods.
+                        2015;12(12):1103&#x2013;1104. doi: 10.1038/nmeth.3665.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1038/nmeth.3665</ArticleId>
+                        <ArticleId IdType="pubmed">26962577</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>K&#xf6;ksoy O. Multiresponse robust design: mean square error (MSE)
+                        criterion. Applied Mathematics and Computation.
+                        2006;175(2):1716&#x2013;1729. doi: 10.1016/j.amc.2005.09.016.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/j.amc.2005.09.016</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lane PW. Guide to GenStat release 6.1&#x2014;Part 2: Statistics. Hemel
+                        Hempstead, England, United Kingdom: VSN International; 2002. Regression
+                        analysis.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Lee SH, Goddard ME, Wray NR, Visscher PM. A better coefficient of
+                        determination for genetic profile analysis. Genetic Epidemiology.
+                        2012;36(3):214&#x2013;224. doi: 10.1002/gepi.21614.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1002/gepi.21614</ArticleId>
+                        <ArticleId IdType="pubmed">22714935</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lichtinghagen R, Pietsch D, Bantel H, Manns MP, Brand K, Bahr MJ. The
+                        enhanced liver fibrosis (ELF) score: normal values, influence factors and
+                        proposed cut-off values. Journal of Hepatology. 2013;59(2):236&#x2013;242.
+                        doi: 10.1016/j.jhep.2013.03.016.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/j.jhep.2013.03.016</ArticleId>
+                        <ArticleId IdType="pubmed">23523583</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Maiseli BJ. Optimum design of chamfer masks using symmetric mean
+                        absolute percentage error. EURASIP Journal on Image and Video Processing.
+                        2019;2019(1):1&#x2013;15. doi: 10.1186/s13640-019-0475-y.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1186/s13640-019-0475-y</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Makridakis S. Accuracy measures: theoretical and practical concerns.
+                        International Journal of Forecasting. 1993;9(4):527&#x2013;529. doi:
+                        10.1016/0169-2070(93)90079-3.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/0169-2070(93)90079-3</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Makridakis S, Hibon M. The M3-competition: results, conclusions and
+                        implications. International Journal of Forecasting.
+                        2000;16(4):451&#x2013;476. doi: 10.1016/S0169-2070(00)00057-1.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/S0169-2070(00)00057-1</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Matthews BW. Comparison of the predicted and observed secondary
+                        structure of T4 phage lysozyme. Biochimica et Biophysica Acta
+                        (BBA)&#x2014;Protein Structure. 1975;405(2):442&#x2013;451.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">1180967</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Menard S. Coefficients of determination for multiple logistic
+                        regression analysis. The American Statistician. 2000;54(1):17&#x2013;24.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Miles J. R squared, adjusted R squared. Hoboken: Wiley; 2014.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>
+                        Minitab Blog Editor Regression analysis: how do I interpret R-squared
+                        and assess the goodness-of-fit? 2013.
+                        https://blog.minitab.com/en/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit.
+                        [19 February 2021].
+                        https://blog.minitab.com/en/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Montgomery DC, Peck EA, Vining GG. Introduction to linear regression
+                        analysis. Hoboken: John Wiley &amp; Sons; 2021.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Nagelkerke NJ. A note on a general definition of the coefficient of
+                        determination. Biometrika. 1991;78(3):691&#x2013;692.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Nakagawa S, Johnson PC, Schielzeth H. The coefficient of determination
+                        R2 and intra-class correlation coefficient from generalized linear
+                        mixed-effects models revisited and expanded. Journal of the Royal Society
+                        Interface. 2017;14(134):20170213.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5636267</ArticleId>
+                        <ArticleId IdType="pubmed">28904005</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Nevitt J, Hancock GR. Improving the root mean square error of
+                        approximation for nonnormal conditions in structural equation modeling.
+                        Journal of Experimental Education. 2000;68(3):251&#x2013;268.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Ozer DJ. Correlation and the coefficient of determination.
+                        Psychological Bulletin. 1985;97(2):307.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Palechor F-M, De-La-Hoz-Manotas A. Dataset for estimation of obesity
+                        levels based on eating habits and physical condition in individuals from
+                        Colombia, Peru and Mexico. Data in Brief. 2019;25:104344.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6710633</ArticleId>
+                        <ArticleId IdType="pubmed">31467953</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Piepho H-P. A coefficient of determination (R2) for generalized linear
+                        mixed models. Biometrical Journal. 2019;61(4):860&#x2013;872.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">30957911</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Quinino RC, Reis EA, Bessegato LF. Using the coefficient of
+                        determination. Teaching Statistics: An International Journal for Teachers.
+                        2013;35(2):84&#x2013;88.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Raji P, Lakshmi GD. Covid-19 pandemic analysis using regression.
+                        medRxiv. 2020:1&#x2013;8. doi: 10.1101/2020.10.08.20208991.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1101/2020.10.08.20208991</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Rao CR. Some comments on the minimum mean square error as a criterion
+                        of estimation. Pittsburgh: Pittsburgh University Institute for Statistics
+                        and Applications; 1980. Technical Report ADA093824.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Rawlings JO, Pantula SG, Dickey DA. Applied regression analysis: a
+                        research tool. Berlin, Germany: Springer Science &amp; Business Media; 2001.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Reeves D. Personal communication (email) 2021.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Ren L, Glasure Y. Applicability of the revised mean absolute
+                        percentage errors (MAPE) approach to some popular normal and non-normal
+                        independent time series. International Advances in Economic Research.
+                        2009;15(4):409&#x2013;420.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Renaud O, Victoria-Feser M-P. A robust coefficient of determination
+                        for regression. Journal of Statistical Planning and Inference.
+                        2010;140(7):1852&#x2013;1862.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Rokach L, Maimon O. Data Mining and Knowledge Discovery Handbook.
+                        Berlin, Germany: Springer; 2005. Decision trees; pp. 165&#x2013;192.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Sammut C, Webb GI. Mean absolute error. Boston, Massachusetts, USA:
+                        Springer; 2010a. p. 652.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Sammut C, Webb GI. Mean squared error. Boston, Massachusetts, USA:
+                        Springer; 2010b. p. 653.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Sarbishei O, Radecka K. Analysis of mean-square-error (MSE) for
+                        fixed-point FFT units. Proceedings of ISCAS, 2011&#x2014;The 2011 IEEE
+                        International Symposium of Circuits and Systems; Piscataway: IEEE; 2011. pp.
+                        1732&#x2013;1735.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Saunders LJ, Russell RA, Crabb DP. The coefficient of determination:
+                        what determines a useful R2 statistic? Investigative Ophthalmology &amp;
+                        Visual Science. 2012;53(11):6830&#x2013;6832.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">23034442</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Seber GA, Lee AJ. Linear regression analysis. Vol. 329. Hoboken: John
+                        Wiley &amp; Sons; 2012.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Senapati A, Nag A, Mondal A, Maji S. A novel framework for COVID-19
+                        case prediction through piecewise regression in India. International Journal
+                        of Information Technology. 2020;13(1):41&#x2013;48.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC7652706</ArticleId>
+                        <ArticleId IdType="pubmed">33195969</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Shcherbakov MV, Brebels A, Shcherbakova NL, Tyukov AP, Janovsky TA,
+                        Kamaev VA. A survey of forecast error measures. World Applied Sciences
+                        Journal. 2013;24(24):171&#x2013;176.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>So HC, Chan YT, Ho K, Chen Y. Simple formulae for bias and mean square
+                        error computation. IEEE Signal Processing Magazine.
+                        2013;30(4):162&#x2013;165. doi: 10.1109/MSP.2013.2254600.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1109/MSP.2013.2254600</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Srivastava AK, Srivastava VK, Ullah A. The coefficient of
+                        determination and its adjusted version in linear regression models.
+                        Econometric Reviews. 1995;14(2):229&#x2013;240. doi:
+                        10.1080/07474939508800317.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1080/07474939508800317</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Sykes AO. An introduction to regression analysis. Law &amp; Economics
+                        Working Papers 20, University of Chicago Law School Chicago Unbound;
+                        Chicago: University of Chicago; 1993.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>T&#xf6;tsch N, Hoffmann D. Classifier uncertainty: evidence, potential
+                        impact, and probabilistic treatment. PeerJ Computer Science.
+                        2021;7(26):e398. doi: 10.7717/peerj-cs.398.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.7717/peerj-cs.398</ArticleId>
+                        <ArticleId IdType="pmc">PMC7959610</ArticleId>
+                        <ArticleId IdType="pubmed">33817044</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>
+                        University of California Irvine Machine Learning Repository Estimation
+                        of obesity levels based on eating habits and physical condition data set.
+                        2019.
+                        https://archive.ics.uci.edu/ml/datasets/Estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition+
+                        [25 April 2021].
+                        https://archive.ics.uci.edu/ml/datasets/Estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition+</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6710633</ArticleId>
+                        <ArticleId IdType="pubmed">31467953</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>University of California Irvine Machine Learning Repository HCV data
+                        set. 2020. https://archive.ics.uci.edu/ml/datasets/HCV+data. [25 April
+                        2021]. https://archive.ics.uci.edu/ml/datasets/HCV+data</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Wang W, Lu Y. IOP Conference Series: Materials Science and
+                        Engineering. Vol. 324. IOP Publishing; 2018. Analysis of the mean absolute
+                        error (MAE) and the root mean square error (RMSE) in assessing rounding
+                        model; p. 012049.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Wang Q, Ma Y, Zhao K, Tian Y. A comprehensive survey of loss functions
+                        in machine learning. Annals of Data Science. 2020;290(5500):1&#x2013;26.
+                        doi: 10.1007/s40745-020-00253-5.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1007/s40745-020-00253-5</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Willmott CJ, Matsuura K. Advantages of the mean absolute error (MAE)
+                        over the root mean square error (RMSE) in assessing average model
+                        performance. Climate Research. 2005;30(1):79&#x2013;82. doi:
+                        10.3354/cr030079.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.3354/cr030079</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Wright S. Correlation and causation. Journal of Agricultural Research.
+                        1921;XX(7):557&#x2013;585.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>W&#xfc;thrich MV. From generalized linear models to neural networks,
+                        and back. Zurich: RiskLab, Department of Mathematics, ETH Z&#xfc;rich; 2020.
+                        Technical Report 3491790.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Young PH. Generalized coefficient of determination. Journal of Cost
+                        Analysis &amp; Management. 2000;2(1):59&#x2013;68. doi:
+                        10.1080/15411656.2000.10462406.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1080/15411656.2000.10462406</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Yue YR, Rue H. Bayesian inference for additive mixed quantile
+                        regression models. Computational Statistics &amp; Data Analysis.
+                        2011;55(1):84&#x2013;96. doi: 10.1016/j.csda.2010.05.006.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/j.csda.2010.05.006</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Zhang D. A coefficient of determination for generalized linear models.
+                        The American Statistician. 2017;71(4):310&#x2013;316. doi:
+                        10.1080/00031305.2016.1256839.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1080/00031305.2016.1256839</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+            </ReferenceList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>

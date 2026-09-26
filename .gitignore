@@ -1,0 +1,11 @@
+.venv
+.coverage
+*.pyc
+__pycache__
+.requests_cache.sqlite
+.pytest_cache
+dist
+temp.*
+.ruff_cache
+*.lprof
+*.vscode

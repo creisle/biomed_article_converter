@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Manual">
+            <PMID Version="1">16442484</PMID>
+            <DateCompleted>
+                <Year>2006</Year>
+                <Month>04</Month>
+                <Day>04</Day>
+            </DateCompleted>
+            <DateRevised>
+                <Year>2025</Year>
+                <Month>06</Month>
+                <Day>23</Day>
+            </DateRevised>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Print">0885-3924</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>31</Volume>
+                        <Issue>1</Issue>
+                        <PubDate>
+                            <Year>2006</Year>
+                            <Month>Jan</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Journal of pain and symptom management</Title>
+                    <ISOAbbreviation>J Pain Symptom Manage</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Hypnosis for procedure-related pain and distress in pediatric cancer
+                    patients: a systematic review of effectiveness and methodology related to
+                    hypnosis interventions.</ArticleTitle>
+                <Pagination>
+                    <StartPage>70</StartPage>
+                    <EndPage>84</EndPage>
+                    <MedlinePgn>70-84</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>The aim of this study was to systematically review and critically
+                        appraise the evidence on the effectiveness of hypnosis for procedure-related
+                        pain and distress in pediatric cancer patients. A comprehensive search of
+                        major biomedical and specialist complementary and alternative medicine
+                        databases was conducted. Citations were included from the databases'
+                        inception to March 2005. Efforts were made to identify unpublished and
+                        ongoing research. Controlled trials were appraised using predefined
+                        criteria. Clinical commentaries were obtained for each study. Seven
+                        randomized controlled clinical trials and one controlled clinical trial were
+                        found. Studies report positive results, including statistically significant
+                        reductions in pain and anxiety/distress, but a number of methodological
+                        limitations were identified. Systematic searching and appraisal has
+                        demonstrated that hypnosis has potential as a clinically valuable
+                        intervention for procedure-related pain and distress in pediatric cancer
+                        patients. Further research into the effectiveness and acceptability of
+                        hypnosis for pediatric cancer patients is recommended.</AbstractText>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Richardson</LastName>
+                        <ForeName>Janet</ForeName>
+                        <Initials>J</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Faculty of Health and Social Work, Portland Square,
+                                University of Plymouth, Drake Circus, Plymouth, Devon PL4 8AA,
+                                United Kingdom. janet.richardson@plymouth.ac.uk</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Smith</LastName>
+                        <ForeName>Joanna E</ForeName>
+                        <Initials>JE</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>McCall</LastName>
+                        <ForeName>Gillian</ForeName>
+                        <Initials>G</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Pilkington</LastName>
+                        <ForeName>Karen</ForeName>
+                        <Initials>K</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                    <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                    <PublicationType UI="D000078182">Systematic Review</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>J Pain Symptom Manage</MedlineTA>
+                <NlmUniqueID>8605836</NlmUniqueID>
+                <ISSNLinking>0885-3924</ISSNLinking>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName UI="D002648" MajorTopicYN="N">Child</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006991" MajorTopicYN="Y">Hypnosis, Anesthetic</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D009369" MajorTopicYN="N">Neoplasms</DescriptorName>
+                    <QualifierName UI="Q000150" MajorTopicYN="Y">complications</QualifierName>
+                    <QualifierName UI="Q000601" MajorTopicYN="Y">surgery</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D059408" MajorTopicYN="Y">Pain Management</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D013315" MajorTopicYN="N">Stress, Psychological</DescriptorName>
+                    <QualifierName UI="Q000628" MajorTopicYN="Y">therapy</QualifierName>
+                </MeshHeading>
+            </MeshHeadingList>
+            <NumberOfReferences>48</NumberOfReferences>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="accepted">
+                    <Year>2005</Year>
+                    <Month>6</Month>
+                    <Day>23</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2006</Year>
+                    <Month>1</Month>
+                    <Day>31</Day>
+                    <Hour>9</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2006</Year>
+                    <Month>4</Month>
+                    <Day>6</Day>
+                    <Hour>9</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2006</Year>
+                    <Month>1</Month>
+                    <Day>31</Day>
+                    <Hour>9</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>ppublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">16442484</ArticleId>
+                <ArticleId IdType="doi">10.1016/j.jpainsymman.2005.06.010</ArticleId>
+                <ArticleId IdType="pii">S0885-3924(05)00564-6</ArticleId>
+            </ArticleIdList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>

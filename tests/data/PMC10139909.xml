@@ -1,0 +1,3152 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset>
+	<article article-type="data-paper" xml:lang="en" dtd-version="1.4">
+		<processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml"
+			tagset-family="jats">
+			<restricted-by>pmc</restricted-by>
+		</processing-meta>
+		<front>
+			<journal-meta>
+				<journal-id journal-id-type="nlm-ta">Sci Data</journal-id>
+				<journal-id journal-id-type="iso-abbrev">Sci Data</journal-id>
+				<journal-id journal-id-type="pmc-domain-id">2628</journal-id>
+				<journal-id journal-id-type="pmc-domain">sdata</journal-id>
+				<journal-id journal-id-type="nlm-id">101640192</journal-id>
+				<journal-title-group>
+					<journal-title>Scientific Data</journal-title>
+				</journal-title-group>
+				<issn pub-type="epub">2052-4463</issn>
+				<publisher>
+					<publisher-name>Nature Publishing Group</publisher-name>
+				</publisher>
+			</journal-meta>
+			<article-meta>
+				<article-id pub-id-type="pmcid">PMC10139909</article-id>
+				<article-id pub-id-type="pmcid-ver">PMC10139909.2</article-id>
+				<article-id pub-id-type="pmcaid">10139909</article-id>
+				<article-id pub-id-type="pmcaiid">10147695</article-id>
+				<article-id pub-id-type="pmid">37117220</article-id>
+				<article-id pub-id-type="doi">10.1038/s41597-023-02134-x</article-id>
+				<article-id pub-id-type="publisher-id">2134</article-id>
+				<article-version article-version-type="pmc-version">2</article-version>
+				<article-categories>
+					<subj-group subj-group-type="heading">
+						<subject>Data Descriptor</subject>
+					</subj-group>
+				</article-categories>
+				<title-group>
+					<article-title>OpCitance: Citation contexts identified from the PubMed Central
+						open access articles</article-title>
+				</title-group>
+				<contrib-group>
+					<contrib contrib-type="author" corresp="yes">
+						<contrib-id contrib-id-type="orcid" authenticated="false">
+							http://orcid.org/0000-0002-2314-5777</contrib-id>
+						<name name-style="western">
+							<surname>Hsiao</surname>
+							<given-names initials="TK">Tzu-Kun</given-names>
+						</name>
+						<address>
+							<email>tkhsiao2@illinois.edu</email>
+						</address>
+						<xref ref-type="aff" rid="Aff1" />
+					</contrib>
+					<contrib contrib-type="author" corresp="yes">
+						<contrib-id contrib-id-type="orcid" authenticated="false">
+							http://orcid.org/0000-0002-0035-1850</contrib-id>
+						<name name-style="western">
+							<surname>Torvik</surname>
+							<given-names initials="VI">Vetle I.</given-names>
+						</name>
+						<address>
+							<email>vtorvik@illinois.edu</email>
+						</address>
+						<xref ref-type="aff" rid="Aff1" />
+					</contrib>
+					<aff id="Aff1"><institution-wrap>
+							<institution-id institution-id-type="GRID">grid.35403.31</institution-id>
+							<institution-id institution-id-type="ISNI">0000 0004 1936 9991</institution-id>
+							<institution>School of Information Sciences, </institution>
+							<institution>University of Illinois at Urbana-Champaign, </institution>
+						</institution-wrap>501
+						E. Daniel Street, Champaign, IL 61820 USA </aff>
+				</contrib-group>
+				<pub-date pub-type="epub">
+					<day>28</day>
+					<month>4</month>
+					<year>2023</year>
+				</pub-date>
+				<pub-date pub-type="collection">
+					<year>2023</year>
+				</pub-date>
+				<volume>10</volume>
+				<issue-id pub-id-type="pmc-issue-id">425247</issue-id>
+				<elocation-id>243</elocation-id>
+				<history>
+					<date date-type="received">
+						<day>20</day>
+						<month>10</month>
+						<year>2022</year>
+					</date>
+					<date date-type="accepted">
+						<day>4</day>
+						<month>4</month>
+						<year>2023</year>
+					</date>
+				</history>
+				<pub-history>
+					<event event-type="pmc-release">
+						<date>
+							<day>28</day>
+							<month>04</month>
+							<year>2023</year>
+						</date>
+					</event>
+					<event event-type="pmc-live">
+						<date>
+							<day>30</day>
+							<month>04</month>
+							<year>2023</year>
+						</date>
+					</event>
+					<event event-type="pmc-last-change">
+						<date iso-8601-date="2026-08-22 12:25:17.363">
+							<day>22</day>
+							<month>08</month>
+							<year>2026</year>
+						</date>
+					</event>
+					<event event-type="pmc-version" specific-use="live">
+						<article-id pub-id-type="pmcaiid">10139909</article-id>
+						<article-id pub-id-type="doi">10.1038/s41597-023-02134-x</article-id>
+						<article-version>1</article-version>
+						<pub-date>
+							<day>28</day>
+							<month>04</month>
+							<year>2023</year>
+						</pub-date>
+					</event>
+					<event event-type="pmc-version" specific-use="live">
+						<article-id pub-id-type="pmcaiid">10147695</article-id>
+						<article-id pub-id-type="doi">10.1038/s41597-023-02134-x</article-id>
+						<article-version>2</article-version>
+						<pub-date>
+							<day>28</day>
+							<month>04</month>
+							<year>2023</year>
+						</pub-date>
+					</event>
+				</pub-history>
+				<permissions>
+					<copyright-statement>© The Author(s) 2023</copyright-statement>
+					<license>
+						<ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+							specific-use="textmining" content-type="ccbylicense">
+							https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+						<license-p><bold>Open Access</bold> This article is licensed under a
+							Creative Commons Attribution 4.0 International License, which permits
+							use, sharing, adaptation, distribution and reproduction in any medium or
+							format, as long as you give appropriate credit to the original author(s)
+							and the source, provide a link to the Creative Commons license, and
+							indicate if changes were made. The images or other third party material
+							in this article are included in the article’s Creative Commons license,
+							unless indicated otherwise in a credit line to the material. If material
+							is not included in the article’s Creative Commons license and your
+							intended use is not permitted by statutory regulation or exceeds the
+							permitted use, you will need to obtain permission directly from the
+							copyright holder. To view a copy of this license, visit <ext-link
+								xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri"
+								xlink:href="https://creativecommons.org/licenses/by/4.0/">
+							http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+					</license>
+				</permissions>
+				<self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf"
+					xlink:href="41597_2023_Article_2134.pdf" />
+				<abstract id="Abs1">
+					<p id="Par1">OpCitance contains all the sentences from 2 million PubMed Central
+						open-access (PMCOA) articles, with 137 million inline citations annotated
+						(i.e., the “citation contexts”). Parsing out the references and citation
+						contexts from the PMCOA XML files was non-trivial due to the diversity of
+						referencing style. Only 0.5% citation contexts remain unidentified due to
+						technical or human issues, e.g., references unmentioned by the authors in
+						the text or improper XML nesting, which is more common among older articles
+						(pre-2000). PubMed IDs (PMIDs) linked to inline citations in the XML files
+						compared to citations harvested using the NCBI E-Utilities differed for
+						70.96% of the articles. Using an in-house citation matcher, called Patci,
+						6.84% of the referenced PMIDs were supplemented and corrected. OpCitance
+						includes fewer total number of articles than the Semantic Scholar Open
+						Research Corpus, but OpCitance has 160 thousand unique articles, a higher
+						inline citation identification rate, and a more accurate reference mapping
+						to PMIDs. We hope that OpCitance will facilitate citation context studies in
+						particular and benefit text-mining research more broadly.</p>
+				</abstract>
+				<kwd-group kwd-group-type="npg-subject">
+					<title>Subject terms</title>
+					<kwd>Research data</kwd>
+					<kwd>Publication characteristics</kwd>
+				</kwd-group>
+				<funding-group>
+					<award-group>
+						<funding-source>
+							<institution-wrap>
+								<institution-id institution-id-type="FundRef">
+									https://doi.org/10.13039/100000049</institution-id>
+								<institution>U.S. Department of Health &amp; Human Services | NIH |
+									National Institute on Aging (U.S. National Institute on Aging)</institution>
+							</institution-wrap>
+						</funding-source>
+						<award-id>P01AG039347</award-id>
+						<award-id>P01AG039347</award-id>
+						<principal-award-recipient>
+							<name name-style="western">
+								<surname>Hsiao</surname>
+								<given-names>Tzu-Kun</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Torvik</surname>
+								<given-names>Vetle I.</given-names>
+							</name>
+						</principal-award-recipient>
+					</award-group>
+				</funding-group>
+				<funding-group>
+					<award-group>
+						<funding-source>
+							<institution>U.S. Department of Health &amp; Human Services | NIH |
+								National Institute on Aging (U.S. National Institute on Aging)</institution>
+						</funding-source>
+					</award-group>
+				</funding-group>
+				<custom-meta-group>
+					<custom-meta>
+						<meta-name>pmc-status-qastatus</meta-name>
+						<meta-value>0</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-status-live</meta-name>
+						<meta-value>yes</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-status-embargo</meta-name>
+						<meta-value>no</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-status-released</meta-name>
+						<meta-value>yes</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-open-access</meta-name>
+						<meta-value>yes</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-olf</meta-name>
+						<meta-value>no</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-manuscript</meta-name>
+						<meta-value>no</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-legally-suppressed</meta-name>
+						<meta-value>no</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-has-pdf</meta-name>
+						<meta-value>yes</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-has-supplement</meta-name>
+						<meta-value>no</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-pdf-only</meta-name>
+						<meta-value>no</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-suppress-copyright</meta-name>
+						<meta-value>no</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-is-real-version</meta-name>
+						<meta-value>no</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-is-scanned-article</meta-name>
+						<meta-value>no</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-preprint</meta-name>
+						<meta-value>no</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-prop-in-epmc</meta-name>
+						<meta-value>yes</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>pmc-license-ref</meta-name>
+						<meta-value>CC BY</meta-value>
+					</custom-meta>
+					<custom-meta>
+						<meta-name>issue-copyright-statement</meta-name>
+						<meta-value>© The Author(s) 2023</meta-value>
+					</custom-meta>
+				</custom-meta-group>
+			</article-meta>
+		</front>
+		<body>
+			<sec id="Sec1">
+				<title>Background &amp; Summary</title>
+				<p id="Par2">Citing prior work has long been a common practice in academic writing.
+					In general, citations were used by authors to situate the reported work within
+					the scope of the subject field and provide intellectual linkage between past and
+					the reported work. Hence, citations have been broadly used for tracking the
+					advance of science, accessing development of disciplines, and evaluating the
+					impact of research output<sup><xref ref-type="bibr" rid="CR1">1</xref>–<xref
+							ref-type="bibr" rid="CR5">5</xref></sup>. However, previous studies<sup><xref
+							ref-type="bibr" rid="CR6">6</xref>–<xref ref-type="bibr" rid="CR9">9</xref></sup>
+					showed that not all citations were equal, and scholars cited prior work for
+					various kinds of purposes.</p>
+				<p id="Par3">Many efforts have been put into studying the reasons for making
+					citations and the importance of cited work to the citing work. Aside from
+					surveying and interviewing authors<sup><xref ref-type="bibr" rid="CR10">10</xref>
+					–<xref ref-type="bibr" rid="CR13">13</xref></sup>, analyzing citations using
+					full-text articles (i.e., inline citations) provides an unobtrusive way for
+					scholars to explore the motivation and importance behind each citation.
+					Count-based features, location-based features, and textual features were the
+					three popular categories of features used in previous studies. Count-based
+					features measured the count of occurrences of a cited work in the text. For
+					instance, the number of times for a cited work being mentioned in the entire
+					citing article was reported as an informative feature for identifying important
+					citations<sup>
+						<xref ref-type="bibr" rid="CR14">14</xref>
+					</sup>.
+					Location-based features provided insights about the role played by the cited
+					work in the citing work<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref
+							ref-type="bibr" rid="CR15">15</xref>–<xref ref-type="bibr" rid="CR17">17</xref></sup>.
+					For example, citations found in the introduction and literature review could be
+					cited for providing background knowledge or supporting research arguments, while
+					citations found in the result or discussion section implied comparisons between
+					past and the reported research findings<sup><xref ref-type="bibr" rid="CR8">8</xref>
+					,<xref ref-type="bibr" rid="CR15">15</xref></sup>. Zhao and Strotmann<sup>
+						<xref ref-type="bibr" rid="CR18">18</xref>
+					</sup>
+					explored the influence of filtering out citations in introductory and background
+					sections on evaluating authors’ research impact. On the other hand, textual
+					features used semantic cues extracted from the text surrounding citations to
+					capture authors’ motives for making citations<sup><xref ref-type="bibr"
+							rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR19">19</xref>–<xref
+							ref-type="bibr" rid="CR21">21</xref></sup>. These surrounding texts are
+					known as citation contexts. The window of a citation context can be a fixed
+					number of characters, the citing sentence (sometimes including its preceding and
+					following sentences), or a text block containing sentences related to the cited
+					article<sup><xref ref-type="bibr" rid="CR22">22</xref>–<xref ref-type="bibr"
+							rid="CR25">25</xref></sup>. In this study, the window for a citation
+					context is defined as a sentence where a citation appears (i.e., the citing
+					sentence).</p>
+				<p id="Par4">Although studies on inline citations have been developed for more than
+					forty years<sup>
+						<xref ref-type="bibr" rid="CR26">26</xref>
+					</sup>,
+					theories and methods of capturing the motivations behind citations and measuring
+					the importance of cited work to the citing work are still in progress. One of
+					the challenges is acquiring data. Citation studies used to rely heavily on
+					bibliographic data obtained from bibliography databases such as Web of Science
+					(WoS) and Scopus. These databases have limited access to full-text articles and
+					require subscriptions. The movement to make scholarly articles open access (OA)
+					has gradually changed the landscape. Piwowar <italic toggle="yes">et al</italic>
+					.<sup>
+						<xref ref-type="bibr" rid="CR27">27</xref>
+					</sup> used
+					DOIs to estimate the percentage of scholarly articles that were open access and
+					found that it ranged from 27.9% to 47.0%, depending on the source of the DOIs
+					and the time of publication. In line with the OA trend, citation data is no
+					longer restricted to subscription databases<sup>
+						<xref ref-type="bibr" rid="CR28">28</xref>
+					</sup>. For
+					instance, Crossref provides APIs for retrieving citation links. The NIH Open
+					Citation Collection (NIH-OCC)<sup>
+						<xref ref-type="bibr" rid="CR29">29</xref>
+					</sup>
+					provides open citation data for PubMed articles. Although the open science trend
+					and the massive growth of OA articles allow for large-scale studies of inline
+					citations and citation contexts<sup><xref ref-type="bibr" rid="CR30">30</xref>–<xref
+							ref-type="bibr" rid="CR32">32</xref></sup>, it is still not an easy task
+					to identify inline citations from full-text articles. Efforts have been made in
+					the computational linguistics and computer science communities. The ACL
+					anthology network (AAN) corpus<sup>
+						<xref ref-type="bibr" rid="CR33">33</xref>
+					</sup>, the
+					Semantic Scholar Open Research Corpus (S2ORC)<sup>
+						<xref ref-type="bibr" rid="CR34">34</xref>
+					</sup>, the
+					COVID-19 Open Research Dataset (CORD-19)<sup>
+						<xref ref-type="bibr" rid="CR35">35</xref>
+					</sup>, and a
+					dataset collected using the Academic Citation Typing (ACT) platform<sup><xref
+							ref-type="bibr" rid="CR36">36</xref>,<xref ref-type="bibr" rid="CR37">37</xref></sup>
+					are the existing large-scale citation contexts datasets. The AAN corpus contains
+					77,753 citation contexts from 18,290 articles, and S2ORC contains over 12
+					million full-text articles with inline citations annotated<sup><xref
+							ref-type="bibr" rid="CR33">33</xref>,<xref ref-type="bibr" rid="CR34">34</xref></sup>.
+					The ACT dataset contains 11,233 citing sentences annotated by six citation
+					purposes (<italic toggle="yes">background, uses, compare_contrast, motivation,
+					extension</italic>, and <italic toggle="yes">future</italic>)<sup><xref
+							ref-type="bibr" rid="CR36">36</xref>,<xref ref-type="bibr" rid="CR37">37</xref></sup>.
+					Part of the ACT dataset has been enhanced with 12 features and released as the
+					ACT2 dataset<sup>
+						<xref ref-type="bibr" rid="CR38">38</xref>
+					</sup>. These
+					datasets were generated from PDF version of articles. CORD-19 contains over 72
+					thousand full-text articles on COVID-19 and related historical coronaviruses<sup>
+						<xref ref-type="bibr" rid="CR35">35</xref>
+					</sup>. These
+					articles were sourced from PDF and XML versions of articles: The PDF version of
+					articles were from PubMed, PubMed Central (PMC), the World Health Organization’s
+					COVID-19 database, and preprint servers (bioRxiv, medRxiv, and arXiv); the XML
+					version of articles were from PMC<sup>
+						<xref ref-type="bibr" rid="CR35">35</xref>
+					</sup>. Here,
+					we introduce OpCitance, a dataset generated from the XML version of the articles
+					in the PMC Open Access Subset (PMCOA subset) (<ext-link
+						xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri"
+						xlink:href="https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/">
+					https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/</ext-link>). OpCitance
+					contains all sentences from over 2 million articles. For sentences with inline
+					citations, the inline citations and their PMIDs (if applicable) are annotated.
+					These sentences are defined as citation contexts (or citances) in OpCitance. The
+					sentence-level information retrieval and extraction focus have a long history in
+					PubMed and PMC, such as the National Library of Medicine’s (NLM) LitSense<sup>
+						<xref ref-type="bibr" rid="CR39">39</xref>
+					</sup> search
+					system and SemRep<sup>
+						<xref ref-type="bibr" rid="CR40">40</xref>
+					</sup>
+					information extraction system. The OpCitance data is complementary to these
+					tools and can be combined in new types of text-mining and citation analysis.</p>
+				<p id="Par5">Journal Article Tag Suite (JATS) is a standardized markup scheme for
+					tagging journal articles in the XML format (<ext-link
+						xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri"
+						xlink:href="https://jats.nlm.nih.gov/about.html">
+					https://jats.nlm.nih.gov/about.html</ext-link>). JATS was developed by the
+					National Library of Medicine (NLM) and currently maintained by the National
+					Information Standards Organization (NISO). In PMC, JATS was adopted as the
+					preferred XML tagging style for article submissions. The unified XML tagging
+					style gave the possibility to automatically extract citation contexts at a
+					large-scale. In this study, we developed an XML parser which could process XML
+					files in the PMCOA subset and meet the following goals: (1) parsing each article
+					into sentences, (2) identifying citation contexts and PMIDs of the cited work,
+					(3) identifying section titles and mapping section titles with standardized
+					IMRaD structure (introduction, method, results, and conclusion and discussion),
+					and (4) labeling each sentence by text progression and the corresponding IMRaD
+					category.</p>
+				<p id="Par6">This article describes the method of identifying inline citations and
+					their citation contexts from the PMCOA subset and makes OpCitance available to
+					the public. To construct this dataset, we collected the PMCOA subset in May
+					2019. At the time of data collection, there were 2,407,660 articles in the PMCOA
+					subset, in which 2,049,871 articles had at least one identifiable citation
+					context. This dataset could benefit scientists interested in studying citation
+					motives and citation behaviours. Moreover, this dataset could be used for
+					text-mining projects such as studying scientific writing styles and other
+					citation analysis research.</p>
+			</sec>
+			<sec id="Sec2">
+				<title>Methods</title>
+				<p id="Par7">This section describes how inline citations and citation contexts were
+					extracted. In OpCitance, an inline citation refers to a citation that appears in
+					a paragraph, table, or figure/table caption, whereas a citation context refers
+					to the sentence or table cell that contains the inline citation. Below is an
+					example of a citation context produced by our XML parser for PMCID: 5219817 with
+					two inline citations denoted by |B1| and |B2|.</p>
+				<p id="Par8">
+					<code xml:space="preserve" position="float" orientation="portrait">If for any reason this process fails, gradually the person will suffer from osteoporosis |B1|, |B2|.</code>
+				</p>
+				<p id="Par9">XPath syntax was used to navigate through the XML tags. Python’s lxml
+					package was utilized to parse XML files because it had better compatibility with
+					XPath syntax. Figure <xref rid="Fig1" ref-type="fig">1</xref> depicts the
+					overall workflow of generating the dataset. First, references and their PMIDs
+					(if any) were identified. Second, the components (abstract, main text, tables,
+					figures, and other ancillary components) in each article and the paragraphs in
+					each component were identified. Third, the section titles of paragraphs, tables,
+					and figures were extracted and mapped to the IMRaD categories. Fourth, inline
+					citations in each component were marked. Fifth, the text was parsed into
+					sentences and the citation contexts were identified. For each inline citation
+					per citation context, the PMID was appended if the XML file had a PMID for the
+					inline citation. Sixth, citation contexts and sentences were labeled by text
+					progression, component names, and the belonging IMRaD categories. Seventh, the
+					PMIDs were verified with citation data collected from the NCBI Entrez
+					Programming Utilities (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+						ext-link-type="uri"
+						xlink:href="https://www.ncbi.nlm.nih.gov/pmc/tools/cites-citedby/">
+					https://www.ncbi.nlm.nih.gov/pmc/tools/cites-citedby/</ext-link>) (hereinafter
+					referred to as the Entrez citation data) and Patci<sup>
+						<xref ref-type="bibr" rid="CR41">41</xref>
+					</sup>, a
+					citation matcher. Specifically, the NCBI Entrez Programming Utilities take PMIDs
+					of the PMC articles as inputs and return lists of PMIDs cited by each input
+					PMID. Patci matches reference strings to records from a set of bibliographic
+					databases (e.g., PubMed, DBLP, and ADS) and returns the source link IDs (e.g.,
+					PMIDs) and the match probability of each ID. The details of each step are
+					addressed in the following sections.<fig id="Fig1" position="float"
+						orientation="portrait">
+						<label>Fig. 1</label>
+						<caption>
+							<p>Workflow of generating the dataset.</p>
+						</caption>
+						<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e425"
+							position="float" orientation="portrait"
+							xlink:href="41597_2023_2134_Fig1_HTML.jpg" />
+					</fig></p>
+				<sec id="Sec3">
+					<title>Identifying references and their PMIDs from XML files</title>
+					<p id="Par10">References were identified through the &lt;ref&gt; tags.
+						Typically, one &lt;ref&gt; tag pointed to one reference, and the ID of the
+						reference (referred to as ref-ID below) could be identified through the “id”
+						attribute of the &lt;ref&gt; tags. However, in the cases that multiple
+						references nested under one &lt;ref&gt; tag (as shown in Fig. <xref
+							rid="Fig2" ref-type="fig">2</xref>), the IDs of the nested references
+						were collected through the “id” attributes with tag names containing <italic
+							toggle="yes">citation</italic> (e.g., &lt;mixed-citation&gt;,
+						&lt;element-citation&gt;, and &lt;nlm-citation&gt;). Aside from collecting
+						the IDs given by the publisher, we also searched whether references had
+						PMIDs. The PMIDs were identified through the “pmid” attribute associated
+						with &lt;pub-id&gt; tags.<fig id="Fig2" position="float"
+							orientation="portrait">
+							<label>Fig. 2</label>
+							<caption>
+								<p>Example of nested references. (left: text shown in article;
+						right: XML structure).</p>
+							</caption>
+							<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e445"
+								position="float" orientation="portrait"
+								xlink:href="41597_2023_2134_Fig2_HTML.jpg" />
+						</fig></p>
+				</sec>
+				<sec id="Sec4">
+					<title>Identifying components in an article</title>
+					<p id="Par11">A set of tags were used to identify abstract, main text, tables,
+						figures, and other ancillary components (e.g., glossary, appendix, and
+						conflict of interests). Abstracts were identified through
+						&lt;front//abstract&gt; and &lt;front//trans-abstract&gt; tags. Main text
+						was identified through the &lt;body&gt; tag. Tables and figures were
+						retrieved through tag names starting with &lt;table-warp&gt; and, or through
+						the &lt;tbody&gt; tag under &lt;array&gt; tag. Ancillary components were
+						identified through the &lt;back&gt; tag. After the components were
+						identified, &lt;p&gt; and &lt;disp-quote&gt; tags were used to find text
+						fragments in each component.</p>
+				</sec>
+				<sec id="Sec5">
+					<title>Mapping section titles to IMRaD categories</title>
+					<p id="Par12">The IMRaD categories were identified using section titles and
+						section type information extracted from the XML files. We decided to use
+						IMRaD categories as standardized section types for two reasons: First, the
+						IMRaD structure has been widely adopted in the scientific literature since
+						the 1970s<sup>
+							<xref ref-type="bibr" rid="CR42">42</xref>
+						</sup>.
+						Second, empirical studies on inline citations have utilized the IMRaD
+						categories for analyzing citation functions, sentiments, and importance<sup><xref
+								ref-type="bibr" rid="CR43">43</xref>,<xref ref-type="bibr"
+								rid="CR44">44</xref></sup>. Providing the IMRaD categories could be
+						beneficial to future research on similar topics. The section titles were
+						extracted through the &lt;title&gt; tags or &lt;label&gt; tags being the
+						child node of &lt;sec&gt; tags, and the section type information was
+						extracted through the “sec-type” attribute. The section titles and section
+						types were then concatenated into a string and processed by a rule-based
+						matching algorithm. The algorithm matched the string with a set of cue words
+						and phrases (Table <xref rid="Tab1" ref-type="table">1</xref>). If a match
+						was found, the corresponding IMRaD category would be returned. To identify
+						the cue words and phrases, we sorted section titles and section types by the
+						number of occurrences. Section titles and types with high occurrences were
+						manually inspected, and the cue words and phrases commonly used in
+						scientific articles for denoting the IMRaD categories were identified. We
+						understood that this rudimentary approach might cause some
+						misidentifications, and the IMRaD categories of some sections (e.g.,
+						introduction, background, and discussions) could be easier to identify than
+						the other sections. However, the distribution of the identified IMRaD
+						categories along with text progression (see Technical Validation below) was
+						aligned with the common structure of scientific articles.<table-wrap
+							id="Tab1" position="float" orientation="portrait">
+							<label>Table 1</label>
+							<caption>
+								<p>Terms for mapping section titles with standardized section types.</p>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<thead>
+									<tr>
+										<th colspan="1" rowspan="1">Label</th>
+										<th colspan="1" rowspan="1">IMRaD category</th>
+										<th colspan="1" rowspan="1">Cue words and phrases</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td colspan="1" rowspan="1">I</td>
+										<td colspan="1" rowspan="1">Introduction/Background</td>
+										<td colspan="1" rowspan="1">intro*, overview, background,
+						history, related work, related stud*, previous work, previous stud*, review</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">M</td>
+										<td colspan="1" rowspan="1">Method</td>
+										<td colspan="1" rowspan="1">method, material, experimental
+						procedure, protocol, data</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">R</td>
+										<td colspan="1" rowspan="1">Result</td>
+										<td colspan="1" rowspan="1">result, finding</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">D</td>
+										<td colspan="1" rowspan="1">Conclusion/Discussion</td>
+										<td colspan="1" rowspan="1">conclud*, conclusion, summary,
+						discuss*, future</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">NoIMRaD</td>
+										<td colspan="1" rowspan="1">—</td>
+										<td colspan="1" rowspan="1">The string does not contain the
+						above terms.</td>
+									</tr>
+								</tbody>
+							</table>
+						</table-wrap></p>
+				</sec>
+				<sec id="Sec6">
+					<title>Finding inline citations</title>
+					<p id="Par13">Inline citations were identified through the &lt;xref&gt; tags. In
+						JATS, &lt;xref&gt; tags represent cross-references to objects within the
+						document. The referred object can be a table, a figure, a citation, etc. To
+						verify whether a &lt;xref&gt; tag was indeed pointing to a citation, we
+						collect the ID of each &lt;xref&gt; tag through the “rid” attribute
+						(addressed as xref-ID below). Each of the xref-IDs was then matched with the
+						ref-IDs. Only the xref-IDs matched with ref-IDs were marked as inline
+						citations.</p>
+					<p id="Par14">It is worth noticing that citations could be implicitly mentioned
+						in text in some referencing styles. The common cue of an implicit mention
+						was a hyphen between the citation markers such as “[3–6]” or “(3–6)”. In
+						cases like this, not every inline citation was tagged in full-text articles
+						but could be inferred from the citation markers. These untagged inline
+						citations were the implicitly-mentioned citations.</p>
+					<p id="Par15">Two tagging styles of implicitly-mentioned citations were found in
+						the XML files. The first one was wrapping the implicitly-mentioned citations
+						by two &lt;xref&gt; tags; the second one was using one &lt;xref&gt; tag to
+						represent a set of citations. Examples of the two tagging styles would look
+						like “[<underline>3–6</underline>]” and “[<underline>3–6</underline>]”,
+						respectively. The underlines in the examples denoted the citation markers
+						associated with &lt;xref&gt; tags. For the first case, the
+						implicitly-mentioned citations were identified through enumerating the
+						citations between the two &lt;xref&gt; tags. For the second case, the
+						enumeration went until the end of the label (e.g., the “6” in [<underline>
+						3–6</underline>]).</p>
+				</sec>
+				<sec id="Sec7">
+					<title>Identifying citation contexts and sentence labelling</title>
+					<p id="Par16">Along with the process of searching inline citations, the text in
+						the paragraphs, tables, and figures was also collected. Also, when a
+						citation was identified, the citation marker was replaced by the ID of the
+						citation, wrapping by two vertical bars (e.g., |ref1|). After the above
+						labelling process, the collected text was parsed into sentences. The Natural
+						Language Toolkit (NTLK library) was used for tokenizing text found in
+						paragraphs and figure captions into sentences while text in tables was
+						collected element by element. NLTK was selected for sentence tokenization
+						(i.e., parsing text in paragraphs and figure captions into sentences) since
+						it is a well-established library for processing biomedical articles<sup><xref
+								ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr"
+								rid="CR45">45</xref>,<xref ref-type="bibr" rid="CR46">46</xref></sup>
+						and because it is fast. For a typical article in our dataset, NLTK takes
+						about 1 second to tokenize all sentences, while the Stanford NLP group’s
+						Stanza library takes about 3 seconds. Sentences containing citations were
+						citation contexts. Furthermore, citation contexts and sentences were labeled
+						by the belonging component names (abstract, body, etc.) and IMRaD categories
+						identified in the above steps. Note that IMRaD identification was not
+						applied to abstracts and ancillary components. The IMRaD labels for
+						sentences in abstracts and ancillary components (e.g., glossary, appendix,
+						and conflict of interests) are all <bold>
+							<italic toggle="yes">NoIMRaD</italic>
+						</bold>.
+						The labels for the component names and the IMRaDs could be found in the
+						dataset’s <italic toggle="yes">location</italic> and <italic toggle="yes">
+						IMRaD</italic> columns, respectively. If a citation had a PMID from the XML
+						file, the PMID was also attached.</p>
+				</sec>
+				<sec id="Sec8">
+					<title>Verifying and correcting PMIDs identified from XML files</title>
+					<p id="Par17">The cited PMIDs identified from the XML files (hereinafter
+						referred to as the XML-tagged PMIDs) were verified and corrected with two
+						approaches. First, the XML-tagged PMIDs were compared to the Entrez citation
+						data (as of December 2018), which included citations from 4,243,594 PMC
+						articles to PubMed articles. The <italic toggle="yes">intxt_pmid_source</italic>
+						indicator was created as a result of this comparison: if the XML-tagged PMID
+						could be confirmed by the Entrez citation data, it received the value <italic
+							toggle="yes">xml,pmc</italic>; otherwise, it received the value <italic
+							toggle="yes">xml</italic>. Second, we determined the best source link
+						IDs for the references (e.g., PMIDs and non-PMIDs: DBLP IDs and ADS IDs) and
+						mapped these IDs to the inline citations. The best IDs for 98.25%
+						(135,340,795) of the OpCitance’s 137,748,787 inline citations were
+						identified using Patci, a tool that took reference strings (extracted from
+						the XML files) as input and returned source link IDs as well as the match
+						probability of each ID. The best ID of each reference string was determined
+						with a match probability threshold. The default threshold is 0.997 and was
+						lower for non-PMIDs or for PMIDs that could be confirmed by one of the nine
+						public sources such as iCite, the Entrez citation data, and OpenCitations.
+						These sources are listed by name in a field in OpCitance. The harvested and
+						cleaned citation data for PubMed articles from the nine public sources is
+						derived from an inhouse project tentatively called uCite for which the
+						working manuscript is available by request. The thresholds were set by
+						manually inspecting a collection of references that appeared to be
+						borderline. Furthermore, PMID was the preferred ID unless the non-PMID’s
+						match probability was considerably higher. The best IDs for the remaining
+						1.75% (2,407,992) of inline citations were the XML-tagged PMIDs (if any).
+						These 2,407,992 inline citations that were not cross-checked with Patci were
+						mainly due to the citing papers’ publication years. Patci is based on a
+						snapshot of PubMed citation data collected in 2018. Out of these 2,407,992
+						inline citations, 2,284,590 (94.88%) are from papers published in 2018 or
+						later. Each best ID has two indicators: The <italic toggle="yes">best_source</italic>
+						indicator states the sources that confirm the ID (e.g., <italic toggle="yes">
+						xml,pmc,mag</italic>); the <italic toggle="yes">best_id_diff</italic>
+						indicator (Table <xref rid="Tab2" ref-type="table">2</xref>) denotes the
+						comparison result between the XML-tagged PMID and the best ID.<table-wrap
+							id="Tab2" position="float" orientation="portrait">
+							<label>Table 2</label>
+							<caption>
+								<p>Definition of the <italic toggle="yes">best_id_diff</italic>
+						indicator values.</p>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<thead>
+									<tr>
+										<th colspan="1" rowspan="1"><italic toggle="yes">
+						Best_id_diff</italic> Indicator value</th>
+										<th colspan="1" rowspan="1"><italic toggle="yes">Best_id</italic>
+						value</th>
+										<th colspan="1" rowspan="1">Definition</th>
+										<th colspan="1" rowspan="1"><italic toggle="yes">Best_id</italic>
+						of the citation is cross-checked with Patci</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td colspan="1" rowspan="1">SAME</td>
+										<td colspan="1" rowspan="1">Patci-identified ID</td>
+										<td colspan="1" rowspan="1">The Patci-identified ID is the
+						same as the XML-tagged PMID.</td>
+										<td colspan="1" rowspan="1">Yes</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">NONE</td>
+										<td colspan="1" rowspan="1">—</td>
+										<td colspan="1" rowspan="1">The citation has neither a
+						Patci-identified ID nor an XML-tagged PMID.</td>
+										<td colspan="1" rowspan="1">Yes</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">INSERT</td>
+										<td colspan="1" rowspan="1">Patci-identified ID</td>
+										<td colspan="1" rowspan="1">The citation has a
+						Patci-identified ID but lacks an XML-tagged PMID.</td>
+										<td colspan="1" rowspan="1">Yes</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">SWAP</td>
+										<td colspan="1" rowspan="1">Patci-identified ID</td>
+										<td colspan="1" rowspan="1">The Patci-identified PMID is
+						different from the XML-tagged PMID.</td>
+										<td colspan="1" rowspan="1">Yes</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">DELETE</td>
+										<td colspan="1" rowspan="1">—</td>
+										<td colspan="1" rowspan="1">The citation has an XML-tagged
+						PMID, but Patci does not identify any ID for it.</td>
+										<td colspan="1" rowspan="1">Yes</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">PMID_XML</td>
+										<td colspan="1" rowspan="1">XML-tagged PMID</td>
+										<td colspan="1" rowspan="1">The citation has an XML-tagged
+						PMID.</td>
+										<td colspan="1" rowspan="1">No</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">NONE_XML</td>
+										<td colspan="1" rowspan="1">—</td>
+										<td colspan="1" rowspan="1">The citation does not have an
+						XML-tagged PMID.</td>
+										<td colspan="1" rowspan="1">No</td>
+									</tr>
+								</tbody>
+							</table>
+						</table-wrap></p>
+					<p id="Par18">Further details of the comparison results are addressed in the
+						Technical Validation section.</p>
+				</sec>
+			</sec>
+			<sec id="Sec9">
+				<title>Data Records</title>
+				<p id="Par19">The May 2019 XML version of the PMC open access subset contains
+					2,407,660 articles, of which about 85.14% of articles (2,049,871 articles) have
+					a reference section and at least one &lt;xref&gt; tag pointing to a reference
+					(i.e., having at least one inline citation). These 2,049,871 articles contain
+					720,649,608 sentences (a text cell in a table counts as a sentence). Of these
+					720,649,608 sentences/text cells, 75,848,689 (10.53%) are citation contexts,
+					yielding 137,748,787 inline citations. On average, there are 1.82 inline
+					citations per citation context. These 137,748,787 inline citations include
+					86,035,875 references that account for 99.49% of the total of 86,473,346
+					references (0.51% of references do not have citation contexts). As stated in the
+					Method section, not all inline citations were tagged with the &lt;xref&gt; tag.
+					Of the 137,748,787 inline citations, 127,810,293 (92.79%) were captured through
+					&lt;xref&gt; tags, and 9,938,494 (7.21%) were implicitly-mentioned citations
+					(extracted from citation markers associated with a &lt;xref&gt; tag but pointing
+					to multiple references, e.g., [3–6]) identified by our XML parser.</p>
+				<p id="Par20">The 2,049,871 articles having at least one inline citation and its
+					citation context identified were published in 8,770 journals. The years of
+					publication spread from 1979 to 2019. Although PMC was launched in early 2000,
+					PMC had digitalized back issues of historically-significant biomedical journals
+					up to 1923 for US journals and up to 1877 for foreign journals. In OpCitance,
+					5,449 (0.27%) articles were published prior to 2000, and 2,044,422 (99.73%) were
+					published after 2000. Figure <xref rid="Fig3" ref-type="fig">3</xref> presents
+					the distribution of the number of references, the number of inline citations,
+					and the number of citation contexts in the two periods (1979–1999 and
+					2000–2019). On average, the number of references and the number of inline
+					citations increased in the later period. The mean number of references increased
+					from 30.30 to 32.47, and the mean number of inline citations increased from
+					47.04 to 48.64. For articles published in 2000 and after, the number of
+					references, inline citations, and citation contexts on log scale appear to
+					follow a normal distribution, except for an excess portion in the left tail that
+					are likely due to shorter types of articles (e.g., letters). 95% of the articles
+					have between 5–122 references, 6–214 inline citations, and 4–115 citation
+					contexts. It is also worth noticing that publication types are more diverse in
+					the second period. Articles published before 2000 only covered 11 publication
+					types, and the most common type, <italic toggle="yes">research article</italic>,
+					accounted for 90.95% of the articles, while 1.96% were <italic toggle="yes">review
+					articles</italic>. In 2000 and after, there were 33 publication types, and <italic
+						toggle="yes">research articles</italic> dropped to 78.81%, while <italic
+						toggle="yes">review articles</italic> increased to 7.71%. This helps explain
+					the increase in articles with more than 100 references in the second period.<fig
+						id="Fig3" position="float" orientation="portrait">
+						<label>Fig. 3</label>
+						<caption>
+							<p>Distribution of numbers of references and inline citations. For
+					articles published between 1979 and 1999, the mean number of references, inline
+					citations, and citation contexts were 30.30, 47.04, and 27.80, respectively. As
+					for articles published between 2000–2019, the mean number of references, inline
+					citations, and citation contexts were 32.47, 48.64, and 27.82, respectively.
+					These numbers were the antilogarithms of the means presented in the figure.</p>
+						</caption>
+						<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e772"
+							position="float" orientation="portrait"
+							xlink:href="41597_2023_2134_Fig3_HTML.jpg" />
+					</fig></p>
+				<p id="Par21">Figure <xref rid="Fig4" ref-type="fig">4</xref> shows a snippet of
+					data records in OpCitance. The data files are formatted as tab-separated values
+					(TSV). Each row in the dataset contains a citation context or a sentence
+					associated with fourteen attributes. The columns, <italic toggle="yes">pmcid</italic>
+					and <italic toggle="yes">pmid</italic>, are the unique identifiers of the citing
+					article in PMC and PubMed, respectively. <italic toggle="yes">Location</italic>
+					gives information about article component (abstract, main text, table, figure,
+					etc.) where each citation context/sentence belongs. <italic toggle="yes">IMRaD</italic>
+					addresses the IMRaD section where each citation context/sentence is in. <italic
+						toggle="yes">Sentence_id</italic> provides the ID of the citation
+					context/sentence in the component. Notably, when a citation context contains
+					more than one inline citation, the citation context appears as multiple rows in
+					our dataset, but the <italic toggle="yes">sentence_id</italic> of the citation
+					context remains the same. <italic toggle="yes">Total_sentences</italic> is the
+					number of sentences in the component. <italic toggle="yes">Intxt_id</italic>
+					records the unique identifier of the cited work. <italic toggle="yes">Intxt_pmid</italic>
+					records the PMID of the cited work (if any) retrieved from the XML files (i.e.,
+					the XML-tagged PMID). <italic toggle="yes">Intxt_pmid_source</italic> addresses
+					the source where PMIDs were identified: <italic toggle="yes">Xml</italic>
+					represents that a PMID is only identified from the XML file, while <italic
+						toggle="yes">xml,pmc</italic> represents that the PMID is not only from the
+					XML file, but also in the Entrez citation data. <italic toggle="yes">Intxt_mark</italic>
+					provides the citation marker associated with the inline citation. <italic
+						toggle="yes">Best_id</italic> records the best source link ID (e.g., PMID)
+					for each inline citation. <italic toggle="yes">Best_source</italic> addresses
+					the sources that confirms the <italic toggle="yes">best_id</italic>. <italic
+						toggle="yes">Best_id_diff</italic> indicates the comparison results between
+					the <italic toggle="yes">best_id</italic> and the <italic toggle="yes">
+					intxt_pmid</italic> columns. <italic toggle="yes">Progression</italic> records
+					text progression of each citation context/sentence.<fig id="Fig4"
+						position="float" orientation="portrait">
+						<label>Fig. 4</label>
+						<caption>
+							<p>Snapshot of data records in OpCitance.</p>
+						</caption>
+						<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e849"
+							position="float" orientation="portrait"
+							xlink:href="41597_2023_2134_Fig4_HTML.jpg" />
+					</fig></p>
+				<p id="Par22">OpCitance has been deposited to the Illinois Data Bank<sup>
+						<xref ref-type="bibr" rid="CR47">47</xref>
+					</sup>:</p>
+				<p id="Par23">
+					10.13012/B2IDB-4353270_V2
+</p>
+				<p id="Par24">The dataset contains 24 TSV files. The first 15 files are the articles
+					published in journals with journal titles starting from A to O. The 16<sup>th</sup>
+					and 17<sup>th</sup> files are the articles published in journals with journal
+					titles starting with P. The 18<sup>th</sup> to 23<sup>rd</sup> files are the
+					articles published in journals with journal titles starting from Q to W. The
+					last file contains the articles published by journals with journal titles
+					starting with X, Y, or Z.</p>
+			</sec>
+			<sec id="Sec10">
+				<title>Technical Validation</title>
+				<p id="Par25">As addressed in the Data Records section, 99.49% of the references’
+					inline citations were identified. Although only 0.51% of the references were
+					without inline citation, this condition might still affect the future use of the
+					dataset. Hence, in the following sections, we addressed the distribution of
+					references without inline citation by the following characteristics of citing
+					articles: publication years, publication types, and the sources of the XML
+					files. Also, a probabilistic model was used to assess the effect of the above
+					features on the likelihood of an inline citation of a reference being
+					identified.</p>
+				<sec id="Sec11">
+					<title>Publication year and publication type</title>
+					<p id="Par26">Figure <xref rid="Fig5" ref-type="fig">5</xref> showed how the
+						inline citations of references were identified in different publication
+						years and publication types. Overall, the percentages of references without
+						inline citations dropped as time progressed, implying the tagging of the XML
+						files improved over time. These improvements followed distinct patterns that
+						appeared in the four following periods: 1979–1984, 1985–1999, 2000–2008, and
+						2009–2019. In the first time period, missing inline citations were frequent
+						(between 7%–20% of the references), but this time period contains a small
+						portion of the entire dataset (0.003%, 2,912 references). In the second
+						period, the proportions of references without citation contexts dropped
+						gradually from around 5% to around 1%. The proportion of references without
+						citation contexts remained around 1% in the third period, and dropped from
+						0.4% to 0.2% in the fourth period. The patterns observed before and after
+						the launching year (2000) of PMC implied that although PMC digitalized back
+						issues of journals, some of the citations might not be captured and tagged
+						in the digitalization process.<fig id="Fig5" position="float"
+							orientation="portrait">
+							<label>Fig. 5</label>
+							<caption>
+								<p>Distribution of references without inline citations by
+						publication years (upper-left and upper-right) and publication types
+						(bottom-left and bottom-right). The shaded area showed the percentage of
+						references without inline citations with 95% confidence interval.</p>
+							</caption>
+							<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e898"
+								position="float" orientation="portrait"
+								xlink:href="41597_2023_2134_Fig5_HTML.jpg" />
+						</fig></p>
+					<p id="Par27">The bottom panels in Fig. <xref rid="Fig5" ref-type="fig">5</xref>
+						showed the percentages of references without inline citations in the five
+						most common publication types (research article, review article, case
+						report, brief report, and letter). These five publication types accounted
+						for 94.97% (1,946,687) of the articles in OpCitance. Each of the five
+						categories followed a pattern similar to the overall trend, but with some
+						notable exceptions. In review articles, inline citations were missing at
+						almost twice the rate of other types of articles in 2004–2008. In brief
+						reports, the rates were nearly five times as the other types of articles
+						between 2016 and 2018.</p>
+				</sec>
+				<sec id="Sec12">
+					<title>Sources of XML files</title>
+					<p id="Par28">Articles are deposited into PMC by participating journals and
+						authors e.g., who are required to make their articles publicly accessible
+						due to NIH funding. Participating journals deposit XML files following JATS
+						(see Methods). Author manuscripts (e.g., Word, PDF) are processed through
+						the NIH Manuscript Submission (NIHMS) system and converted to JATS.
+						Moreover, there were three kinds of participating journals: full
+						participation, selective deposit, and NIH portfolio. While a journal is in
+						full participation journals, they deposit all their articles. Articles from
+						selective deposit journals are mainly due to authors opted to pay for
+						open-access. Articles in the NIH portfolio are the articles where authors
+						acknowledge NIH funding. Note that the PMC open-access subset consists of
+						PMC articles under Creative Commons (CC) or similar licenses. In other
+						words, the articles in PMC subject to traditional copyrights restrictions
+						are not in the open-access subset, although they are free to access
+						individually as PDF files. Also, some journals delay the release of articles
+						in PMC. The delays were mostly within a year, but can be more than one year
+						for some journals (e.g., <italic toggle="yes">Journal of the Royal Society
+						of Medicine</italic>, 36-months delay). To estimate the proportion of the
+						open-access subset in the PMC, we searched PMC for articles published
+						between 1979 and May 2019. (The query is <italic toggle="yes">“YYYY/01/01”[Publication
+						Date]:“YYYY/12/31”[Publication Date]</italic> for each year from 1979 to
+						2018. For year 2019, the query is <italic toggle="yes">“2019/01/01”[Publication
+						Date]:“2019/05/31”[Publication Date]</italic>.) Overall, open access
+						articles accounted for about 41% of the articles indexed in PMC, and the
+						proportion of open access articles in PMC increased over time (Fig. <xref
+							rid="Fig6" ref-type="fig">6</xref>). Very few old PMC articles are open
+						access (less than 1% between 1979–1996). From 1997 to 2018, the shares of
+						open access articles in PMC increase from 3% to 64%. Note that PMCOA
+						statistics are from the XML files downloaded from PMC in May 2019, and the
+						PMC statistics were collected during preparation of the manuscript
+						(September 2022). The drop in 2019 is likely to be an artifact due to the
+						delay deposit policies of journals, and the time gap between PMC indexing
+						and deposit in the PMC’s FTP bulk download.<fig id="Fig6" position="float"
+							orientation="portrait">
+							<label>Fig. 6</label>
+							<caption>
+								<p>Number of articles in the PMC and the PMCOA subset by publication
+						years. The blue line and the orange line show the number of articles in the
+						PMC and in the PMCOA, respectively. The red line shows the percentages of
+						PMC articles that are in the PMCOA subset.</p>
+							</caption>
+							<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e929"
+								position="float" orientation="portrait"
+								xlink:href="41597_2023_2134_Fig6_HTML.jpg" />
+						</fig></p>
+					<p id="Par29">To acquire the sources of XML files, we download the PMC journal
+						list (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink"
+							ext-link-type="uri"
+							xlink:href="https://www.ncbi.nlm.nih.gov/pmc/journals/">
+						https://www.ncbi.nlm.nih.gov/pmc/journals/</ext-link>). The journal list
+						covers full participation and NIH portfolio journals. Journal titles not on
+						the list are selective deposit journals. PMCIDs of author manuscripts were
+						retrieved from PMC using the query, <italic toggle="yes">author
+						manuscript[filter]</italic>. Journal titles and PMCIDs of the XML files of
+						the PMC open access articles were then mapped with the journal list and
+						PMCIDs of author manuscripts for labeling each file’s deposit source. Note
+						that this assigns a fixed participation property to each journal, but it is
+						possible for journals to vary over time. For example, full participation and
+						NIH portfolio journals could move to selective deposit model at some point.
+						In the PMC journal list, PMC marked these journals as “Now Select” and
+						denoted the most recent issues under full participation/NIH portfolio. For
+						these journals, articles with publication years greater than the year of the
+						corresponding most recent issue were labeled as <italic toggle="yes">selective
+						deposit</italic> in the mapping process. Table <xref rid="Tab3"
+							ref-type="table">3</xref> showed the percentages of references without
+						inline citations in articles from the deposit sources. Selective deposit
+						journals had the highest proportion of references without inline citations,
+						and full participation journals had the lowest proportion of references
+						without inline citations.<table-wrap id="Tab3" position="float"
+							orientation="portrait">
+							<label>Table 3</label>
+							<caption>
+								<p>Percentages of references without inline citations in different
+						deposit sources.</p>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<thead>
+									<tr>
+										<th colspan="1" rowspan="1">Deposit Source</th>
+										<th colspan="1" rowspan="1"># Articles</th>
+										<th colspan="1" rowspan="1"># References</th>
+										<th colspan="2" rowspan="1"># References without inline
+						citations (%)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td colspan="1" rowspan="1">Full participation</td>
+										<td colspan="1" rowspan="1">1,830,722</td>
+										<td colspan="1" rowspan="1">76,275,089</td>
+										<td colspan="1" rowspan="1">325,347</td>
+										<td colspan="1" rowspan="1">(0.43)</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">Selective deposit</td>
+										<td colspan="1" rowspan="1">138,356</td>
+										<td colspan="1" rowspan="1">6,763,865</td>
+										<td colspan="1" rowspan="1">87,587</td>
+										<td colspan="1" rowspan="1">(1.29)</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">NIH portfolio</td>
+										<td colspan="1" rowspan="1">58,357</td>
+										<td colspan="1" rowspan="1">2,395,980</td>
+										<td colspan="1" rowspan="1">17,018</td>
+										<td colspan="1" rowspan="1">(0.71)</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">Author Manuscript</td>
+										<td colspan="1" rowspan="1">22,436</td>
+										<td colspan="1" rowspan="1">1,038,412</td>
+										<td colspan="1" rowspan="1">7,519</td>
+										<td colspan="1" rowspan="1">(0.72)</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">Total</td>
+										<td colspan="1" rowspan="1">2,049,871</td>
+										<td colspan="1" rowspan="1">86,473,346</td>
+										<td colspan="1" rowspan="1">437,471</td>
+										<td colspan="1" rowspan="1">(0.51)</td>
+									</tr>
+								</tbody>
+							</table>
+						</table-wrap></p>
+					<p id="Par30">Since journals deposited the great majority of articles (98.91%),
+						it was likely that the publishers/journals had some roles in the tagging
+						quality of the inline citations. To access this, Fig. <xref rid="Fig7"
+							ref-type="fig">7</xref> showed missing inline citations in the ten
+						largest journals in the dataset. Note that large journals such as <italic
+							toggle="yes">Science, Nature, PNAS</italic>, and <italic toggle="yes">
+						BMJ</italic> were not in the ten journals because most of articles published
+						by these journals were not CC-licensed. For instance, <italic toggle="yes">
+						PNAS</italic> had 120,232 articles indexed in PMC (from 1979 to May 31,
+						2019) but only 1,840 were in our dataset.<fig id="Fig7" position="float"
+							orientation="portrait">
+							<label>Fig. 7</label>
+							<caption>
+								<p>Percentages of references without inline citations in ten
+						journals with highest publication counts.</p>
+							</caption>
+							<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1076"
+								position="float" orientation="portrait"
+								xlink:href="41597_2023_2134_Fig7_HTML.jpg" />
+						</fig></p>
+					<p id="Par31">The results implied that large journals might have better tagging
+						quality. After 2010, the missing rates were below 0.5% and were lower than
+						the full dataset with a few exceptions. In 2012 and 2014, the missing rates
+						of <italic toggle="yes">Oncotarget</italic> were slightly higher than the
+						full dataset. As for <italic toggle="yes">Nucleic Acids Research</italic>,
+						two peaks were observed in 2012 and 2013, with the missing rates almost four
+						times as the full dataset’s missing rate. Also, for six journals (<italic
+							toggle="yes">PLOS ONE, Scientific Reports, Acta Crystallographica
+						Section E: Structure Reports Online, Nature Communication, International
+						Journal of Molecular Sciences</italic>, and <italic toggle="yes">BioMed
+						Research International</italic>) having missing rates lower than the full
+						dataset across all publication years; five out of six (except for <italic
+							toggle="yes">BioMed Research International</italic>) were born as
+						electronic journals.</p>
+					<p id="Par32">Figure <xref rid="Fig8" ref-type="fig">8</xref> shows the relation
+						between journal publication counts and the missing rates. In general, large
+						journals have lower missing rates, but there are some exceptions. <italic
+							toggle="yes">Chemistry (Wiley-VCH)</italic>, <italic toggle="yes">
+						ChemistryOpen</italic>, <italic toggle="yes">Angewandte Chemie
+						(International ed. in English)</italic>, and <italic toggle="yes">Zookeys</italic>
+						had high missing rates. To explore the possible reason for the high missing
+						rates, we randomly sampled and manually inspected ten articles from each
+						journal. For the first three journals, the missing was mostly because the
+						reference list was not structured as JATS’ recommendation. According to
+						JATS, when multiple works are placed into a reference (e.g., references 1a,
+						1b, and 1c in reference 1), each work (i.e., 1a, 1b,and 1c) should be tagged
+						by either &lt;element-citation&gt; or &lt;mixed-citation&gt; tag and nested
+						under a &lt;ref&gt; tag. However, in these three journals, our manual
+						inspections found that the XML files treated nested works as separate
+						references. In other words, reference 1, 1a, 1b, and 1c were tagged by four
+						different &lt;ref&gt; tags where reference 1 was empty. This situation would
+						be problematic when a citation context pointed to reference 1 for citing 1a,
+						1b,and 1c together. In cases like this, since the nested works were not
+						tagged under a &lt;ref&gt; tag, our algorithm could not capture these works
+						due to lacking the nesting structure and captured an empty reference
+						instead. For the journal, <italic toggle="yes">Zookeys</italic>, we found
+						that the &lt;xref&gt; tags of some references were missing (i.e., the
+						citation markers were plain strings without &lt;xref&gt; tags), and a few
+						references did not appear in the full text.<fig id="Fig8" position="float"
+							orientation="portrait">
+							<label>Fig. 8</label>
+							<caption>
+								<p>Relationship between journal size (in PMCOA subset) and missing
+						inline citations. The bars show the 95% confidence intervals. The regression
+						line is based on data that excludes outlier journals as labeled in red.</p>
+							</caption>
+							<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1123"
+								position="float" orientation="portrait"
+								xlink:href="41597_2023_2134_Fig8_HTML.jpg" />
+						</fig></p>
+				</sec>
+				<sec id="Sec13">
+					<title>A probabilistic model of context identifiability</title>
+					<p id="Par33">Overall, 0.5% of references lack inline citations, while 99.5% of
+						references point to one or more inline citations. However, this
+						identifiability rate varies systematically with certain aspects of articles.
+						For example, the most recent year (2019) has the identifiability at 98.8%.
+						In order to understand some of these influences, we built a logistic
+						regression model of identifiability. The model measures the influence of
+						certain aspects on the probability of inline citation identification, as
+						follows:</p>
+					<p id="Par34"><inline-formula id="IEq1">
+							<alternatives>
+								<tex-math id="M1">\documentclass[12pt]{minimal}
+									\usepackage{amsmath}
+									\usepackage{wasysym}
+									\usepackage{amsfonts}
+									\usepackage{amssymb}
+									\usepackage{amsbsy}
+									\usepackage{mathrsfs}
+									\usepackage{upgreek}
+									\setlength{\oddsidemargin}{-69pt}
+						\begin{document}$$Pr(identified\_inline\_citation)=\frac{1}{1+{e}^{-{\beta
+						}_{0}-{\beta }_{1}{x}_{1}-{\beta }_{2}{x}_{2}\ldots -{\beta
+						}_{n}{x}_{n}}}$$\end{document}</tex-math>
+								<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M2">
+									<mml:mi>P</mml:mi>
+									<mml:mi>r</mml:mi>
+									<mml:mrow>
+										<mml:mo>(</mml:mo>
+										<mml:mrow>
+											<mml:mi>i</mml:mi>
+											<mml:mi>d</mml:mi>
+											<mml:mi>e</mml:mi>
+											<mml:mi>n</mml:mi>
+											<mml:mi>t</mml:mi>
+											<mml:mi>i</mml:mi>
+											<mml:mi>f</mml:mi>
+											<mml:mi>i</mml:mi>
+											<mml:mi>e</mml:mi>
+											<mml:mi>d</mml:mi>
+											<mml:mo>_</mml:mo>
+											<mml:mi>i</mml:mi>
+											<mml:mi>n</mml:mi>
+											<mml:mi>l</mml:mi>
+											<mml:mi>i</mml:mi>
+											<mml:mi>n</mml:mi>
+											<mml:mi>e</mml:mi>
+											<mml:mo>_</mml:mo>
+											<mml:mi>c</mml:mi>
+											<mml:mi>i</mml:mi>
+											<mml:mi>t</mml:mi>
+											<mml:mi>a</mml:mi>
+											<mml:mi>t</mml:mi>
+											<mml:mi>i</mml:mi>
+											<mml:mi>o</mml:mi>
+											<mml:mi>n</mml:mi>
+										</mml:mrow>
+										<mml:mo>)</mml:mo>
+									</mml:mrow>
+									<mml:mo>=</mml:mo>
+									<mml:mfrac>
+										<mml:mrow>
+											<mml:mn>1</mml:mn>
+										</mml:mrow>
+										<mml:mrow>
+											<mml:mn>1</mml:mn>
+											<mml:mo>+</mml:mo>
+											<mml:msup>
+												<mml:mrow>
+													<mml:mi>e</mml:mi>
+												</mml:mrow>
+												<mml:mrow>
+													<mml:mo>−</mml:mo>
+													<mml:msub>
+														<mml:mrow>
+															<mml:mi>β</mml:mi>
+														</mml:mrow>
+														<mml:mrow>
+															<mml:mn>0</mml:mn>
+														</mml:mrow>
+													</mml:msub>
+													<mml:mo>−</mml:mo>
+													<mml:msub>
+														<mml:mrow>
+															<mml:mi>β</mml:mi>
+														</mml:mrow>
+														<mml:mrow>
+															<mml:mn>1</mml:mn>
+														</mml:mrow>
+													</mml:msub>
+													<mml:msub>
+														<mml:mrow>
+															<mml:mi>x</mml:mi>
+														</mml:mrow>
+														<mml:mrow>
+															<mml:mn>1</mml:mn>
+														</mml:mrow>
+													</mml:msub>
+													<mml:mo>−</mml:mo>
+													<mml:msub>
+														<mml:mrow>
+															<mml:mi>β</mml:mi>
+														</mml:mrow>
+														<mml:mrow>
+															<mml:mn>2</mml:mn>
+														</mml:mrow>
+													</mml:msub>
+													<mml:msub>
+														<mml:mrow>
+															<mml:mi>x</mml:mi>
+														</mml:mrow>
+														<mml:mrow>
+															<mml:mn>2</mml:mn>
+														</mml:mrow>
+													</mml:msub>
+													<mml:mo>…</mml:mo>
+													<mml:mo>−</mml:mo>
+													<mml:msub>
+														<mml:mrow>
+															<mml:mi>β</mml:mi>
+														</mml:mrow>
+														<mml:mrow>
+															<mml:mi>n</mml:mi>
+														</mml:mrow>
+													</mml:msub>
+													<mml:mspace width="0.08em" />
+													<mml:msub>
+														<mml:mrow>
+															<mml:mi>x</mml:mi>
+														</mml:mrow>
+														<mml:mrow>
+															<mml:mi>n</mml:mi>
+														</mml:mrow>
+													</mml:msub>
+												</mml:mrow>
+											</mml:msup>
+										</mml:mrow>
+									</mml:mfrac>
+								</mml:math>
+								<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink"
+									xlink:href="41597_2023_2134_Article_IEq1.gif" />
+							</alternatives>
+						</inline-formula>
+						where <italic toggle="yes">x</italic><sub>1</sub>, <italic toggle="yes">x</italic><sub>
+						2</sub>, …, <italic toggle="yes">x</italic><sub>
+							<italic toggle="yes">n</italic>
+						</sub> are the
+						explanatory features. The features include aspects of the citing article,
+						including publication year, publication type, deposit source, and
+						publication venue. More specifically, publication year features include four
+						different phases observed in Fig. <xref rid="Fig5" ref-type="fig">5</xref>.
+						The publication venue features include journal size (publication count in
+						PMCOA subset), whether or not it was born as a digital journal, as well as
+						indicators for seven specific journals (two particularly large ones, and
+						five with unusual missing rates as shown in Fig. <xref rid="Fig8"
+							ref-type="fig">8</xref>).</p>
+					<p id="Par35">The coefficients in Table <xref rid="Tab4" ref-type="table">4</xref>
+						show how each feature influences the probability of identifying inline
+						citation of a reference. Overall, the identifiability increases over time,
+						but different patterns are shown in the four time periods. Compared with the
+						last period (2009–2019), the probability increases faster in the first
+						period (1979–1984) and slower in the second period (1985–1999) and the third
+						period (2000–2008). The probability of identifying inline citations in <italic
+							toggle="yes">research articles</italic> is higher than the other
+						publication types (<italic toggle="yes">case reports</italic>, <italic
+							toggle="yes">review articles</italic>, etc.). Relative to <italic
+							toggle="yes">full participation</italic> journals, the probability is
+						higher in <italic toggle="yes">selective deposit</italic> journals and <italic
+							toggle="yes">author manuscripts</italic>. However, this is also relative
+						to journal size and the specific journals. For example, <italic toggle="yes">PLOS
+						ONE</italic> and <italic toggle="yes">Scientific Report</italic> are full
+						participation and the two largest journals in our dataset. The
+						identifiability increases with the journal size and is higher in born
+						digital journals. Note that journal size here refers to the number of
+						articles in the PMCOA subset. Some big journals such as PNAS only have a
+						small portion of articles that are open access; hence, the true sizes of
+						these journals are not reflected in our model.<table-wrap id="Tab4"
+							position="float" orientation="portrait">
+							<label>Table 4</label>
+							<caption>
+								<p>Logistic regression results.</p>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<thead>
+									<tr>
+										<th colspan="1" rowspan="1">Feature</th>
+										<th colspan="1" rowspan="1">Coef.</th>
+										<th colspan="1" rowspan="1">SE</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td colspan="1" rowspan="1">Intercept</td>
+										<td colspan="1" rowspan="1">1.281***</td>
+										<td colspan="1" rowspan="1">0.024</td>
+									</tr>
+									<tr>
+										<td colspan="3" rowspan="1">
+											<bold>Publication year (PY)</bold>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> PY-1979<sup>a</sup></td>
+										<td colspan="1" rowspan="1">0.064***</td>
+										<td colspan="1" rowspan="1">0.001</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> 1979–1984</td>
+										<td colspan="1" rowspan="1">−1.897***</td>
+										<td colspan="1" rowspan="1">0.107</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> 1985–1999</td>
+										<td colspan="1" rowspan="1">−0.451***</td>
+										<td colspan="1" rowspan="1">0.077</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> 2000–2008</td>
+										<td colspan="1" rowspan="1">0.695***</td>
+										<td colspan="1" rowspan="1">0.066</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> (PY-1979) × (1979–1984)</td>
+										<td colspan="1" rowspan="1">0.110***</td>
+										<td colspan="1" rowspan="1">0.033</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> (PY-1979) × (1985–1999)</td>
+										<td colspan="1" rowspan="1">−0.023***</td>
+										<td colspan="1" rowspan="1">0.004</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> (PY-1979) × (2000–2008)</td>
+										<td colspan="1" rowspan="1">−0.046***</td>
+										<td colspan="1" rowspan="1">0.002</td>
+									</tr>
+									<tr>
+										<td colspan="3" rowspan="1">
+											<bold>Publication type (v.s. Research article)</bold>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Review article</td>
+										<td colspan="1" rowspan="1">−0.134***</td>
+										<td colspan="1" rowspan="1">0.004</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Case report</td>
+										<td colspan="1" rowspan="1">−0.215***</td>
+										<td colspan="1" rowspan="1">0.011</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Brief report</td>
+										<td colspan="1" rowspan="1">−0.572***</td>
+										<td colspan="1" rowspan="1">0.010</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Letter</td>
+										<td colspan="1" rowspan="1">−0.388***</td>
+										<td colspan="1" rowspan="1">0.022</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Other</td>
+										<td colspan="1" rowspan="1">−0.931***</td>
+										<td colspan="1" rowspan="1">0.007</td>
+									</tr>
+									<tr>
+										<td colspan="3" rowspan="1">
+											<bold>Deposit source (v.s. Full participation)</bold>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Selective deposit</td>
+										<td colspan="1" rowspan="1">0.376***</td>
+										<td colspan="1" rowspan="1">0.006</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> NIH portfolio</td>
+										<td colspan="1" rowspan="1">−0.090***</td>
+										<td colspan="1" rowspan="1">0.008</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Author manuscript</td>
+										<td colspan="1" rowspan="1">0.050***</td>
+										<td colspan="1" rowspan="1">0.012</td>
+									</tr>
+									<tr>
+										<td colspan="3" rowspan="1">
+											<bold>Publication venue</bold>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> log<sub>2</sub>(Journal size)</td>
+										<td colspan="1" rowspan="1">0.171***</td>
+										<td colspan="1" rowspan="1">0.001</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Born as digital journal</td>
+										<td colspan="1" rowspan="1">0.436***</td>
+										<td colspan="1" rowspan="1">0.004</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> PLOS ONE</td>
+										<td colspan="1" rowspan="1">−0.223***</td>
+										<td colspan="1" rowspan="1">0.011</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Scientific Report</td>
+										<td colspan="1" rowspan="1">0.619***</td>
+										<td colspan="1" rowspan="1">0.022</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Angewandte Chemie International
+						Edition</td>
+										<td colspan="1" rowspan="1">−5.017***</td>
+										<td colspan="1" rowspan="1">0.011</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Chemistry (Wiley-VCH)</td>
+										<td colspan="1" rowspan="1">−4.955***</td>
+										<td colspan="1" rowspan="1">0.013</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> ChemistryOpen</td>
+										<td colspan="1" rowspan="1">−4.778***</td>
+										<td colspan="1" rowspan="1">0.013</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Zookeys</td>
+										<td colspan="1" rowspan="1">−3.834***</td>
+										<td colspan="1" rowspan="1">0.008</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1"> Acta Crystallographica Section
+						E: Crystallographic Communications</td>
+										<td colspan="1" rowspan="1">15.065</td>
+										<td colspan="1" rowspan="1">179.429</td>
+									</tr>
+								</tbody>
+							</table>
+							<table-wrap-foot>
+								<p>*** = <italic toggle="yes">p</italic> &lt; 0.001.</p>
+								<p><sup>a</sup>Publication year of citing article minus 1979, which
+						is the earliest publication year in the dataset.</p>
+							</table-wrap-foot>
+						</table-wrap></p>
+				</sec>
+				<sec id="Sec14">
+					<title>Citations associated with PMIDs</title>
+					<p id="Par36">As addressed in the Methods section, the Entrez citation data
+						contained citations from 4,243,594 PMC articles to articles in PubMed.
+						Within the 4,243,594 PMC articles, 1,818,893 articles were in the PMC open
+						access subset. By comparing the PMIDs retrieved from the XML files (i.e.,
+						the XML-tagged PMIDs) and the PMIDs listed in the Entrez citation data, we
+						found that 70.96% (1,290,693 out of 1,818,893) of the articles had at least
+						one discrepancy between the PMIDs of citations. The discrepancies indicated
+						that PMIDs listed in the Entrez citation data were absent in the XML files
+						or vice versa. Based on the discrepancies, we discovered 6.59% (5,148,521
+						out of 78,085,042) of the citations in the 1,818,893 articles that should
+						have PMIDs but were not tagged in the XML files. Notably, this did not
+						indicate that the citation contexts of these citations were not identified,
+						but showed that the PMIDs of these citation contexts were missing in the XML
+						files.</p>
+					<p id="Par37">The discrepancies between the XML files and the Entrez citation
+						data motivated us to further investigate the PMIDs. The source link IDs
+						(e.g., PMIDs, ADS IDs, and DBLP IDs) for 98.25% (135,340,795 out of the
+						total 137,748,787) of the inline citations were identified using Patci and
+						cross-checked with the XML-tagged PMIDs. The Patci-identified IDs and the
+						XML-tagged PMIDs agreed on 91.13% (123,337,645 out of 135,340,795) of the
+						inline citations (SAME: 101,885,318 (75.28%) inline citations; NONE:
+						21,452,327 (15.85%) inline citations). The disagreement was mostly caused by
+						citations with Patci-identified IDs but without XML-tagged PMIDs (INSERT:
+						11,595,741 (8.57%) inline citations). Only 0.3% of the citations had
+						disagreement between the Patci-identified IDs and the XML-tagged PMIDs
+						(SWAP: 317,513 (0.23%) inline citations; DELETE: 89,896 (0.07%) inline
+						citations). These results suggest that XML files may have high precision but
+						low recall on tagging the PMIDs associated with the citations. Note that not
+						all Patci-identified IDs are PMIDs. Of the 11,913,254 inserted or swapped
+						IDs, 9,261,870 are PMIDs and 2,651,384 are non-PMIDs (e.g., ADS IDs and DBLP
+						IDs). In other words, Patci supplemented or corrected PMIDs for 6.84% of
+						inline citations (9,261,870 out of the 135,340,795 inline citations).</p>
+					<p id="Par38">Of the 2,407,992 (1.75%) inline citations that were not
+						cross-checked with Patci, 1,319,962 (0.96%) had XML-tagged PMIDs. Although
+						only 1.91% (25,179 out of 1,319,962) of these PMIDs were verified with the
+						Entrez citation data, the vast majority of these PMIDs are likely to be
+						correct due to the low SWAP and DELETE rates in the full dataset.</p>
+				</sec>
+				<sec id="Sec15">
+					<title>Evaluation on the identified IMRaD categories</title>
+					<p id="Par39">Of the 131,807,433 inline citations that appeared in the main
+						text, 31.06% (40,934,169), 10.36% (13,659,862), 10.89% (14,348,948), and
+						26.87% (35,419,067) were in the <bold>
+							<italic toggle="yes">I</italic>
+						</bold>, <bold>
+							<italic toggle="yes">M</italic>
+						</bold>, <bold>
+							<italic toggle="yes">R</italic>
+						</bold>, and <bold>
+							<italic toggle="yes">D</italic>
+						</bold> sections,
+						respectively. There were 20.82% of the inline citations (27,445,387 of
+						131,807,433) that had no IMRaD categories identified. Note that a large
+						portion of citations in the <bold>
+							<italic toggle="yes">NoIMRaD</italic>
+						</bold>
+						category are likely to belong to one of the IMRaD categories because of the
+						lower precision in the <bold>
+							<italic toggle="yes">NoIMRaD</italic>
+						</bold>
+						labelling (see details below). Figure <xref rid="Fig9" ref-type="fig">9</xref>
+						presents the percentages of inline citations in each IMRaD section by text
+						progression. Although the IMRaD sections were identified through a
+						rudimentary approach, the distribution of inline citations was aligned with
+						previous studies<sup><xref ref-type="bibr" rid="CR30">30</xref>,<xref
+								ref-type="bibr" rid="CR48">48</xref></sup>. Inline citations
+						concentrated at the beginning and the end of scientific articles, and the
+						text progression of IMRaD mainly followed the order of
+						introduction/background, method, result, and conclusion/discussion. In
+						particular, inline citations in the introduction/background mainly appeared
+						in the first 20 centiles, while most of the inline citations identified in
+						conclusion/discussion appeared after the 60<sup>th</sup> centile. Inline
+						citations identified in method sections showed two lumps, which were around
+						20<sup>th</sup>-30<sup>th</sup> centiles and 80<sup>th</sup>-90<sup>th</sup>
+						centiles. Manual inspection of the submission guidelines of ten journals
+						with high publication counts in the second lump shows that seven journals
+						suggest or require authors to put the method section at the end of the
+						articles. Two journals suggest putting the method section before the
+						conclusion section, but having the conclusion section is not mandatory. One
+						journal has no requirements for the section order.<fig id="Fig9"
+							position="float" orientation="portrait">
+							<label>Fig. 9</label>
+							<caption>
+								<p>Inline citations in IMRaD sections by text progression. Inline
+						citations concentrated at the beginning and the end of scientific articles.
+						In specific, 28.84% of the inline citations were found in the first 20
+						centiles and under the introduction/background sections, while 22.22% of the
+						inline citations were found in the last 40 centiles and under the
+						conclusion/discussion sections.</p>
+							</caption>
+							<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1709"
+								position="float" orientation="portrait"
+								xlink:href="41597_2023_2134_Fig9_HTML.jpg" />
+						</fig></p>
+					<p id="Par40">To gain a deeper understanding of our XML parser’s performance in
+						identifying IMRaD categories, we sampled 100 articles from 100 distinct
+						journals. The IMRaD categories associated with the sentences in the main
+						text of the 100 sampled articles were manually annotated. Precision, recall,
+						and F1 score were computed by comparing the human annotations to the IMRaD
+						categories identified by the XML parser. These indicators were calculated at
+						two different levels: section and sentence. In other words, the performance
+						of the parser was assessed section by section and sentence by sentence. The
+						section-level evaluation was conducted because the IMRaD labels assigned to
+						the sentences were dependent on the section information extracted from the
+						XML files (please see the Method section for details); therefore, if a
+						section was misclassified, all the sentences within it would be
+						misclassified as well.</p>
+					<p id="Par41">Table <xref rid="Tab5" ref-type="table">5</xref> presents the
+						evaluation results. Overall, our parser identified IMRaD categories with
+						high precision but lower recall. The identified <bold>
+							<italic toggle="yes">M</italic>
+						</bold>, <bold>
+							<italic toggle="yes">R</italic>
+						</bold>, and <bold>
+							<italic toggle="yes">D</italic>
+						</bold>
+						categories were all correct (precision = 1). The precision of the <bold>
+							<italic toggle="yes">I</italic>
+						</bold> category
+						was 99.7% at the sentence level. This was due to four articles with sections
+						titled “Pre-publication history”. The word “history” in the section titles
+						led to their misidentification as <bold>
+							<italic toggle="yes">I</italic>
+						</bold> sections.
+						The macro average recall (93.2%) and the <bold>
+							<italic toggle="yes">NoIMRaD</italic>
+						</bold>
+						precision (48.8%) point to potential improvements: 51.19% of the sentences
+						(1,293 of 2,526) in the <bold>
+							<italic toggle="yes">NoIMRaD</italic>
+						</bold>
+						category belonged to one of the <bold>
+							<italic toggle="yes">I</italic>
+						</bold>, <bold>
+							<italic toggle="yes">M</italic>
+						</bold>, <bold>
+							<italic toggle="yes">R</italic>
+						</bold>, or <bold>
+							<italic toggle="yes">D</italic>
+						</bold>
+						categories. Manual inspection found that the incorrect identification of <bold>
+							<italic toggle="yes">NoIMRaD</italic>
+						</bold> was
+						due to two reasons: (1) the section titles and the XML section information
+						lacked keywords for identifying the IMRaD categories, and (2) ten papers had
+						introduction sections without titles (e.g., PMCID: 4263260). The difference
+						between the sentence level and the section level performances is primarily
+						because the true <bold>
+							<italic toggle="yes">NoIMRaD</italic>
+						</bold>
+						sections tend to be shorter than the IMRaD sections.<table-wrap id="Tab5"
+							position="float" orientation="portrait">
+							<label>Table 5</label>
+							<caption>
+								<p>Precision, recall, and F1 of the evaluation results.</p>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<thead>
+									<tr>
+										<th colspan="1" rowspan="1">Evaluation Level</th>
+										<th colspan="1" rowspan="1">IMRaD</th>
+										<th colspan="1" rowspan="1">Precision</th>
+										<th colspan="1" rowspan="1">Recall</th>
+										<th colspan="1" rowspan="1">F1</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td rowspan="6" colspan="1">Section</td>
+										<td colspan="1" rowspan="1">I</td>
+										<td colspan="1" rowspan="1">0.957</td>
+										<td colspan="1" rowspan="1">0.854</td>
+										<td colspan="1" rowspan="1">0.903</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">M</td>
+										<td colspan="1" rowspan="1">1.000</td>
+										<td colspan="1" rowspan="1">0.820</td>
+										<td colspan="1" rowspan="1">0.901</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">R</td>
+										<td colspan="1" rowspan="1">1.000</td>
+										<td colspan="1" rowspan="1">0.915</td>
+										<td colspan="1" rowspan="1">0.956</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">D</td>
+										<td colspan="1" rowspan="1">1.000</td>
+										<td colspan="1" rowspan="1">0.993</td>
+										<td colspan="1" rowspan="1">0.996</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">NoIMRaD</td>
+										<td colspan="1" rowspan="1">0.638</td>
+										<td colspan="1" rowspan="1">0.949</td>
+										<td colspan="1" rowspan="1">0.763</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">Macro average</td>
+										<td colspan="1" rowspan="1">0.919</td>
+										<td colspan="1" rowspan="1">0.906</td>
+										<td colspan="1" rowspan="1">0.904</td>
+									</tr>
+									<tr>
+										<td rowspan="6" colspan="1">Sentence</td>
+										<td colspan="1" rowspan="1">I</td>
+										<td colspan="1" rowspan="1">0.997</td>
+										<td colspan="1" rowspan="1">0.903</td>
+										<td colspan="1" rowspan="1">0.948</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">M</td>
+										<td colspan="1" rowspan="1">1.000</td>
+										<td colspan="1" rowspan="1">0.875</td>
+										<td colspan="1" rowspan="1">0.933</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">R</td>
+										<td colspan="1" rowspan="1">1.000</td>
+										<td colspan="1" rowspan="1">0.892</td>
+										<td colspan="1" rowspan="1">0.943</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">D</td>
+										<td colspan="1" rowspan="1">1.000</td>
+										<td colspan="1" rowspan="1">0.996</td>
+										<td colspan="1" rowspan="1">0.998</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">NoIMRaD</td>
+										<td colspan="1" rowspan="1">0.488</td>
+										<td colspan="1" rowspan="1">0.995</td>
+										<td colspan="1" rowspan="1">0.655</td>
+									</tr>
+									<tr>
+										<td colspan="1" rowspan="1">Macro average</td>
+										<td colspan="1" rowspan="1">0.897</td>
+										<td colspan="1" rowspan="1">0.932</td>
+										<td colspan="1" rowspan="1">0.895</td>
+									</tr>
+								</tbody>
+							</table>
+						</table-wrap></p>
+				</sec>
+				<sec id="Sec16">
+					<title>Alignment between OpCitance and S2ORC</title>
+					<p id="Par42">To our best knowledge, S2ORC is the largest full-text dataset with
+						inline citations annotated. OpCitance annotates inline citations at the
+						sentence level with identifiers embedded in the text, while S2ORC provides
+						character start and end of each inline citation in a paragraph (Fig. <xref
+							rid="Fig10" ref-type="fig">10</xref>). To compare the coverage of inline
+						citations in S2ORC and our dataset, we started with the S2ORC articles
+						having PMIDs or PMCIDs. The S2ORC data was retrieved from <ext-link
+							xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri"
+							xlink:href="https://github.com/allenai/s2orc">
+						https://github.com/allenai/s2orc</ext-link>. There were 5,415,731 S2ORC
+						articles with PMIDs/PMCIDs and inline citations. However, significant
+						portion (1,122,520 S2ORC articles) were duplicates. For example, S2ORC paper
+						IDs: 215194089 and 9337105 had the same PMID: 25983392 listed in S2ORC.
+						OpCitance has 2,049,871 articles, of which 1,401,788 (68.38%) match
+						one-to-one with S2ORC, while 487,602 (23.79%) are duplicated in S2ORC, and
+						160,481 (7.83%) are missing in S2ORC. In other words, although the coverage
+						of OpCitance is smaller, the two datasets are complementary since OpCitance
+						contains articles not in S2ORC. Furthermore, articles in OpCitance have been
+						deduplicated.<fig id="Fig10" position="float" orientation="portrait">
+							<label>Fig. 10</label>
+							<caption>
+								<p>Example of two inline citations in S2ORC and OpCitance.</p>
+							</caption>
+							<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d32e1973"
+								position="float" orientation="portrait"
+								xlink:href="41597_2023_2134_Fig10_HTML.jpg" />
+						</fig></p>
+					<p id="Par43">Of the 1,889,390 articles in both datasets, OpCitance has inline
+						citations for 99.54% of the references (79,631,699 out of 79,998,620
+						references), while S2ORC has inline citations for 89.35% of the references
+						(83,075,224 out of 92,973,529 unduplicated references). In other words, the
+						percentage of references with inline citations annotated is 10 percent lower
+						in S2ORC. Furthermore, the PMIDs associated with the inline citations are
+						81.83% (104,012,041 out of 127,111,995 inline citations) versus 71.92%
+						(93,750,386 out of 130,362,008 unduplicated inline citations) in OpCitance
+						and in S2ORC, respectively. The lower rate of inline citation coverage in
+						S2ORC could influence subject-focused studies (e.g., studies on one article,
+						a few articles, or an author’s articles) since some of the citation contexts
+						mentioning the subject could be missing. The lower rate of PMIDs associated
+						with inline citations could influence studies on the PubMed articles since
+						some of the citation contexts could not be found due to the absence of
+						PMIDs. The lower coverage rate of inline citations in S2ORC also reflects
+						the fact that identifying inline citations in PDF files is more challenging
+						than in the XML files.</p>
+					<p id="Par44">To further understand the alignment between the two datasets, we
+						randomly sampled 100 citation contexts from 100 different articles in
+						OpCitance. These 100 citing articles were mapped to 145 S2ORC articles. (55
+						articles were mapped to one S2ORC article each; 45 were mapped to two S2ORC
+						articles each). Each citation contexts had one or more inline citations,
+						resulting in 300 inline citations in total (i.e., three inline citations per
+						citation context on average). Out of the 300 inline citations, 75 (25%) were
+						not in S2ORC, and five were only found in one of the duplicated articles.
+						The absence of inline citations was due to the following reasons: (1) The
+						mapped S2ORC article had empty or incomplete full text (e.g., absence of
+						part of body text). (2) The citation contexts were not recognized in the
+						S2ORC articles. In these cases, the S2ORC articles had the text but failed
+						to identify inline citations in the sentences. As for PMIDs associated with
+						inline citations, out of the 225 inline citations, 144 citations had PMIDs
+						in OpCitance. However, 21 of these PMIDs were not in S2ORC. One inline
+						citation had different PMIDs in the two datasets (PMID: 28222903 in our
+						dataset; PMID: 28340344 in S2ORC). A manual inspection found that the PMID
+						in our dataset was correct. The PMID listed in S2ORC was the erratum of the
+						actual article. This error might be caused by S2ORC linking bibliographies
+						to articles by similarity score computed between their titles<sup>
+							<xref ref-type="bibr" rid="CR34">34</xref>
+						</sup>
+						.</p>
+					<p id="Par45">Text alignment was also examined. The 225 inline citations found
+						in S2ORC corresponded to 74 unique sentences. The text in the two datasets
+						was nearly the same (e.g., minor variations caused by punctuations; see
+						Table <xref rid="Tab6" ref-type="table">6</xref>). However, two sentences
+						were significantly different in the two datasets. The discrepancies were
+						caused by distorted text, either truncated or inserted.<table-wrap id="Tab6"
+							position="float" orientation="portrait">
+							<label>Table 6</label>
+							<caption>
+								<p>Examples of differences in text alignment.</p>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<tbody>
+									<tr>
+										<td colspan="2" rowspan="1">
+											<inline-graphic
+												xmlns:xlink="http://www.w3.org/1999/xlink"
+												id="d32e2002"
+												xlink:href="41597_2023_2134_Tab1_HTML.gif" />
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</table-wrap></p>
+				</sec>
+				<sec id="Sec17">
+					<title>Challenges and limitations</title>
+					<p id="Par46">This study aims to construct a large-scale citation context
+						dataset that can benefit future studies on the motivation, importance, and
+						sentiment of citations. Although the JATS tag set provided standard XML
+						vocabularies for parsing the structure of the PMC open access articles,
+						identifying citation contexts from full-text articles is still challenging.
+						Publishers have different ways of using JATS tags for tagging citations. For
+						example, the JAST guideline mentions that a &lt;ref&gt; tag represents an
+						item in a reference list, and each of the cited work under the item should
+						be separately tagged by &lt;element-citation&gt; or &lt;mixed-citation&gt;
+						tags. When a cited work is mentioned in the full-text, the “rid” attribute
+						of the &lt;xref&gt; tag points to the “id” attribute of a &lt;ref&gt; tag in
+						typical cases. However, in the cases with multiple cited work nested under a
+						&lt;ref&gt; tag, the “rid” attribute could point to the “id” of the
+						&lt;ref&gt; and the “id” of the &lt;element-citation&gt; or
+						&lt;mixed-citation&gt; interchangeably. Another challenge is identifying the
+						implicitly mentioned citations. As described in the method section, the
+						implicitly mentioned citations were inferred from the citation markers
+						containing a hyphen (e.g., [3–6]). However, publishers expressed “hyphen”
+						differently. The “hyphen” could be a hyphen, an en dash (Unicode character U
+						+ 2013), a minus sign (Unicode character U + 2212), or two hyphens/en
+						dashes/minus signs.</p>
+					<p id="Par47">Using XML tags has limitations. We manually inspected the
+						references without citation context and found the following reasons. First,
+						some citation markers in the full-text articles were plain strings (i.e.,
+						these citation markers did not associate with any &lt;xref&gt; tag). In
+						these cases, our XML parser could not pick up the citation contexts. Second,
+						there were cases where the citation marker in the full-text article pointed
+						to a nested reference, but the &lt;xref&gt; tag only pointed to one cited
+						work in the nested reference. Third, some references were not mentioned by
+						the authors in the full-text. However, these conditions were rare. Of all
+						the 86,473,346 references in OpCitance, only 0.51% (437,471) of the
+						references’ citation contexts could not be identified by our XML parser. It
+						is also worth noting that the first two limitations may be improved by
+						developing a text-mining model that can identify citations in sentences and
+						link them back to their references. The annotated citations (i.e., the
+						citation contexts) and their references provided in OpCitance can be used as
+						training data for developing the model. We plan to work on this in our
+						future studies. Another limitation was found in identifying PMIDs of
+						citation by XML tags. In this study, the &lt;pub-id&gt; tag with <italic
+							toggle="yes">pmid</italic> attribute value (<italic toggle="yes">//pub-id[@pub-id-type
+						= ‘pmid’]</italic>) was used for finding the PMIDs of citations in the XML
+						files. Like the citation markers, we discovered that some PMIDs could be
+						found in the citation strings but were not tagged.</p>
+					<p id="Par48">Compared to S2ORC, which used machine-learning libraries (Science
+						Parse and GROBID) to parse PDF versions of articles and identify inline
+						citations, our effort focused on developing an XML parser that can handle
+						the nuances of the use of JATS tags by different publishers and identify
+						citation contexts as completely as possible. Our work contributes to parsing
+						scientific papers and identifying inline citations by making the dataset and
+						the XML parser publicly available. The dataset provides 137,748,787 inline
+						citations and their citation contexts, covering 99.49% (86,035,875) of the
+						total 86,473,346 references. The release of the parser enables users to
+						create their own datasets for JATS-standard XML versions of articles.
+						Although the parser is limited to XML documents conforming to JATS and
+						cannot be applied to PDF versions of articles, the parser still has the
+						potential to be used for extracting inline citations and their citation
+						contexts from articles deposited into PMC and published by journals that
+						adopt JATS such as PLOS ONE (<ext-link
+							xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri"
+							xlink:href="https://plos.org/text-and-data-mining/">
+						https://plos.org/text-and-data-mining/</ext-link>) in the future. The
+						pipeline deals with issues specific to the JATS-standard XML documents and
+						has the capacity to handle the different ways inline citations may be tagged
+						by the publishers. The add-on with Patci has enhanced the completeness of
+						source ID links between the citing and cited articles. As mentioned in the
+						Technical Validation section, 8.8% of inline citations’ source link IDs have
+						been supplemented or corrected by Patci (i.e., the inserted IDs and the
+						swapped IDs). Furthermore, in contrast to S2ORC providing inline citations
+						at the paragraph level, OpCitance provides inline citations at the sentence
+						level. Different annotation levels between S2ORC and OpCitance provide users
+						flexibility to select the dataset that best suits their needs.</p>
+				</sec>
+			</sec>
+			<sec id="Sec18">
+				<title>Usage Notes</title>
+				<sec id="Sec19">
+					<title>Generating features from the dataset</title>
+					<p id="Par49">Since Garfield<sup>
+							<xref ref-type="bibr" rid="CR49">49</xref>
+						</sup>
+						published fifteen possible citation motives, abundant efforts have been put
+						in developing features for modelling citation motives using citation
+						contexts. For example, Valenzuela <italic toggle="yes">et al</italic>.<sup>
+							<xref ref-type="bibr" rid="CR44">44</xref>
+						</sup>
+						and Zhu <italic toggle="yes">et al</italic>.<sup>
+							<xref ref-type="bibr" rid="CR14">14</xref>
+						</sup>
+						used 12 and 38 features to model the importance of cited references to the
+						citing articles, respectively. Teufel <italic toggle="yes">et al</italic>.<sup>
+							<xref ref-type="bibr" rid="CR8">8</xref>
+						</sup>
+						developed a set of features focusing on semantical similarity and used these
+						features to model citation functions. In the meta-analysis conducted by
+						Kunnath <italic toggle="yes">et al</italic>.<sup>
+							<xref ref-type="bibr" rid="CR25">25</xref>
+						</sup>,
+						features used in studies on citation function and importance were
+						categorized as noncontextual features (e.g., positional-based and
+						frequency-based features) and contextual features (e.g., syntactic and
+						semantic features). Here, we use Kunnath <italic toggle="yes">et al</italic>
+						.‘s<sup>
+							<xref ref-type="bibr" rid="CR25">25</xref>
+						</sup>
+						categories and give examples of codes for generating positional-based and
+						frequency-based features, as well as instructions for generating contextual
+						features. The codes were written in Python3, using pandas library for data
+						processing.</p>
+					<sec id="Sec20">
+						<title>Positional-based and frequency-based features</title>
+						<p id="Par50">Many of the features related to frequency and location can be
+							obtained from OpCitance dataset through grouping or filtering data. For
+							instance, the number of mentions (i.e., the citation counts in the
+							entire paper) can be acquired from grouping the data by the <italic
+								toggle="yes">pmcid</italic> and <italic toggle="yes">intxt_id</italic>
+							columns:</p>
+						<p id="Par51">
+							<code xml:space="preserve" position="float" orientation="portrait">Number_of_mentions = df.groupby(['pmcid','intxt_id'])[['intxt_id']].count()</code>
+						</p>
+						<p id="Par52">For the articles following IMRaD structure, the number of
+							mentions in each IMRaD section<sup><xref ref-type="bibr" rid="CR14">14</xref>
+							,<xref ref-type="bibr" rid="CR44">44</xref></sup> can be acquired from
+							grouping the data by the <italic toggle="yes">pmcid</italic>, <italic
+								toggle="yes">IMRaD</italic> and <italic toggle="yes">intxt_id</italic>
+							columns:</p>
+						<p id="Par53">
+							<code xml:space="preserve" position="float" orientation="portrait">Number_of_mentions_by_IMRaD = df.groupby(['pmcid','IMRaD','intxt_id'])[['intxt_id']].count()</code>
+						</p>
+						<p id="Par54">Similarly, the number of different IMRaD sections in which
+							citation contexts of a reference were identified can be obtained from:</p>
+						<p id="Par55">
+							<code xml:space="preserve" position="float" orientation="portrait">Number_of_mentioning_IMRaD_sections = df.groupby(['intxt_id'])[['IMRaD']].nunique()</code>
+						</p>
+						<p id="Par56">Citations in tables and figure captions<sup>
+								<xref ref-type="bibr" rid="CR44">44</xref>
+							</sup>
+							can be obtained from:</p>
+						<p id="Par57">
+							<code xml:space="preserve" position="float" orientation="portrait">Citation_context_in_figure_or_table = 1 – df['location'].isin(['abstract','body','back'])</code>
+						</p>
+						<p id="Par58">As for features related to text progression of citation
+							contexts<sup>
+								<xref ref-type="bibr" rid="CR14">14</xref>
+							</sup>,
+							these features can be calculated through the <italic toggle="yes">
+							progression</italic> column. This column provides the centiles of citing
+							sentences within the main text of articles.</p>
+					</sec>
+					<sec id="Sec21">
+						<title>Contextual features</title>
+						<p id="Par59">Contextual features can be obtained from processing the
+							citation contexts through natural language processing toolkits such as
+							NTLK or Stanford NLP. For instance, the function verbs used in Teufel <italic
+								toggle="yes">et al</italic>.<sup>
+								<xref ref-type="bibr" rid="CR8">8</xref>
+							</sup>
+							can be identified from conducting part-of-speech (POS) tagging on the
+							citation contexts. For calculating text-similarity features<sup><xref
+									ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr"
+									rid="CR44">44</xref></sup> such as the text-similarity between
+							each citation context and the abstract of the citing article, the
+							abstract of each citing article can be retrieved by selecting the rows
+							with the “abstract” label in the <italic toggle="yes">location</italic>
+							column.</p>
+					</sec>
+				</sec>
+				<sec id="Sec22">
+					<title>Other possible applications</title>
+					<p id="Par60">With the semantically enriched citations, OpCitance opens up a
+						wide variety of applications. In addition to studying citation motives,
+						functions, and importance, OpCitance can be used for identifying trends in
+						research fields, visualizing scientific landscapes, and analyzing the domain
+						of journals. Many studies on these topics relied on citation links and/or
+						text in article titles and abstracts. For example, Chen and Song<sup>
+							<xref ref-type="bibr" rid="CR50">50</xref>
+						</sup>
+						proposed a method for visualizing a scientific field and identifying topic
+						advancement in the field using citation expansion (i.e., tracing forward or
+						backward citations of given seed articles). Wang <italic toggle="yes">et al</italic>
+						.<sup>
+							<xref ref-type="bibr" rid="CR51">51</xref>
+						</sup>
+						applied NLP techniques to titles and abstracts to identify emerging topics
+						in nano-publications. Glanzel <italic toggle="yes">et al</italic>.<sup>
+							<xref ref-type="bibr" rid="CR52">52</xref>
+						</sup>
+						classified the fields of articles published in multidisciplinary and general
+						journals by mapping journal information indicated in the references to their
+						subject domains. Zhang <italic toggle="yes">et al</italic>.<sup>
+							<xref ref-type="bibr" rid="CR53">53</xref>
+						</sup>
+						utilized citations between journals to cluster scientific papers into seven
+						domains. The UCSD map of science<sup>
+							<xref ref-type="bibr" rid="CR54">54</xref>
+						</sup>
+						constructed visualizations for scientific fields by clustering
+						journal-to-journal citations and keywords. Waltman and van Eck<sup>
+							<xref ref-type="bibr" rid="CR55">55</xref>
+						</sup>
+						proposed a system for identifying research areas based on citations between
+						articles. In their study, article titles and abstracts were used to label
+						the identified research areas<sup>
+							<xref ref-type="bibr" rid="CR55">55</xref>
+						</sup>.
+						Compared to titles and keywords, citation contexts contain information that
+						is more directly related to the citations. Therefore, analyses that combine
+						citations and citation contexts may yield further insights into detecting
+						and visualizing research trends and domains.</p>
+				</sec>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn>
+					<p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to
+						jurisdictional claims in published maps and institutional affiliations.</p>
+				</fn>
+			</fn-group>
+			<ack>
+				<title>Acknowledgements</title>
+				<p>Research reported in this publication was supported by National Institutes of
+					Health (Award Number P01AG039347). The content is solely the responsibility of
+					the authors and does not necessarily represent the official views of the NIH.</p>
+			</ack>
+			<notes notes-type="author-contribution">
+				<title>Author contributions</title>
+				<p>Tzu-Kun Hsiao: Data curation, Formal analysis, Methodology, Visualization,
+					Writing-original draft, Writing-review &amp; editing. Vetle I. Torvik: Data
+					curation, Funding acquisition, Methodology, Supervision, Writing-review &amp;
+					editing.</p>
+			</notes>
+			<notes notes-type="data-availability">
+				<title>Code availability</title>
+				<p>The code of our XML parser is provided in the Supplementary_File_1.zip on our
+					data repository: 10.13012/B2IDB-4353270_V2.</p>
+			</notes>
+			<notes id="FPar1" notes-type="COI-statement">
+				<title>Competing interests</title>
+				<p id="Par61">The authors declare no competing interests.</p>
+			</notes>
+			<ref-list id="Bib1">
+				<title>References</title>
+				<ref id="CR1">
+					<label>1.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Gross</surname>
+								<given-names>PL</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Gross</surname>
+								<given-names>EM</given-names>
+							</name>
+						</person-group>
+						<article-title>College libraries and chemical education</article-title>
+						<source>Science</source>
+						<year>1927</year>
+						<volume>66</volume>
+						<fpage>385</fpage>
+						<lpage>389</lpage>
+						<pub-id pub-id-type="doi">10.1126/science.66.1713.385</pub-id>
+						<pub-id pub-id-type="pmid">17782476</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR2">
+					<label>2.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Klavans</surname>
+								<given-names>R</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Boyack</surname>
+								<given-names>KW</given-names>
+							</name>
+						</person-group>
+						<article-title>Which type of citation analysis generates the most accurate
+							taxonomy of scientific and technical knowledge?</article-title>
+						<source>J. Assoc. Inf. Sci. Technol.</source>
+						<year>2017</year>
+						<volume>68</volume>
+						<fpage>984</fpage>
+						<lpage>998</lpage>
+						<pub-id pub-id-type="doi">10.1002/asi.23734</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR3">
+					<label>3.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>White</surname>
+								<given-names>HD</given-names>
+							</name>
+							<name name-style="western">
+								<surname>McCain</surname>
+								<given-names>KW</given-names>
+							</name>
+						</person-group>
+						<article-title>Visualizing a discipline: An author co-citation analysis of
+							information science, 1972–1995</article-title>
+						<source>J. Am. Soc. Inf. Sci.</source>
+						<year>1998</year>
+						<volume>49</volume>
+						<fpage>327</fpage>
+						<lpage>355</lpage>
+					</element-citation>
+				</ref>
+				<ref id="CR4">
+					<label>4.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Bornmann</surname>
+								<given-names>L</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Mutz</surname>
+								<given-names>R</given-names>
+							</name>
+						</person-group>
+						<article-title>Growth rates of modern science: A bibliometric analysis based
+							on the number of publications and cited references</article-title>
+						<source>J. Assoc. Inf. Sci. Technol.</source>
+						<year>2015</year>
+						<volume>66</volume>
+						<fpage>2215</fpage>
+						<lpage>2222</lpage>
+						<pub-id pub-id-type="doi">10.1002/asi.23329</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR5">
+					<label>5.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Yegros-Yegros</surname>
+								<given-names>A</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Rafols</surname>
+								<given-names>I</given-names>
+							</name>
+							<name name-style="western">
+								<surname>D’Este</surname>
+								<given-names>P</given-names>
+							</name>
+						</person-group>
+						<article-title>Does interdisciplinary research lead to higher citation
+							impact? The different effect of proximal and distal interdisciplinarity</article-title>
+						<source>PLOS ONE</source>
+						<year>2015</year>
+						<volume>10</volume>
+						<fpage>e0135095</fpage>
+						<pub-id pub-id-type="doi">10.1371/journal.pone.0135095</pub-id>
+						<pub-id pub-id-type="pmid">26266805</pub-id>
+						<pub-id pub-id-type="pmcid">PMC4534379</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR6">
+					<label>6.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Smith</surname>
+								<given-names>LC</given-names>
+							</name>
+						</person-group>
+						<article-title>Citation analysis</article-title>
+						<source>Libr. Trends</source>
+						<year>1981</year>
+						<volume>30</volume>
+						<fpage>83</fpage>
+						<lpage>106</lpage>
+					</element-citation>
+				</ref>
+				<ref id="CR7">
+					<label>7.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Nicolaisen</surname>
+								<given-names>J</given-names>
+							</name>
+						</person-group>
+						<article-title>Citation analysis</article-title>
+						<source>Annu. Rev. Inf. Sci. Technol.</source>
+						<year>2007</year>
+						<volume>41</volume>
+						<fpage>609</fpage>
+						<lpage>641</lpage>
+						<pub-id pub-id-type="doi">10.1002/aris.2007.1440410120</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR8">
+					<label>8.</label>
+					<mixed-citation publication-type="other">Teufel, S., Siddharthan, A. &amp;
+						Tidhar, D. Automatic classification of citation function. in <italic
+							toggle="yes">Proceedings of the 2006 conference on empirical methods in
+						natural language processing</italic>, 103–110 (2006).</mixed-citation>
+				</ref>
+				<ref id="CR9">
+					<label>9.</label>
+					<mixed-citation publication-type="other">Teufel, S. Scientific argumentation
+						detection as limited-domain intention recognition. in <italic toggle="yes">
+						ArgNLP</italic> (2014).</mixed-citation>
+				</ref>
+				<ref id="CR10">
+					<label>10.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Bonzi</surname>
+								<given-names>S</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Snyder</surname>
+								<given-names>H</given-names>
+							</name>
+						</person-group>
+						<article-title>Motivations for citation: A comparison of self citation and
+							citation to others</article-title>
+						<source>Scientometrics</source>
+						<year>1991</year>
+						<volume>21</volume>
+						<fpage>245</fpage>
+						<lpage>254</lpage>
+						<pub-id pub-id-type="doi">10.1007/BF02017571</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR11">
+					<label>11.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Brooks</surname>
+								<given-names>TA</given-names>
+							</name>
+						</person-group>
+						<article-title>Private acts and public objects: An investigation of citer
+							motivations</article-title>
+						<source>J. Am. Soc. Inf. Sci.</source>
+						<year>1985</year>
+						<volume>36</volume>
+						<fpage>223</fpage>
+						<lpage>229</lpage>
+						<pub-id pub-id-type="doi">10.1002/asi.4630360402</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR12">
+					<label>12.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Brooks</surname>
+								<given-names>TA</given-names>
+							</name>
+						</person-group>
+						<article-title>Evidence of complex citer motivations</article-title>
+						<source>J. Am. Soc. Inf. Sci.</source>
+						<year>1986</year>
+						<volume>37</volume>
+						<fpage>34</fpage>
+						<lpage>36</lpage>
+						<pub-id pub-id-type="doi">10.1002/asi.4630370106</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR13">
+					<label>13.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Case</surname>
+								<given-names>DO</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Higgins</surname>
+								<given-names>GM</given-names>
+							</name>
+						</person-group>
+						<article-title>How can we investigate citation behavior? A study of reasons
+							for citing literature in communication</article-title>
+						<source>J. Am. Soc. Inf. Sci.</source>
+						<year>2000</year>
+						<volume>51</volume>
+						<fpage>635</fpage>
+						<lpage>645</lpage>
+						<pub-id pub-id-type="doi">
+							10.1002/(SICI)1097-4571(2000)51:7&lt;635::AID-ASI6&gt;3.0.CO;2-H</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR14">
+					<label>14.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Zhu</surname>
+								<given-names>X</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Turney</surname>
+								<given-names>P</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Lemire</surname>
+								<given-names>D</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Vellino</surname>
+								<given-names>A</given-names>
+							</name>
+						</person-group>
+						<article-title>Measuring academic influence: Not all citations are equal</article-title>
+						<source>J. Assoc. Inf. Sci. Technol.</source>
+						<year>2015</year>
+						<volume>66</volume>
+						<fpage>408</fpage>
+						<lpage>427</lpage>
+						<pub-id pub-id-type="doi">10.1002/asi.23179</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR15">
+					<label>15.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Callahan</surname>
+								<given-names>A</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Winnenburg</surname>
+								<given-names>R</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Shah</surname>
+								<given-names>NH</given-names>
+							</name>
+						</person-group>
+						<article-title>U-Index, a dataset and an impact metric for informatics tools
+							and databases</article-title>
+						<source>Sci. Data</source>
+						<year>2018</year>
+						<volume>5</volume>
+						<fpage>180043</fpage>
+						<pub-id pub-id-type="doi">10.1038/sdata.2018.43</pub-id>
+						<pub-id pub-id-type="pmid">29557976</pub-id>
+						<pub-id pub-id-type="pmcid">PMC5859919</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR16">
+					<label>16.</label>
+					<mixed-citation publication-type="other">Dong, C. &amp; Schäfer, U.
+						Ensemble-style self-training on citation classification. in <italic
+							toggle="yes">Proceedings of 5th international joint conference on
+						natural language processing</italic>, 623–631 (2011).</mixed-citation>
+				</ref>
+				<ref id="CR17">
+					<label>17.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Maričić</surname>
+								<given-names>S</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Spaventi</surname>
+								<given-names>J</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Pavičić</surname>
+								<given-names>L</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Pifat-Mrzljak</surname>
+								<given-names>G</given-names>
+							</name>
+						</person-group>
+						<article-title>Citation context versus the frequency counts of citation
+							histories</article-title>
+						<source>J. Am. Soc. Inf. Sci.</source>
+						<year>1998</year>
+						<volume>49</volume>
+						<fpage>530</fpage>
+						<lpage>540</lpage>
+						<pub-id pub-id-type="doi">
+							10.1002/(SICI)1097-4571(19980501)49:6&lt;530::AID-ASI5&gt;3.0.CO;2-8</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR18">
+					<label>18.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Zhao</surname>
+								<given-names>D</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Strotmann</surname>
+								<given-names>A</given-names>
+							</name>
+						</person-group>
+						<article-title>Deep and narrow impact: introducing location filtered
+							citation counting</article-title>
+						<source>Scientometrics</source>
+						<year>2020</year>
+						<volume>122</volume>
+						<fpage>503</fpage>
+						<lpage>517</lpage>
+						<pub-id pub-id-type="doi">10.1007/s11192-019-03280-z</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR19">
+					<label>19.</label>
+					<mixed-citation publication-type="other">Angrosh, M. A., Cranefield, S. &amp;
+						Stanger, N. Context identification of sentences in related work sections
+						using a conditional random field: towards intelligent digital libraries. in <italic
+							toggle="yes">Proceedings of the 10th annual joint conference on Digital
+						libraries</italic>, 293–302 (2010).</mixed-citation>
+				</ref>
+				<ref id="CR20">
+					<label>20.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Thompson</surname>
+								<given-names>G</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Yiyun</surname>
+								<given-names>Y</given-names>
+							</name>
+						</person-group>
+						<article-title>Evaluation in the reporting verbs used in academic papers</article-title>
+						<source>Appl. Linguist.</source>
+						<year>1991</year>
+						<volume>12</volume>
+						<fpage>365</fpage>
+						<lpage>382</lpage>
+						<pub-id pub-id-type="doi">10.1093/applin/12.4.365</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR21">
+					<label>21.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Hsiao</surname>
+								<given-names>T-K</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Schneider</surname>
+								<given-names>J</given-names>
+							</name>
+						</person-group>
+						<article-title>Continued use of retracted papers: Temporal trends in
+							citations and (lack of) awareness of retractions shown in citation
+							contexts in biomedicine</article-title>
+						<source>Quant. Sci. Stud.</source>
+						<year>2021</year>
+						<volume>2</volume>
+						<fpage>1144</fpage>
+						<lpage>1169</lpage>
+						<pub-id pub-id-type="doi">10.1162/qss_a_00155</pub-id>
+						<pub-id pub-id-type="pmcid">PMC9520488</pub-id>
+						<pub-id pub-id-type="pmid">36186715</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR22">
+					<label>22.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Hernández-Alvarez</surname>
+								<given-names>M</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Gomez</surname>
+								<given-names>JM</given-names>
+							</name>
+						</person-group>
+						<article-title>Survey about citation context analysis: Tasks, techniques,
+							and resources</article-title>
+						<source>Nat. Lang. Eng.</source>
+						<year>2016</year>
+						<volume>22</volume>
+						<fpage>327</fpage>
+						<lpage>349</lpage>
+						<pub-id pub-id-type="doi">10.1017/S1351324915000388</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR23">
+					<label>23.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Ding</surname>
+								<given-names>Y</given-names>
+							</name>
+							<etal />
+						</person-group>
+						<article-title>Content-based citation analysis: The next generation of
+							citation analysis</article-title>
+						<source>J. Assoc. Inf. Sci. Technol.</source>
+						<year>2014</year>
+						<volume>65</volume>
+						<fpage>1820</fpage>
+						<lpage>1833</lpage>
+						<pub-id pub-id-type="doi">10.1002/asi.23256</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR24">
+					<label>24.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Bertin</surname>
+								<given-names>M</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Jonin</surname>
+								<given-names>P</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Armetta</surname>
+								<given-names>F</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Atanassova</surname>
+								<given-names>I</given-names>
+							</name>
+						</person-group>
+						<article-title>Determining citation blocks using end-to-end neural
+							coreference resolution model for citation context analysis</article-title>
+						<source>17th International Conference on Scientometrics &amp; Informetrics</source>
+						<year>2019</year>
+						<volume>2</volume>
+						<fpage>2720</fpage>
+					</element-citation>
+				</ref>
+				<ref id="CR25">
+					<label>25.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Kunnath</surname>
+								<given-names>SN</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Herrmannova</surname>
+								<given-names>D</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Pride</surname>
+								<given-names>D</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Knoth</surname>
+								<given-names>P</given-names>
+							</name>
+						</person-group>
+						<article-title>A meta-analysis of semantic classification of citations</article-title>
+						<source>Quant. Sci. Stud.</source>
+						<year>2021</year>
+						<volume>2</volume>
+						<fpage>1170</fpage>
+						<lpage>1215</lpage>
+						<pub-id pub-id-type="doi">10.1162/qss_a_00159</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR26">
+					<label>26.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Voos</surname>
+								<given-names>H</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Dagaev</surname>
+								<given-names>KS</given-names>
+							</name>
+						</person-group>
+						<article-title>Are all citations equal? Or, did we op. cit. your idem?</article-title>
+						<source>J. Acad. Librariansh.</source>
+						<year>1976</year>
+						<volume>1</volume>
+						<fpage>19</fpage>
+						<lpage>21</lpage>
+					</element-citation>
+				</ref>
+				<ref id="CR27">
+					<label>27.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Piwowar</surname>
+								<given-names>H</given-names>
+							</name>
+							<etal />
+						</person-group>
+						<article-title>The state of OA: a large-scale analysis of the prevalence and
+							impact of Open Access articles</article-title>
+						<source>PeerJ</source>
+						<year>2018</year>
+						<volume>6</volume>
+						<fpage>e4375</fpage>
+						<pub-id pub-id-type="doi">10.7717/peerj.4375</pub-id>
+						<pub-id pub-id-type="pmid">29456894</pub-id>
+						<pub-id pub-id-type="pmcid">PMC5815332</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR28">
+					<label>28.</label>
+					<mixed-citation publication-type="other">Hutchins, B. I. A tipping point for
+						open citation data. <italic toggle="yes">Quant. Sci. Stud</italic>. 1–5
+						(2021).<pub-id pub-id-type="doi" assigning-authority="pmc">
+						10.1162/qss_c_00138</pub-id><pub-id pub-id-type="pmcid">PMC8425298</pub-id><pub-id
+							pub-id-type="pmid">34505061</pub-id></mixed-citation>
+				</ref>
+				<ref id="CR29">
+					<label>29.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Hutchins</surname>
+								<given-names>BI</given-names>
+							</name>
+							<etal />
+						</person-group>
+						<article-title>The NIH open citation collection: A public access, broad
+							coverage resource</article-title>
+						<source>PLOS Biol.</source>
+						<year>2019</year>
+						<volume>17</volume>
+						<fpage>e3000385</fpage>
+						<pub-id pub-id-type="doi">10.1371/journal.pbio.3000385</pub-id>
+						<pub-id pub-id-type="pmid">31600197</pub-id>
+						<pub-id pub-id-type="pmcid">PMC6786512</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR30">
+					<label>30.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Bertin</surname>
+								<given-names>M</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Atanassova</surname>
+								<given-names>I</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Gingras</surname>
+								<given-names>Y</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Larivière</surname>
+								<given-names>V</given-names>
+							</name>
+						</person-group>
+						<article-title>The invariant distribution of references in scientific
+							articles</article-title>
+						<source>J. Assoc. Inf. Sci. Technol.</source>
+						<year>2016</year>
+						<volume>67</volume>
+						<fpage>164</fpage>
+						<lpage>177</lpage>
+						<pub-id pub-id-type="doi">10.1002/asi.23367</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR31">
+					<label>31.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Boyack</surname>
+								<given-names>KW</given-names>
+							</name>
+							<name name-style="western">
+								<surname>van Eck</surname>
+								<given-names>NJ</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Colavizza</surname>
+								<given-names>G</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Waltman</surname>
+								<given-names>L</given-names>
+							</name>
+						</person-group>
+						<article-title>Characterizing in-text citations in scientific articles: A
+							large-scale analysis</article-title>
+						<source>J. Informetr.</source>
+						<year>2018</year>
+						<volume>12</volume>
+						<fpage>59</fpage>
+						<lpage>73</lpage>
+						<pub-id pub-id-type="doi">10.1016/j.joi.2017.11.005</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR32">
+					<label>32.</label>
+					<mixed-citation publication-type="other">Poncela-Casasnovas, J., Gerlach, M.,
+						Aguirre, N. &amp; Amaral, L. A. Large-scale analysis of micro-level citation
+						patterns reveals nuanced selection criteria. <italic toggle="yes">Nat. Hum.
+						Behav</italic>. 1–8 (2019).<pub-id pub-id-type="doi"
+							assigning-authority="pmc">10.1038/s41562-019-0585-7</pub-id><pub-id
+							pub-id-type="pmid">30988477</pub-id></mixed-citation>
+				</ref>
+				<ref id="CR33">
+					<label>33.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Radev</surname>
+								<given-names>DR</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Muthukrishnan</surname>
+								<given-names>P</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Qazvinian</surname>
+								<given-names>V</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Abu-Jbara</surname>
+								<given-names>A</given-names>
+							</name>
+						</person-group>
+						<article-title>The ACL anthology network corpus</article-title>
+						<source>Lang. Resour. Eval.</source>
+						<year>2013</year>
+						<volume>47</volume>
+						<fpage>919</fpage>
+						<lpage>944</lpage>
+						<pub-id pub-id-type="doi">10.1007/s10579-012-9211-2</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR34">
+					<label>34.</label>
+					<mixed-citation publication-type="other">Lo, K., Wang, L. L., Neumann, M.,
+						Kinney, R. &amp; Weld, D. S2ORC: The Semantic Scholar Open Research Corpus.
+						in <italic toggle="yes">Proceedings of the 58th Annual Meeting of the
+						Association for Computational Linguistics</italic>, 4969–4983 (2020).</mixed-citation>
+				</ref>
+				<ref id="CR35">
+					<label>35.</label>
+					<mixed-citation publication-type="other">Wang, L. L. <italic toggle="yes">et al</italic>.
+						CORD-19: The COVID-19 Open Research Dataset. in <italic toggle="yes">Proceedings
+						of the 1st Workshop on NLP for COVID-19 at ACL 2020</italic> (2020).</mixed-citation>
+				</ref>
+				<ref id="CR36">
+					<label>36.</label>
+					<mixed-citation publication-type="other">Pride, D. &amp; Knoth, P. An
+						authoritative approach to citation classification. in <italic toggle="yes">Proceedings
+						of the ACM/IEEE Joint Conference on Digital Libraries in 2020</italic>,
+						337–340 (2020).</mixed-citation>
+				</ref>
+				<ref id="CR37">
+					<label>37.</label>
+					<mixed-citation publication-type="other">Pride, D., Knoth, P. &amp; Harag, J.
+						ACT: An annotation platform for citation typing at scale. in <italic
+							toggle="yes">2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL)</italic>,
+						329–330 (2019).</mixed-citation>
+				</ref>
+				<ref id="CR38">
+					<label>38.</label>
+					<mixed-citation publication-type="other">Kunnath, S. N. <italic toggle="yes">et
+						al</italic>. ACT2: A multi-disciplinary semi-structured dataset for
+						importance and purpose classification of citations. in <italic toggle="yes">Proceedings
+						of the Thirteenth Language Resources and Evaluation Conference</italic>,
+						3398–3406 (2022).</mixed-citation>
+				</ref>
+				<ref id="CR39">
+					<label>39.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Allot</surname>
+								<given-names>A</given-names>
+							</name>
+							<etal />
+						</person-group>
+						<article-title>LitSense: making sense of biomedical literature at sentence
+							level</article-title>
+						<source>Nucleic Acids Res.</source>
+						<year>2019</year>
+						<volume>47</volume>
+						<fpage>W594</fpage>
+						<lpage>W599</lpage>
+						<pub-id pub-id-type="doi">10.1093/nar/gkz289</pub-id>
+						<pub-id pub-id-type="pmid">31020319</pub-id>
+						<pub-id pub-id-type="pmcid">PMC6602490</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR40">
+					<label>40.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Kilicoglu</surname>
+								<given-names>H</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Rosemblat</surname>
+								<given-names>G</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Fiszman</surname>
+								<given-names>M</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Shin</surname>
+								<given-names>D</given-names>
+							</name>
+						</person-group>
+						<article-title>Broad-coverage biomedical relation extraction with SemRep</article-title>
+						<source>BMC Bioinformatics</source>
+						<year>2020</year>
+						<volume>21</volume>
+						<fpage>188</fpage>
+						<pub-id pub-id-type="doi">10.1186/s12859-020-3517-7</pub-id>
+						<pub-id pub-id-type="pmid">32410573</pub-id>
+						<pub-id pub-id-type="pmcid">PMC7222583</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR41">
+					<label>41.</label>
+					<mixed-citation publication-type="other">Agarwal, S., Lincoln, M., Cai, H. &amp;
+						Torvik, V. I. Patci—a tool for identifying scientific articles cited by
+						patents. <italic toggle="yes">GSLIS Research Showcase</italic><ext-link
+							xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri"
+							xlink:href="http://hdl.handle.net/2142/54885">
+						http://hdl.handle.net/2142/54885</ext-link> (2014).</mixed-citation>
+				</ref>
+				<ref id="CR42">
+					<label>42.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Sollaci</surname>
+								<given-names>LB</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Pereira</surname>
+								<given-names>MG</given-names>
+							</name>
+						</person-group>
+						<article-title>The introduction, methods, results, and discussion (IMRAD)
+							structure: a fifty-year survey</article-title>
+						<source>J. Med. Libr. Assoc.</source>
+						<year>2004</year>
+						<volume>92</volume>
+						<fpage>364</fpage>
+						<lpage>371</lpage>
+						<pub-id pub-id-type="pmid">15243643</pub-id>
+						<pub-id pub-id-type="pmcid">PMC442179</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR43">
+					<label>43.</label>
+					<mixed-citation publication-type="other">Hu, Z., Chen, C. &amp; Liu, Z. The
+						recurrence of citations within a scientific article. in <italic toggle="yes">Proceedings
+						of ISSI 2015 Istanbul</italic>, 221–229 (2015).</mixed-citation>
+				</ref>
+				<ref id="CR44">
+					<label>44.</label>
+					<mixed-citation publication-type="other">Valenzuela, M., Ha, V. &amp; Etzioni,
+						O. Identifying meaningful citations. in <italic toggle="yes">Workshops at
+						the twenty-ninth AAAI conference on artificial intelligence</italic> (2015).</mixed-citation>
+				</ref>
+				<ref id="CR45">
+					<label>45.</label>
+					<mixed-citation publication-type="other">Ribeiro, S., Yao, J. &amp; Rezende, D.
+						A. Discovering IMRaD structure with different classifiers. in <italic
+							toggle="yes">2018 IEEE International Conference on Big Knowledge (ICBK)</italic>,
+						200–204 (2018).</mixed-citation>
+				</ref>
+				<ref id="CR46">
+					<label>46.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Akella</surname>
+								<given-names>LM</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Norton</surname>
+								<given-names>CN</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Miller</surname>
+								<given-names>H</given-names>
+							</name>
+						</person-group>
+						<article-title>NetiNeti: discovery of scientific names from text using
+							machine learning methods</article-title>
+						<source>BMC Bioinformatics</source>
+						<year>2012</year>
+						<volume>13</volume>
+						<fpage>211</fpage>
+						<pub-id pub-id-type="doi">10.1186/1471-2105-13-211</pub-id>
+						<pub-id pub-id-type="pmid">22913485</pub-id>
+						<pub-id pub-id-type="pmcid">PMC3542245</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR47">
+					<label>47.</label>
+					<element-citation publication-type="data">
+						<name name-style="western">
+							<surname>Hsiao</surname>
+							<given-names>TK</given-names>
+						</name>
+						<name name-style="western">
+							<surname>Torvik</surname>
+							<given-names>VI</given-names>
+						</name>
+						<year>2020</year>
+						<data-title>OpCitance: Citation contexts identified from the PubMed Central
+							open access articles</data-title>
+						<source>Illinois Data Bank</source>
+						<pub-id pub-id-type="doi">10.13012/B2IDB-4353270_V2</pub-id>
+						<pub-id pub-id-type="pmcid">PMC10139909</pub-id>
+						<pub-id pub-id-type="pmid">37117220</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR48">
+					<label>48.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Bertin</surname>
+								<given-names>M</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Atanassova</surname>
+								<given-names>I</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Lariviere</surname>
+								<given-names>V</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Gingras</surname>
+								<given-names>Y</given-names>
+							</name>
+						</person-group>
+						<article-title>The distribution of references in scientific papers: an
+							analysis of the IMRaD structure</article-title>
+						<source>Proceedings of the 14th ISSI Conference</source>
+						<year>2013</year>
+						<volume>591</volume>
+						<fpage>603</fpage>
+					</element-citation>
+				</ref>
+				<ref id="CR49">
+					<label>49.</label>
+					<mixed-citation publication-type="other">Garfield, E. Can citation indexing be
+						automated? in <italic toggle="yes">Statistical association methods for
+						mechanized documentation</italic>, <italic toggle="yes">symposium
+						proceedings</italic><bold>269</bold>, 189–192 (1965).</mixed-citation>
+				</ref>
+				<ref id="CR50">
+					<label>50.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Chen</surname>
+								<given-names>C</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Song</surname>
+								<given-names>M</given-names>
+							</name>
+						</person-group>
+						<article-title>Visualizing a field of research: A methodology of systematic
+							scientometric reviews</article-title>
+						<source>PLOS ONE</source>
+						<year>2019</year>
+						<volume>14</volume>
+						<fpage>e0223994</fpage>
+						<pub-id pub-id-type="doi">10.1371/journal.pone.0223994</pub-id>
+						<pub-id pub-id-type="pmid">31671124</pub-id>
+						<pub-id pub-id-type="pmcid">PMC6822756</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR51">
+					<label>51.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Wang</surname>
+								<given-names>Z</given-names>
+							</name>
+							<etal />
+						</person-group>
+						<article-title>Updating a search strategy to track emerging nanotechnologies</article-title>
+						<source>J. Nanoparticle Res.</source>
+						<year>2019</year>
+						<volume>21</volume>
+						<fpage>199</fpage>
+						<pub-id pub-id-type="doi">10.1007/s11051-019-4627-x</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR52">
+					<label>52.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Glänzel</surname>
+								<given-names>W</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Schubert</surname>
+								<given-names>A</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Czerwon</surname>
+								<given-names>H-J</given-names>
+							</name>
+						</person-group>
+						<article-title>An item-by-item subject classification of papers published in
+							multidisciplinary and general journals using reference analysis</article-title>
+						<source>Scientometrics</source>
+						<year>1999</year>
+						<volume>44</volume>
+						<fpage>427</fpage>
+						<lpage>439</lpage>
+						<pub-id pub-id-type="doi">10.1007/BF02458488</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR53">
+					<label>53.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Zhang</surname>
+								<given-names>L</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Liu</surname>
+								<given-names>X</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Janssens</surname>
+								<given-names>F</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Liang</surname>
+								<given-names>L</given-names>
+							</name>
+							<name name-style="western">
+								<surname>Glänzel</surname>
+								<given-names>W</given-names>
+							</name>
+						</person-group>
+						<article-title>Subject clustering analysis based on ISI category
+							classification</article-title>
+						<source>J. Informetr.</source>
+						<year>2010</year>
+						<volume>4</volume>
+						<fpage>185</fpage>
+						<lpage>193</lpage>
+						<pub-id pub-id-type="doi">10.1016/j.joi.2009.11.005</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR54">
+					<label>54.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Börner</surname>
+								<given-names>K</given-names>
+							</name>
+							<etal />
+						</person-group>
+						<article-title>Design and update of a classification system: the UCSD map of
+							science</article-title>
+						<source>PLOS ONE</source>
+						<year>2012</year>
+						<volume>7</volume>
+						<fpage>e39464</fpage>
+						<pub-id pub-id-type="doi">10.1371/journal.pone.0039464</pub-id>
+						<pub-id pub-id-type="pmid">22808037</pub-id>
+						<pub-id pub-id-type="pmcid">PMC3395643</pub-id>
+					</element-citation>
+				</ref>
+				<ref id="CR55">
+					<label>55.</label>
+					<element-citation publication-type="journal">
+						<person-group person-group-type="author">
+							<name name-style="western">
+								<surname>Waltman</surname>
+								<given-names>L</given-names>
+							</name>
+							<name name-style="western">
+								<surname>van Eck</surname>
+								<given-names>NJ</given-names>
+							</name>
+						</person-group>
+						<article-title>A new methodology for constructing a publication-level
+							classification system of science</article-title>
+						<source>J. Am. Soc. Inf. Sci. Technol.</source>
+						<year>2012</year>
+						<volume>63</volume>
+						<fpage>2378</fpage>
+						<lpage>2392</lpage>
+						<pub-id pub-id-type="doi">10.1002/asi.22748</pub-id>
+					</element-citation>
+				</ref>
+			</ref-list>
+		</back>
+	</article>
+</pmc-articleset>

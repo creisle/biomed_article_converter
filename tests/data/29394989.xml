@@ -1,0 +1,729 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Manual">
+            <PMID Version="1">29394989</PMID>
+            <DateCompleted>
+                <Year>2019</Year>
+                <Month>07</Month>
+                <Day>01</Day>
+            </DateCompleted>
+            <DateRevised>
+                <Year>2020</Year>
+                <Month>08</Month>
+                <Day>24</Day>
+            </DateRevised>
+            <Article PubModel="Print-Electronic">
+                <Journal>
+                    <ISSN IssnType="Electronic">1537-6605</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>102</Volume>
+                        <Issue>2</Issue>
+                        <PubDate>
+                            <Year>2018</Year>
+                            <Month>Feb</Month>
+                            <Day>01</Day>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>American journal of human genetics</Title>
+                    <ISOAbbreviation>Am J Hum Genet</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Assessment of the Clinical Relevance of BRCA2 Missense Variants by
+                    Functional and Computational Approaches.</ArticleTitle>
+                <Pagination>
+                    <StartPage>233</StartPage>
+                    <EndPage>248</EndPage>
+                    <MedlinePgn>233-248</MedlinePgn>
+                </Pagination>
+                <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.ajhg.2017.12.013</ELocationID>
+                <ELocationID EIdType="pii" ValidYN="Y">S0002-9297(17)30502-5</ELocationID>
+                <Abstract>
+                    <AbstractText>Many variants of uncertain significance (VUS) have been identified
+                        in BRCA2 through clinical genetic testing. VUS pose a significant clinical
+                        challenge because the contribution of these variants to cancer risk has not
+                        been determined. We conducted a comprehensive assessment of VUS in the BRCA2
+                        C-terminal DNA binding domain (DBD) by using a validated functional assay of
+                        BRCA2 homologous recombination (HR) DNA-repair activity and defined a
+                        classifier of variant pathogenicity. Among 139 variants evaluated, 54 had
+                        ?99% probability of pathogenicity, and 73 had ?95% probability of
+                        neutrality. Functional assay results were compared with predictions of
+                        variant pathogenicity from the Align-GVGD protein-sequence-based prediction
+                        algorithm, which has been used for variant classification. Relative to the
+                        HR assay, Align-GVGD significantly (p &lt; 0.05) over-predicted pathogenic
+                        variants. We subsequently combined functional and Align-GVGD prediction
+                        results in a Bayesian hierarchical model (VarCall) to estimate the overall
+                        probability of pathogenicity for each VUS. In addition, to predict the
+                        effects of all other BRCA2 DBD variants and to prioritize variants for
+                        functional studies, we used the endoPhenotype-Optimized Sequence Ensemble
+                        (ePOSE) algorithm to train classifiers for BRCA2 variants by using data from
+                        the HR functional assay. Together, the results show that systematic
+                        functional assays in combination with in silico predictors of pathogenicity
+                        provide robust tools for clinical annotation of BRCA2 VUS.</AbstractText>
+                    <CopyrightInformation>Copyright &#xa9; 2017 American Society of Human Genetics.
+                        Published by Elsevier Inc. All rights reserved.</CopyrightInformation>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Guidugli</LastName>
+                        <ForeName>Lucia</ForeName>
+                        <Initials>L</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Laboratory Medicine and Pathology, Mayo
+                                Clinic, Rochester, MN 55905, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Shimelis</LastName>
+                        <ForeName>Hermela</ForeName>
+                        <Initials>H</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Laboratory Medicine and Pathology, Mayo
+                                Clinic, Rochester, MN 55905, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Masica</LastName>
+                        <ForeName>David L</ForeName>
+                        <Initials>DL</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Biomedical Engineering and Institute for
+                                Computational Medicine, Johns Hopkins University, Baltimore, MD
+                                21205, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Pankratz</LastName>
+                        <ForeName>Vernon S</ForeName>
+                        <Initials>VS</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Nephrology, University of New Mexico,
+                                Albuquerque, NM 87131, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Lipton</LastName>
+                        <ForeName>Gary B</ForeName>
+                        <Initials>GB</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Statistical Science, Duke University, Durham,
+                                NC 27708, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Singh</LastName>
+                        <ForeName>Namit</ForeName>
+                        <Initials>N</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Structural Biology, University of California,
+                                San Diego, San Diego, CA 92093, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Hu</LastName>
+                        <ForeName>Chunling</ForeName>
+                        <Initials>C</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Laboratory Medicine and Pathology, Mayo
+                                Clinic, Rochester, MN 55905, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Monteiro</LastName>
+                        <ForeName>Alvaro N A</ForeName>
+                        <Initials>ANA</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Cancer Epidemiology Program, H. Lee Moffitt Cancer Center,
+                                Tampa, FL 33612, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Lindor</LastName>
+                        <ForeName>Noralane M</ForeName>
+                        <Initials>NM</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Health Sciences Research, Mayo Clinic,
+                                Scottsdale, AZ 85259, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Goldgar</LastName>
+                        <ForeName>David E</ForeName>
+                        <Initials>DE</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Huntsman Cancer Institute and Department of Dermatology,
+                                University of Utah, Salt Lake City, UT 84132, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Karchin</LastName>
+                        <ForeName>Rachel</ForeName>
+                        <Initials>R</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Biomedical Engineering and Institute for
+                                Computational Medicine, Johns Hopkins University, Baltimore, MD
+                                21205, USA; Department of Oncology, Johns Hopkins University School
+                                of Medicine, Baltimore, MD 21218, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Iversen</LastName>
+                        <ForeName>Edwin S</ForeName>
+                        <Initials>ES</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Statistical Science, Duke University, Durham,
+                                NC 27708, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Couch</LastName>
+                        <ForeName>Fergus J</ForeName>
+                        <Initials>FJ</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Laboratory Medicine and Pathology, Mayo
+                                Clinic, Rochester, MN 55905, USA. Electronic address:
+                                couch.fergus@mayo.edu.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <GrantList CompleteYN="Y">
+                    <Grant>
+                        <GrantID>P50 CA116201</GrantID>
+                        <Acronym>CA</Acronym>
+                        <Agency>NCI NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>R01 CA116167</GrantID>
+                        <Acronym>CA</Acronym>
+                        <Agency>NCI NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>R01 CA192393</GrantID>
+                        <Acronym>CA</Acronym>
+                        <Agency>NCI NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>U01 CA116167</GrantID>
+                        <Acronym>CA</Acronym>
+                        <Agency>NCI NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                </GrantList>
+                <PublicationTypeList>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                    <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                    <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2018</Year>
+                    <Month>01</Month>
+                    <Day>25</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Am J Hum Genet</MedlineTA>
+                <NlmUniqueID>0370475</NlmUniqueID>
+                <ISSNLinking>0002-9297</ISSNLinking>
+            </MedlineJournalInfo>
+            <ChemicalList>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D024682">BRCA2 Protein</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="C551750">BRCA2 protein, human</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D009363">Neoplasm Proteins</NameOfSubstance>
+                </Chemical>
+            </ChemicalList>
+            <CitationSubset>IM</CitationSubset>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName UI="D000465" MajorTopicYN="Y">Algorithms</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000595" MajorTopicYN="N">Amino Acid Sequence</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D019943" MajorTopicYN="Y">Amino Acid Substitution</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D024682" MajorTopicYN="N">BRCA2 Protein</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D001499" MajorTopicYN="N">Bayes Theorem</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D001943" MajorTopicYN="N">Breast Neoplasms</DescriptorName>
+                    <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                    <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D019295" MajorTopicYN="N">Computational Biology</DescriptorName>
+                    <QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D030541" MajorTopicYN="N">Databases, Genetic</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D015870" MajorTopicYN="N">Gene Expression</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005820" MajorTopicYN="N">Genetic Testing</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D020125" MajorTopicYN="Y">Mutation, Missense</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D009363" MajorTopicYN="N">Neoplasm Proteins</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D012372" MajorTopicYN="N">ROC Curve</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D016415" MajorTopicYN="N">Sequence Alignment</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D017386" MajorTopicYN="N">Sequence Homology, Amino Acid</DescriptorName>
+                </MeshHeading>
+            </MeshHeadingList>
+            <KeywordList Owner="NOTNLM">
+                <Keyword MajorTopicYN="N">BRCA2</Keyword>
+                <Keyword MajorTopicYN="N">VUS</Keyword>
+                <Keyword MajorTopicYN="N">cancer predisposition</Keyword>
+                <Keyword MajorTopicYN="N">functional assay</Keyword>
+            </KeywordList>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="received">
+                    <Year>2017</Year>
+                    <Month>9</Month>
+                    <Day>12</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="accepted">
+                    <Year>2017</Year>
+                    <Month>12</Month>
+                    <Day>18</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2018</Year>
+                    <Month>2</Month>
+                    <Day>6</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2019</Year>
+                    <Month>7</Month>
+                    <Day>2</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2018</Year>
+                    <Month>2</Month>
+                    <Day>4</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pmc-release">
+                    <Year>2018</Year>
+                    <Month>8</Month>
+                    <Day>1</Day>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>ppublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">29394989</ArticleId>
+                <ArticleId IdType="pmc">PMC5985401</ArticleId>
+                <ArticleId IdType="doi">10.1016/j.ajhg.2017.12.013</ArticleId>
+                <ArticleId IdType="pii">S0002-9297(17)30502-5</ArticleId>
+            </ArticleIdList>
+            <ReferenceList>
+                <Reference>
+                    <Citation>Evers B., Drost R., Schut E., de Bruin M., van der Burg E., Derksen
+                        P.W., Holstege H., Liu X., van Drunen E., Beverloo H.B. Selective inhibition
+                        of BRCA2-deficient mammary tumor cell growth by AZD2281 and cisplatin. Clin.
+                        Cancer Res. 2008;14:3916&#x2013;3925.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">18559613</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Fong P.C., Boss D.S., Yap T.A., Tutt A., Wu P., Mergui-Roelvink M.,
+                        Mortimer P., Swaisland H., Lau A., O&#x2019;Connor M.J. Inhibition of
+                        poly(ADP-ribose) polymerase in tumors from BRCA mutation carriers.
+                        N.&#xa0;Engl. J. Med. 2009;361:123&#x2013;134.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">19553641</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Audeh M.W., Carmichael J., Penson R.T., Friedlander M., Powell B.,
+                        Bell-McGuinn K.M., Scott C., Weitzel J.N., Oaknin A., Loman N. Oral
+                        poly(ADP-ribose) polymerase inhibitor olaparib in patients with BRCA1 or
+                        BRCA2 mutations and recurrent ovarian cancer: a proof-of-concept trial.
+                        Lancet. 2010;376:245&#x2013;251.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">20609468</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Tutt A., Robson M., Garber J.E., Domchek S.M., Audeh M.W., Weitzel
+                        J.N., Friedlander M., Arun B., Loman N., Schmutzler R.K. Oral
+                        poly(ADP-ribose) polymerase inhibitor olaparib in patients with BRCA1 or
+                        BRCA2 mutations and advanced breast cancer: a proof-of-concept trial.
+                        Lancet. 2010;376:235&#x2013;244.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">20609467</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Gelmon K.A., Tischkowitz M., Mackay H., Swenerton K., Robidoux A.,
+                        Tonkin K., Hirte H., Huntsman D., Clemons M., Gilks B. Olaparib in patients
+                        with recurrent high-grade serous or poorly differentiated ovarian carcinoma
+                        or triple-negative breast cancer: a phase 2, multicentre, open-label,
+                        non-randomised study. Lancet Oncol. 2011;12:852&#x2013;861.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">21862407</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Sandhu S.K., Schelman W.R., Wilding G., Moreno V., Baird R.D., Miranda
+                        S., Hylands L., Riisnaes R., Forster M., Omlin A. The poly(ADP-ribose)
+                        polymerase inhibitor niraparib (MK4827) in BRCA mutation carriers and
+                        patients with sporadic cancer: a phase 1 dose-escalation trial. Lancet
+                        Oncol. 2013;14:882&#x2013;892.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">23810788</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Plon S.E., Eccles D.M., Easton D., Foulkes W.D., Genuardi M.,
+                        Greenblatt M.S., Hogervorst F.B., Hoogerbrugge N., Spurdle A.B., Tavtigian
+                        S.V., IARC Unclassified Genetic Variants Working Group Sequence variant
+                        classification and reporting: recommendations for improving the
+                        interpretation of cancer susceptibility genetic test results. Hum. Mutat.
+                        2008;29:1282&#x2013;1291.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3075918</ArticleId>
+                        <ArticleId IdType="pubmed">18951446</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lindor N.M., Guidugli L., Wang X., Vall&#xe9;e M.P., Monteiro A.N.,
+                        Tavtigian S., Goldgar D.E., Couch F.J. A&#xa0;review of a multifactorial
+                        probability-based model for classification of BRCA1 and BRCA2 variants of
+                        uncertain significance (VUS) Hum. Mutat. 2012;33:8&#x2013;21.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3242438</ArticleId>
+                        <ArticleId IdType="pubmed">21990134</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Tavtigian S.V., Byrnes G.B., Goldgar D.E., Thomas A. Classification of
+                        rare missense substitutions, using risk surfaces, with genetic- and
+                        molecular-epidemiology applications. Hum. Mutat. 2008;29:1342&#x2013;1354.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3938023</ArticleId>
+                        <ArticleId IdType="pubmed">18951461</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Goldgar D.E., Easton D.F., Deffenbaugh A.M., Monteiro A.N., Tavtigian
+                        S.V., Couch F.J., Breast Cancer Information Core (BIC) Steering Committee
+                        Integrated evaluation of DNA sequence variants of unknown clinical
+                        significance: application to BRCA1 and BRCA2. Am. J. Hum. Genet.
+                        2004;75:535&#x2013;544.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC1182042</ArticleId>
+                        <ArticleId IdType="pubmed">15290653</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>MacArthur D.G., Manolio T.A., Dimmock D.P., Rehm H.L., Shendure J.,
+                        Abecasis G.R., Adams D.R., Altman R.B., Antonarakis S.E., Ashley E.A.
+                        Guidelines for investigating causality of sequence variants in human
+                        disease. Nature. 2014;508:469&#x2013;476.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC4180223</ArticleId>
+                        <ArticleId IdType="pubmed">24759409</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Richards S., Aziz N., Bale S., Bick D., Das S., Gastier-Foster J.,
+                        Grody W.W., Hegde M., Lyon E., Spector E., ACMG Laboratory Quality Assurance
+                        Committee Standards and guidelines for the interpretation of sequence
+                        variants: a joint consensus recommendation of the American College of
+                        Medical Genetics and Genomics and the Association for Molecular Pathology.
+                        Genet. Med. 2015;17:405&#x2013;424.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC4544753</ArticleId>
+                        <ArticleId IdType="pubmed">25741868</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Guidugli L., Carreira A., Caputo S.M., Ehlen A., Galli A., Monteiro
+                        A.N., Neuhausen S.L., Hansen T.V., Couch F.J., Vreeswijk M.P., ENIGMA
+                        consortium Functional assays for analysis of variants of uncertain
+                        significance in BRCA2. Hum. Mutat. 2014;35:151&#x2013;164.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3995136</ArticleId>
+                        <ArticleId IdType="pubmed">24323938</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Iversen E.S., Jr., Couch F.J., Goldgar D.E., Tavtigian S.V., Monteiro
+                        A.N. A computational method to classify variants of uncertain significance
+                        using functional assay data with application to BRCA1. Cancer Epidemiol.
+                        Biomarkers Prev. 2011;20:1078&#x2013;1088.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3111818</ArticleId>
+                        <ArticleId IdType="pubmed">21447777</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Masica D.L., Sosnay P.R., Cutting G.R., Karchin R. Phenotype-optimized
+                        sequence ensembles substantially improve prediction of disease-causing
+                        mutation in cystic fibrosis. Hum. Mutat. 2012;33:1267&#x2013;1274.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC4364283</ArticleId>
+                        <ArticleId IdType="pubmed">22573477</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Masica D.L., Sosnay P.R., Raraigh K.S., Cutting G.R., Karchin R.
+                        Missense variants in CFTR nucleotide-binding domains predict quantitative
+                        phenotypes associated with cystic fibrosis disease severity. Hum. Mol.
+                        Genet. 2015;24:1908&#x2013;1917.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC4366609</ArticleId>
+                        <ArticleId IdType="pubmed">25489051</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Masica D.L., Karchin R. Towards Increasing the Clinical Relevance of
+                        In Silico Methods to Predict Pathogenic Missense Variants. PLoS Comput.
+                        Biol. 2016;12:e1004725.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC4865359</ArticleId>
+                        <ArticleId IdType="pubmed">27171182</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Tavtigian S.V., Deffenbaugh A.M., Yin L., Judkins T., Scholl T.,
+                        Samollow P.B., de Silva D., Zharkikh A., Thomas A. Comprehensive statistical
+                        study of 452 BRCA1 missense substitutions with classification of eight
+                        recurrent substitutions as neutral. J.&#xa0;Med. Genet.
+                        2006;43:295&#x2013;305.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC2563222</ArticleId>
+                        <ArticleId IdType="pubmed">16014699</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Farrugia D.J., Agarwal M.K., Pankratz V.S., Deffenbaugh A.M., Pruss
+                        D., Frye C., Wadum L., Johnson K., Mentlick J., Tavtigian S.V. Functional
+                        assays for classification of BRCA2 variants of uncertain significance.
+                        Cancer Res. 2008;68:3523&#x2013;3531.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC2936780</ArticleId>
+                        <ArticleId IdType="pubmed">18451181</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Wu K., Hinson S.R., Ohashi A., Farrugia D., Wendt P., Tavtigian S.V.,
+                        Deffenbaugh A., Goldgar D., Couch F.J. Functional evaluation and cancer risk
+                        assessment of BRCA2 unclassified variants. Cancer Res.
+                        2005;65:417&#x2013;426.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">15695382</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Guidugli L., Pankratz V.S., Singh N., Thompson J., Erding C.A., Engel
+                        C., Schmutzler R., Domchek S., Nathanson K., Radice P. A classification
+                        model for BRCA2 DNA binding domain missense variants based on
+                        homology-directed repair activity. Cancer Res. 2013;73:265&#x2013;275.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3537884</ArticleId>
+                        <ArticleId IdType="pubmed">23108138</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Fawcett T. An introduction to ROC analysis. Pattern Recognit. Lett.
+                        2006;27:861&#x2013;874.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>McLachlan G.J. Wiley; 1992. Discriminant analysis and statistical
+                        pattern recognition.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Gelfand A., Smith A.F.M. Sampling-based approaches to calculating
+                        marginal densities. JASA. 1990;85:398&#x2013;409.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Pieper U., Webb B.M., Dong G.Q., Schneidman-Duhovny D., Fan H., Kim
+                        S.J., Khuri N., Spill Y.G., Weinkam P., Hammel M. ModBase, a database of
+                        annotated comparative protein structure models and associated resources.
+                        Nucleic Acids Res. 2014;42:D336&#x2013;D346.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3965011</ArticleId>
+                        <ArticleId IdType="pubmed">24271400</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Walker L.C., Whiley P.J., Couch F.J., Farrugia D.J., Healey S., Eccles
+                        D.M., Lin F., Butler S.A., Goff S.A., Thompson B.A., kConFab Investigators
+                        Detection of splicing aberrations caused by BRCA1 and BRCA2 sequence
+                        variants encoding missense substitutions: implications for prediction of
+                        pathogenicity. Hum. Mutat. 2010;31:E1484&#x2013;E1505.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3021973</ArticleId>
+                        <ArticleId IdType="pubmed">20513136</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Houdayer C., Caux-Moncoutier V., Krieger S., Barrois M., Bonnet F.,
+                        Bourdon V., Bronner M., Buisson M., Coulet F., Gaildrat P. Guidelines for
+                        splicing analysis in molecular diagnosis derived from a set of 327 combined
+                        in&#xa0;silico/in&#xa0;vitro studies on BRCA1 and BRCA2 variants. Hum.
+                        Mutat. 2012;33:1228&#x2013;1238.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">22505045</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Easton D.F., Deffenbaugh A.M., Pruss D., Frye C., Wenstrup R.J.,
+                        Allen-Brady K., Tavtigian S.V., Monteiro A.N., Iversen E.S., Couch F.J.,
+                        Goldgar D.E. A systematic genetic assessment of 1,433 sequence variants of
+                        unknown clinical significance in the BRCA1 and BRCA2 breast
+                        cancer-predisposition genes. Am. J. Hum. Genet. 2007;81:873&#x2013;883.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC2265654</ArticleId>
+                        <ArticleId IdType="pubmed">17924331</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Monteiro A.N., Couch F.J. Cancer risk assessment at the atomic level.
+                        Cancer Res. 2006;66:1897&#x2013;1899.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">16488985</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lovelock P.K., Spurdle A.B., Mok M.T., Farrugia D.J., Lakhani S.R.,
+                        Healey S., Arnold S., Buchanan D., Couch F.J., Henderson B.R., kConFab
+                        Investigators Identification of BRCA1 missense substitutions that confer
+                        partial functional activity: potential moderate risk variants? Breast Cancer
+                        Res. 2007;9:R82.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC2246181</ArticleId>
+                        <ArticleId IdType="pubmed">18036263</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Spurdle A.B., Healey S., Devereau A., Hogervorst F.B., Monteiro A.N.,
+                        Nathanson K.L., Radice P., Stoppa-Lyonnet D., Tavtigian S., Wappenschmidt
+                        B., ENIGMA ENIGMA--evidence-based network for the interpretation of germline
+                        mutant alleles: an international initiative to evaluate risk and clinical
+                        significance associated with sequence variation in BRCA1 and BRCA2 genes.
+                        Hum. Mutat. 2012;33:2&#x2013;7.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3240687</ArticleId>
+                        <ArticleId IdType="pubmed">21990146</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Spurdle A.B., Whiley P.J., Thompson B., Feng B., Healey S., Brown
+                        M.A., Pettigrew C., Van Asperen C.J., Ausems M.G., Kattentidt-Mouravieva
+                        A.A., kConFab. Dutch Belgium UV Consortium. German Consortium of Hereditary
+                        Breast and Ovarian Cancer. French COVAR group collaborators. ENIGMA
+                        Consortium BRCA1 R1699Q variant displaying ambiguous functional abrogation
+                        confers intermediate breast and ovarian cancer risk. J.&#xa0;Med. Genet.
+                        2012;49:525&#x2013;532.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3810416</ArticleId>
+                        <ArticleId IdType="pubmed">22889855</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Shimelis H., Mesman R.L.S., Von Nicolai C., Ehlen A., Guidugli L.,
+                        Martin C., Call&#xe9;ja F.M.G.R., Meeks H., Hallberg E., Hinton J., for
+                        kConFab/AOCS Investigators. for NBCS Collaborators BRCA2 Hypomorphic
+                        Missense Variants Confer Moderate Risks of Breast Cancer. Cancer Res.
+                        2017;77:2789&#x2013;2799.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5508554</ArticleId>
+                        <ArticleId IdType="pubmed">28283652</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Schlacher K., Christ N., Siaud N., Egashira A., Wu H., Jasin M.
+                        Double-strand break repair-independent role for BRCA2 in blocking stalled
+                        replication fork degradation by MRE11. Cell. 2011;145:529&#x2013;542.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3261725</ArticleId>
+                        <ArticleId IdType="pubmed">21565612</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Mondal G., Rowley M., Guidugli L., Wu J., Pankratz V.S., Couch F.J.
+                        BRCA2 localization to the midbody by filamin A regulates cep55 signaling and
+                        completion of cytokinesis. Dev. Cell. 2012;23:137&#x2013;152.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3419138</ArticleId>
+                        <ArticleId IdType="pubmed">22771033</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Kuznetsov S.G., Liu P., Sharan S.K. Mouse embryonic stem cell-based
+                        functional assay to evaluate mutations in BRCA2. Nat. Med.
+                        2008;14:875&#x2013;881.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC2640324</ArticleId>
+                        <ArticleId IdType="pubmed">18607349</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Kuznetsov S.G., Chang S., Sharan S.K. Functional analysis of human
+                        BRCA2 variants using a mouse embryonic stem cell-based assay. Methods Mol.
+                        Biol. 2010;653:259&#x2013;280.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6669890</ArticleId>
+                        <ArticleId IdType="pubmed">20721749</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Biswas K., Das R., Eggington J.M., Qiao H., North S.L., Stauffer S.,
+                        Burkett S.S., Martin B.K., Southon E., Sizemore S.C. Functional evaluation
+                        of BRCA2 variants mapping to the PALB2-binding and C-terminal DNA-binding
+                        domains using a mouse ES cell-based assay. Hum. Mol. Genet.
+                        2012;21:3993&#x2013;4006.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3428152</ArticleId>
+                        <ArticleId IdType="pubmed">22678057</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+            </ReferenceList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>

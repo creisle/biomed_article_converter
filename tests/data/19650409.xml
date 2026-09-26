@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Manual">
+            <PMID Version="1">19650409</PMID>
+            <DateCompleted>
+                <Year>2009</Year>
+                <Month>09</Month>
+                <Day>28</Day>
+            </DateCompleted>
+            <DateRevised>
+                <Year>2020</Year>
+                <Month>12</Month>
+                <Day>09</Day>
+            </DateRevised>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Print">1015-8146</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>20</Volume>
+                        <Issue>2</Issue>
+                        <PubDate>
+                            <Year>2009</Year>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Genetic counseling (Geneva, Switzerland)</Title>
+                    <ISOAbbreviation>Genet Couns</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>A severely mentally and motor retarded girl with monosomy
+                    3pter--&gt;p25 and trisomy 8q24--&gt;qter due to a familial reciprocal
+                    translocation t(3;8)(p25;q24).</ArticleTitle>
+                <Pagination>
+                    <StartPage>125</StartPage>
+                    <EndPage>132</EndPage>
+                    <MedlinePgn>125-32</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>A severely mentally and motor retarded girl with monosomy
+                        3pter--p25 and trisomy 8q24-qter due to a familial reciprocal translocation
+                        t(3;8) (p25;q24): We report a familial translocation t(3;8) in a three
+                        generation family that includes a severely retarded 9-year-old girl with
+                        intrauterine and postnatal growth retardation, microcephaly, capillary
+                        hemangiomas of the forehead and perioral region, synophrys, ptosis, long
+                        philtrum, high arched palate, micrognathia, malformed ears, clinodactyly,
+                        hypotonia, mental and motor retardation. The pedigree was highly suggestive
+                        ofa familial rearrangement. Cytogenetics and fluorescent in situ
+                        hybridization (FISH) showed an unbalanced translocation of chromosomes 3p25
+                        and 8q24 of maternal origin, karyotype 46,XX,der(3)t(3;8)(p25q24)mat. Using
+                        FISH the breakpoint at 8q24 was located distal of TRPS1, the gene for
+                        trichorhinophalangeal syndrome. The balanced translocation was found in the
+                        mother, maternal grandmother and prenatally diagnosed brother. Ten
+                        individuals (seven miscarriages, niece, two nephews) probably also had an
+                        unbalanced translocation. Genetic counseling was given to the family.
+                        Because of the hemizygous deletion of the VHL gene at chromosome 3p25.3, the
+                        patient is at risk for von Hippel-Lindau (VHL) syndrome, predisposing to
+                        retinal, cerebellar, spinal haemangioblastomas, renal cell carcinoma,
+                        phaeochromocytoma and pancreatic tumors. Therefore, for early detection and
+                        treatment of VHL syndrome, we performed periodic screening beginning at age
+                        5 years. A familial translocation t(3;8) is very rare and there are no
+                        previous reports on terminal monosomy 3p (pter--&gt;p25) and terminal
+                        trisomy 8q (q24--&gt;qter).</AbstractText>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Balci</LastName>
+                        <ForeName>S</ForeName>
+                        <Initials>S</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Clinical Genetics, Hacettepe University Ihsan
+                                Dogramaci Children's Hospital, Ankara, Turkey.
+                                sbalci@hacettepe.edu.tr</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Aypar</LastName>
+                        <ForeName>E</ForeName>
+                        <Initials>E</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Beksa&#xe7;</LastName>
+                        <ForeName>M S</ForeName>
+                        <Initials>MS</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Bartsch</LastName>
+                        <ForeName>O</ForeName>
+                        <Initials>O</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType UI="D002363">Case Reports</PublicationType>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>Switzerland</Country>
+                <MedlineTA>Genet Couns</MedlineTA>
+                <NlmUniqueID>9015261</NlmUniqueID>
+                <ISSNLinking>1015-8146</ISSNLinking>
+            </MedlineJournalInfo>
+            <ChemicalList>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D004268">DNA-Binding Proteins</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D012097">Repressor Proteins</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="C108387">TRPS1 protein, human</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D014157">Transcription Factors</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 2.3.2.27</RegistryNumber>
+                    <NameOfSubstance UI="D051794">Von Hippel-Lindau Tumor Suppressor Protein</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 6.3.2.-</RegistryNumber>
+                    <NameOfSubstance UI="C497446">VHL protein, human</NameOfSubstance>
+                </Chemical>
+            </ChemicalList>
+            <CitationSubset>IM</CitationSubset>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName UI="D000649" MajorTopicYN="N">Amniocentesis</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D002648" MajorTopicYN="N">Child</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D002869" MajorTopicYN="Y">Chromosome Aberrations</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D002874" MajorTopicYN="Y">Chromosome Mapping</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D002893" MajorTopicYN="N">Chromosomes, Human, Pair 3</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D002898" MajorTopicYN="N">Chromosomes, Human, Pair 8</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D004268" MajorTopicYN="N">DNA-Binding Proteins</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006580" MajorTopicYN="N">Genetic Carrier Screening</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005817" MajorTopicYN="N">Genetic Counseling</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005838" MajorTopicYN="N">Genotype</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D017404" MajorTopicYN="N">In Situ Hybridization,
+                        Fluorescence</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D007223" MajorTopicYN="N">Infant</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D007231" MajorTopicYN="N">Infant, Newborn</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D008607" MajorTopicYN="N">Intellectual Disability</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D007621" MajorTopicYN="N">Karyotyping</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D009006" MajorTopicYN="N">Monosomy</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D011247" MajorTopicYN="N">Pregnancy</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D011596" MajorTopicYN="N">Psychomotor Disorders</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D012097" MajorTopicYN="N">Repressor Proteins</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D014157" MajorTopicYN="N">Transcription Factors</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D014178" MajorTopicYN="N">Translocation, Genetic</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D014314" MajorTopicYN="N">Trisomy</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D051794" MajorTopicYN="N">Von Hippel-Lindau Tumor Suppressor
+                        Protein</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006623" MajorTopicYN="N">von Hippel-Lindau Disease</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+            </MeshHeadingList>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2009</Year>
+                    <Month>8</Month>
+                    <Day>5</Day>
+                    <Hour>9</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2009</Year>
+                    <Month>8</Month>
+                    <Day>5</Day>
+                    <Hour>9</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2009</Year>
+                    <Month>9</Month>
+                    <Day>29</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>ppublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">19650409</ArticleId>
+            </ArticleIdList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>

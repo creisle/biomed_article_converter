@@ -1,0 +1,611 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Manual">
+            <PMID Version="1">30514790</PMID>
+            <DateCompleted>
+                <Year>2020</Year>
+                <Month>03</Month>
+                <Day>30</Day>
+            </DateCompleted>
+            <DateRevised>
+                <Year>2023</Year>
+                <Month>11</Month>
+                <Day>04</Day>
+            </DateRevised>
+            <Article PubModel="Electronic-Print">
+                <Journal>
+                    <ISSN IssnType="Electronic">2373-2873</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>5</Volume>
+                        <Issue>1</Issue>
+                        <PubDate>
+                            <Year>2019</Year>
+                            <Month>Feb</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Cold Spring Harbor molecular case studies</Title>
+                    <ISOAbbreviation>Cold Spring Harb Mol Case Stud</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Clinical outcomes after whole-genome sequencing in patients with
+                    metastatic non-small-cell lung cancer.</ArticleTitle>
+                <ELocationID EIdType="pii" ValidYN="Y">a002659</ELocationID>
+                <ELocationID EIdType="doi" ValidYN="Y">10.1101/mcs.a002659</ELocationID>
+                <Abstract>
+                    <AbstractText>The Personalized Onco-Genomics (POG) program at BC Cancer
+                        integrates whole-genome (DNA) and RNA sequencing into practice for
+                        metastatic malignancies. We examined the subgroup of patients with
+                        metastatic non-small-cell lung cancer (NSCLC) and report the prevalence of
+                        actionable targets, treatments, and outcomes. We identified patients who
+                        were enrolled in the POG program between 2012 and 2016 who had a tumor
+                        biopsy and blood samples with comprehensive DNA (80&#xd7;, 40&#xd7; normal)
+                        and RNA sequencing followed by in-depth bioinformatics to identify potential
+                        cancer drivers and actionable targets. In NSCLC cases, we compared the
+                        progression-free survival (PFS) of "POG-informed therapies" with the PFS of
+                        the last regimen prior to POG (PFS ratio). In 29 NSCLC cases, 11 were male
+                        (38%), the median age was 60.2 yr (range: 39.4-72.6), and histologies
+                        included were adenocarcinoma (93%) and squamous cell carcinoma (7%).
+                        Potential molecular targets (i.e., cancer drivers including <i>TP53</i>
+                        mutations) were identified in 26 (90%), and 21 (72%) had actionable targets.
+                        Therapies based on standard-of-care mutation analysis, such as EGFR
+                        mutations, were not considered POG-informed therapies. Thirteen received
+                        POG-informed therapies, of which three had no therapy before POG; therefore
+                        a comparator PFS could not be obtained. Of 10 patients with POG-informed
+                        therapy, median PFS ratio was 0.94 (IQR 0.2-3.4). Three (30%) had a PFS
+                        ratio &#x2265;1.3, and three (30%) had a PFS ratio &#x2265;0.8 and &lt;1.3.
+                        In this small cohort of NSCLC, 30% demonstrated longer PFS with POG-informed
+                        therapies. Larger studies will help clarify the role of whole-genome
+                        analysis in clinical practice.</AbstractText>
+                    <CopyrightInformation>&#xa9; 2019 Tsang et al.; Published by Cold Spring Harbor
+                        Laboratory Press.</CopyrightInformation>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Tsang</LastName>
+                        <ForeName>Erica S</ForeName>
+                        <Initials>ES</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Medical Oncology, BC Cancer, Vancouver, British
+                                Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Shen</LastName>
+                        <ForeName>Yaoqing</ForeName>
+                        <Initials>Y</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Chooback</LastName>
+                        <ForeName>Negar</ForeName>
+                        <Initials>N</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Medical Oncology, BC Cancer, Vancouver, British
+                                Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Ho</LastName>
+                        <ForeName>Cheryl</ForeName>
+                        <Initials>C</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Medical Oncology, BC Cancer, Vancouver, British
+                                Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Jones</LastName>
+                        <ForeName>Martin</ForeName>
+                        <Initials>M</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Renouf</LastName>
+                        <ForeName>Daniel J</ForeName>
+                        <Initials>DJ</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Medical Oncology, BC Cancer, Vancouver, British
+                                Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Lim</LastName>
+                        <ForeName>Howard</ForeName>
+                        <Initials>H</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Medical Oncology, BC Cancer, Vancouver, British
+                                Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Sun</LastName>
+                        <ForeName>Sophie</ForeName>
+                        <Initials>S</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Medical Oncology, BC Cancer, Vancouver, British
+                                Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Yip</LastName>
+                        <ForeName>Stephen</ForeName>
+                        <Initials>S</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Pathology and Laboratory Medicine, University
+                                of British Columbia, Vancouver, British Columbia V6T 1Z4, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Pleasance</LastName>
+                        <ForeName>Erin</ForeName>
+                        <Initials>E</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Ionescu</LastName>
+                        <ForeName>Diana N</ForeName>
+                        <Initials>DN</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Pathology and Laboratory Medicine, University
+                                of British Columbia, Vancouver, British Columbia V6T 1Z4, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Mungall</LastName>
+                        <ForeName>Karen</ForeName>
+                        <Initials>K</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Kasaian</LastName>
+                        <ForeName>Katayoon</ForeName>
+                        <Initials>K</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Ma</LastName>
+                        <ForeName>Yussanne</ForeName>
+                        <Initials>Y</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Zhao</LastName>
+                        <ForeName>Yongjun</ForeName>
+                        <Initials>Y</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Mungall</LastName>
+                        <ForeName>Andrew</ForeName>
+                        <Initials>A</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Moore</LastName>
+                        <ForeName>Richard</ForeName>
+                        <Initials>R</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Jones</LastName>
+                        <ForeName>Steven J M</ForeName>
+                        <Initials>SJM</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Marra</LastName>
+                        <ForeName>Marco</ForeName>
+                        <Initials>M</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Medical Genetics, University of British
+                                Columbia, Vancouver, British Columbia V6T 1Z4, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Laskin</LastName>
+                        <ForeName>Janessa</ForeName>
+                        <Initials>J</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Canada's Michael Smith Genome Sciences Center, BC Cancer,
+                                Vancouver, British Columbia V5Z 4E6, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                    <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2019</Year>
+                    <Month>02</Month>
+                    <Day>01</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Cold Spring Harb Mol Case Stud</MedlineTA>
+                <NlmUniqueID>101660017</NlmUniqueID>
+                <ISSNLinking>2373-2873</ISSNLinking>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName UI="D000230" MajorTopicYN="N">Adenocarcinoma</DescriptorName>
+                    <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D002289" MajorTopicYN="N">Carcinoma, Non-Small-Cell Lung</DescriptorName>
+                    <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D002294" MajorTopicYN="N">Carcinoma, Squamous Cell</DescriptorName>
+                    <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                    <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D008175" MajorTopicYN="N">Lung Neoplasms</DescriptorName>
+                    <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D009154" MajorTopicYN="Y">Mutation</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000077982" MajorTopicYN="N">Progression-Free Survival</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000073336" MajorTopicYN="N">Whole Genome Sequencing</DescriptorName>
+                </MeshHeading>
+            </MeshHeadingList>
+            <KeywordList Owner="NOTNLM">
+                <Keyword MajorTopicYN="N">lung adenocarcinoma</Keyword>
+            </KeywordList>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="received">
+                    <Year>2018</Year>
+                    <Month>1</Month>
+                    <Day>14</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="accepted">
+                    <Year>2018</Year>
+                    <Month>11</Month>
+                    <Day>5</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2018</Year>
+                    <Month>12</Month>
+                    <Day>6</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2020</Year>
+                    <Month>3</Month>
+                    <Day>31</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2018</Year>
+                    <Month>12</Month>
+                    <Day>6</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pmc-release">
+                    <Year>2019</Year>
+                    <Month>2</Month>
+                    <Day>1</Day>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>epublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">30514790</ArticleId>
+                <ArticleId IdType="pmc">PMC6371742</ArticleId>
+                <ArticleId IdType="doi">10.1101/mcs.a002659</ArticleId>
+                <ArticleId IdType="pii">mcs.a002659</ArticleId>
+                <ArticleId IdType="medline">MCS002659Tsa</ArticleId>
+            </ArticleIdList>
+            <ReferenceList>
+                <Reference>
+                    <Citation>Andre F, Nowak F, Arnedos M, Lacroix L, Viens P, Calvo F. 2012.
+                        Biomarker discovery, development, and implementation in France: a report
+                        from the French National Cancer Institute and cooperative groups. Clin
+                        Cancer Res 18: 1555&#x2013;1560. 10.1158/1078-0432.CCR-11-2201</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1158/1078-0432.CCR-11-2201</ArticleId>
+                        <ArticleId IdType="pubmed">22422408</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Andre F, Mardis E, Salm M, Soria JC, Siu LL, Swanton C. 2014.
+                        Prioritizing targets for precision cancer medicine. Ann Oncol 25:
+                        2295&#x2013;2303. 10.1093/annonc/mdu478</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1093/annonc/mdu478</ArticleId>
+                        <ArticleId IdType="pubmed">25344359</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Besse B, Leighl N, Bennouna J, Papadimitrakopoulou VA, Blais N,
+                        Traynor AM, Soria JC, Gogov S, Miller N, Jehl V, et al. 2014. Phase II study
+                        of everolimus&#x2013;erlotinib in previously treated patients with advanced
+                        non-small-cell lung cancer. Ann Oncol 25: 409&#x2013;415.
+                        10.1093/annonc/mdt536</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1093/annonc/mdt536</ArticleId>
+                        <ArticleId IdType="pubmed">24368400</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>
+                        Canadian Cancer Society. 2016. Canadian Cancer Statistics 2016.
+                        [Internet]; c2016 [cited 2017 March 20].
+                        http://www.cancer.ca/~/media/cancer.ca/CW/cancer%20information/cancer%20101/Canadian%20cancer%20statistics/Canadian-Cancer-Statistics-2016-EN.pdf?la=en</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Carr TH, McEwen R, Dougherty B, Johnson JH, Dry JR, Lai Z, Ghazoui Z,
+                        Laing NM, Hodgson DR, Cruzalegui F, et al. 2016. Defining actionable
+                        mutations for oncology therapeutic development. Nat Rev Cancer 16:
+                        319&#x2013;329. 10.1038/nrc.2016.35</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1038/nrc.2016.35</ArticleId>
+                        <ArticleId IdType="pubmed">27112209</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>De Gr&#xe8;ve J, Teugels E, Geers C, Decoster L, Galdermans D, De Mey
+                        J, Everaert H, Umelo I, In't Veld P, Schallier D. 2012. Clinical activity of
+                        afatinib (BIBW 2992) in patients with lung adenocarcinoma with mutations in
+                        the kinase domain of HER2/neu. Lung Cancer 76: 123&#x2013;127.
+                        10.1016/j.lungcan.2012.01.008</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/j.lungcan.2012.01.008</ArticleId>
+                        <ArticleId IdType="pubmed">22325357</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>De Gr&#xe8;ve J, Moran T, Graas MP, Galdermans D, Vuylsteke P, Canon
+                        JL, Schallier D, Decoster L, Teugels E, Massey D, et al. 2015. Phase II
+                        study of afatinib, an irreversible ErbB family blocker, in demographically
+                        and genotypically defined lung adenocarcinoma. Lung Cancer 88: 63&#x2013;69.
+                        10.1016/j.lungcan.2015.01.013</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/j.lungcan.2015.01.013</ArticleId>
+                        <ArticleId IdType="pubmed">25682316</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Jamal-Hanjani M, Hackshaw A, Ngai Y, Shaw J, Dive C, Quezada S,
+                        Middleton G, de Bruin E, Le Quesne J, Shafi S, et al. 2014. Tracking genomic
+                        cancer evolution for precision medicine: the Lung TRACERx study. PLoS Biol
+                        12: e1001906 10.1371/journal.pbio.1001906</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1371/journal.pbio.1001906</ArticleId>
+                        <ArticleId IdType="pmc">PMC4086714</ArticleId>
+                        <ArticleId IdType="pubmed">25003521</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Johnson BE, Jackman D, J&#xe4;nne PA. 2007. Rationale for a phase I
+                        trial of erlotinib and the mammalian target of rapamycin inhibitor
+                        everolimus (RAD001) for patients with relapsed non&#x2013;small cell lung
+                        cancer. Clin Cancer Res 13: s4628&#x2013;s4631.
+                        10.1158/1078-0432.CCR-07-0717</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1158/1078-0432.CCR-07-0717</ArticleId>
+                        <ArticleId IdType="pubmed">17671154</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Johnson DH, Schiller JH, Bunn PA Jr. 2014. Recent clinical advances in
+                        lung cancer management. J Clin Oncol 32: 973&#x2013;982.
+                        10.1200/JCO.2013.53.1228</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1200/JCO.2013.53.1228</ArticleId>
+                        <ArticleId IdType="pubmed">24567433</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Kim ES, Herbst RS, Wistuba II, Lee JJ, Blumenschein GR Jr, Tsao A,
+                        Stewart DJ, Hicks ME, Erasmus J Jr, Gupta S, et al. 2011. The BATTLE trial:
+                        personalizing therapy for lung cancer. Cancer Discov 1: 44&#x2013;53.
+                        10.1158/2159-8274.CD-10-0010</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1158/2159-8274.CD-10-0010</ArticleId>
+                        <ArticleId IdType="pmc">PMC4211116</ArticleId>
+                        <ArticleId IdType="pubmed">22586319</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Laskin J, Jones S, Aparicio S, Chia S, Ch'ng C, Deyell R, Eirew P, Fok
+                        A, Gelmon K, Ho C, et al. 2015. Lessons learned from the application of
+                        whole-genome analysis to the treatment of patients with advanced cancers.
+                        Cold Spring Harb Mol Case Stud 1: a000570 10.1101/mcs.a000570</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1101/mcs.a000570</ArticleId>
+                        <ArticleId IdType="pmc">PMC4850882</ArticleId>
+                        <ArticleId IdType="pubmed">27148575</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Laskin J, Ho C, Shen Y, Jones M, Gelmon KA, Lim H, Renouf DJ, Yip S,
+                        Tinker A, Khoo K, et al. 2016. Availability of tumour gene expression data
+                        facilitates clinical decision-making for patients with advanced cancers. Ann
+                        Oncol 27: 526&#x2013;544. 10.1093/annonc/mdv591</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1093/annonc/mdv591</ArticleId>
+                        <ArticleId IdType="pubmed">26646757</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Le Tourneau C, Delord JP, Gon&#xe7;alves A, Gavoille C, Dubot C,
+                        Isambert N, Campone M, Tr&#xe9;dan O, Massiani MA, Mauborgne C, et al. 2015.
+                        Molecularly targeted therapy based on tumour molecular profiling versus
+                        conventional therapy for advanced cancer (SHIVA): a multicentre, open-label,
+                        proof-of-concept, randomised, controlled phase 2 trial. Lancet Oncol 16:
+                        1324&#x2013;1334. 10.1016/S1470-2045(15)00188-6</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1016/S1470-2045(15)00188-6</ArticleId>
+                        <ArticleId IdType="pubmed">26342236</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lindsay CR, Shaw E, Walker I, Johnson PW. 2015. Lessons for molecular
+                        diagnostics in oncology from the cancer research UK stratified medicine
+                        programme. Expert Rev Mol Diagn 15: 287&#x2013;289.
+                        10.1586/14737159.2015.992417</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1586/14737159.2015.992417</ArticleId>
+                        <ArticleId IdType="pubmed">25547183</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>MacConaill LE, Garraway LA. 2010. Clinical implications of the cancer
+                        genome. J Clin Oncol 28: 5219&#x2013;5228. 10.1200/JCO.2009.27.4944</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1200/JCO.2009.27.4944</ArticleId>
+                        <ArticleId IdType="pmc">PMC3020694</ArticleId>
+                        <ArticleId IdType="pubmed">20975063</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Massard C, Michiels S, Fert&#xe9; C, Le Deley MC, Lacroix L,
+                        Hollebecque A, Verlingue L, Ileana E, Rosellini S, Ammari S, et al. 2017.
+                        High-throughput genomics and clinical outcome in hard-to-treat advanced
+                        cancers: results of the MOSCATO 01 trial. Cancer Discov 7: 586&#x2013;595.
+                        10.1158/2159-8290.CD-16-1396</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1158/2159-8290.CD-16-1396</ArticleId>
+                        <ArticleId IdType="pubmed">28365644</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Oken MM, Creech RH, Tormey DC, Horton J, Davis TE, McFadden ET,
+                        Carbone PP. 1982. Toxicity and response criteria of the Eastern Cooperative
+                        Oncology Group. Am J Clin Oncol 5: 649&#x2013;655.
+                        10.1097/00000421-198212000-00014</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1097/00000421-198212000-00014</ArticleId>
+                        <ArticleId IdType="pubmed">7165009</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Rodon J, Soria JC, Berger R, Batist G, Tsimberidou A, Bresson C, Lee
+                        JJ, Rubin E, Onn A, Schilsky RL, et al. 2015. Challenges in initiating and
+                        conducting personalized cancer therapy trials: perspectives from WINTHER, a
+                        Worldwide Innovative Network (WIN) Consortium trial. Ann Oncol 26:
+                        1791&#x2013;1798. 10.1093/annonc/mdv191</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1093/annonc/mdv191</ArticleId>
+                        <ArticleId IdType="pmc">PMC5006164</ArticleId>
+                        <ArticleId IdType="pubmed">25908602</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Siegel RL, Miller KD, Jemal A. 2016. Cancer statistics 2016. CA Cancer
+                        J Clin 66: 7&#x2013;30.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">26742998</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Simon R, Roychowdhury S. 2013. Implementing personalized cancer
+                        genomics in clinical trials. Nat Rev Drug Discov 12: 358&#x2013;369.
+                        10.1038/nrd3979</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1038/nrd3979</ArticleId>
+                        <ArticleId IdType="pubmed">23629504</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Stratton MR, Campbell PJ, Futreal PA. 2009. The cancer genome. Nature
+                        458: 719&#x2013;724. 10.1038/nature07943</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1038/nature07943</ArticleId>
+                        <ArticleId IdType="pmc">PMC2821689</ArticleId>
+                        <ArticleId IdType="pubmed">19360079</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Tsimberidou AM, Iskander NG, Hong DS, Wheler JJ, Falchook GS, Fu S,
+                        Piha-Paul S, Naing A, Janku F, Luthra R, et al. 2012. Personalized medicine
+                        in a phase I clinical trials program: the MD Anderson Cancer Center
+                        Initiative. Clin Cancer Res 18: 6373&#x2013;6383.
+                        10.1158/1078-0432.CCR-12-1627</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1158/1078-0432.CCR-12-1627</ArticleId>
+                        <ArticleId IdType="pmc">PMC4454458</ArticleId>
+                        <ArticleId IdType="pubmed">22966018</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Von Hoff DD, Stephenson JJ Jr, Rosen P, Loesch DM, Borad MJ, Anthony
+                        S, Jameson G, Brown S, Cantafio N, Richards DA, et al. 2010. Pilot study
+                        using molecular profiling of patients&#x2019; tumors to find potential
+                        targets and select treatments for their refractory cancers. J Clin Oncol 28:
+                        4877&#x2013;4883. 10.1200/JCO.2009.26.5983</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="doi">10.1200/JCO.2009.26.5983</ArticleId>
+                        <ArticleId IdType="pubmed">20921468</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+            </ReferenceList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>

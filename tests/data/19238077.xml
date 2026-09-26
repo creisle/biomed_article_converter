@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Manual">
+            <PMID Version="1">19238077</PMID>
+            <DateCompleted>
+                <Year>2009</Year>
+                <Month>05</Month>
+                <Day>07</Day>
+            </DateCompleted>
+            <DateRevised>
+                <Year>2026</Year>
+                <Month>01</Month>
+                <Day>28</Day>
+            </DateRevised>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Electronic">1532-0979</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>33</Volume>
+                        <Issue>5</Issue>
+                        <PubDate>
+                            <Year>2009</Year>
+                            <Month>May</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>The American journal of surgical pathology</Title>
+                    <ISOAbbreviation>Am J Surg Pathol</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Pancreatic endocrine microadenomatosis in patients with von
+                    Hippel-Lindau disease: characterization by VHL/HIF pathway proteins expression.</ArticleTitle>
+                <Pagination>
+                    <StartPage>739</StartPage>
+                    <EndPage>748</EndPage>
+                    <MedlinePgn>739-48</MedlinePgn>
+                </Pagination>
+                <ELocationID EIdType="doi" ValidYN="Y">10.1097/PAS.0b013e3181967992</ELocationID>
+                <Abstract>
+                    <AbstractText Label="INTRODUCTION" NlmCategory="BACKGROUND">Von Hippel-Lindau
+                        (VHL) disease is an inherited syndrome caused by germline mutation in the
+                        VHL tumor suppressor gene predisposing to pancreatic endocrine tumors (PET).
+                        Whether these tumors derive from preexisting endocrine microadenomatosis as
+                        in multiple endocrine neoplasia type 1 (MEN1) is yet unknown. pVHL regulates
+                        hypoxia-inducible factor (HIF) that causes transcription activity of target
+                        genes like carbonic anhydrase 9 (CA9), vascular endothelial growth factor
+                        (VEGF), and cyclin D1. Our aim was to look for overexpression of these
+                        molecules to identify precursor endocrine lesions in the pancreas of VHL
+                        patients.</AbstractText>
+                    <AbstractText Label="METHODS" NlmCategory="METHODS">Nontumoral pancreas of 18
+                        VHL patients operated on for PET, was examined for microadenomatosis
+                        (&lt;or=5 mm) and compared with pancreatic specimen obtained from non-VHL
+                        patients or MEN1 patients. The immunohistochemical expression of
+                        chromogranin, insulin, glucagon, HIF-1alpha, HIF-2alpha, VEGF, CA9, cyclin
+                        D1, and CD34 was assessed.</AbstractText>
+                    <AbstractText Label="RESULTS" NlmCategory="RESULTS">In addition to 39
+                        macrotumors (1 to 5/patient), chromogranin-positive endocrine microadenomas
+                        were found in 13 (72%) patients located within acini or close to ducts or
+                        islets. Strong coexpression of HIF-1alpha, cyclin D1, CA9, and VEGF and lack
+                        of expression of insulin and glucagon allowed distinction with normal or
+                        hyperplastic islets. CD34 identified a high microvessel density in these
+                        nodules. Expression of HIF-1alpha and CA9 was not found in islets of
+                        controls and in MEN1 microadenomas.</AbstractText>
+                    <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Pancreatic endocrine
+                        microadenomas are present in &gt;70% of VHL patients operated on for PET.
+                        These results demonstrate that the pVHL/HIF pathway is involved very early
+                        in pancreatic endocrine tumorigenesis in this disease.</AbstractText>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>P&#xe9;rigny</LastName>
+                        <ForeName>Martine</ForeName>
+                        <Initials>M</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Pathology, CHUQ-L'H&#xf4;tel-Dieu de
+                                Qu&#xe9;bec, Universit&#xe9; Laval, Qu&#xe9;bec, Canada.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Hammel</LastName>
+                        <ForeName>Pascal</ForeName>
+                        <Initials>P</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Corcos</LastName>
+                        <ForeName>Olivier</ForeName>
+                        <Initials>O</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Larochelle</LastName>
+                        <ForeName>Olivier</ForeName>
+                        <Initials>O</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Giraud</LastName>
+                        <ForeName>Sophie</ForeName>
+                        <Initials>S</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Richard</LastName>
+                        <ForeName>St&#xe9;phane</ForeName>
+                        <Initials>S</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Sauvanet</LastName>
+                        <ForeName>Alain</ForeName>
+                        <Initials>A</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Belghiti</LastName>
+                        <ForeName>Jacques</ForeName>
+                        <Initials>J</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Ruszniewski</LastName>
+                        <ForeName>Philippe</ForeName>
+                        <Initials>P</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Bedossa</LastName>
+                        <ForeName>Pierre</ForeName>
+                        <Initials>P</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Couvelard</LastName>
+                        <ForeName>Anne</ForeName>
+                        <Initials>A</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                    <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Am J Surg Pathol</MedlineTA>
+                <NlmUniqueID>7707904</NlmUniqueID>
+                <ISSNLinking>0147-5185</ISSNLinking>
+            </MedlineJournalInfo>
+            <ChemicalList>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D018952">Antigens, CD34</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D000951">Antigens, Neoplasm</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D051792">Basic Helix-Loop-Helix Proteins</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D014408">Biomarkers, Tumor</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 4.2.1.1</RegistryNumber>
+                    <NameOfSubstance UI="D000071231">Carbonic Anhydrase IX</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 4.2.1.1</RegistryNumber>
+                    <NameOfSubstance UI="D002256">Carbonic Anhydrases</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D053379">Chromogranin A</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>136601-57-5</RegistryNumber>
+                    <NameOfSubstance UI="D019938">Cyclin D1</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>9007-92-5</RegistryNumber>
+                    <NameOfSubstance UI="D005934">Glucagon</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D051795">Hypoxia-Inducible Factor 1, alpha Subunit</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D007328">Insulin</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D042461">Vascular Endothelial Growth Factor A</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 2.3.2.27</RegistryNumber>
+                    <NameOfSubstance UI="D051794">Von Hippel-Lindau Tumor Suppressor Protein</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D000099162">Endothelial PAS Domain-Containing Protein 1</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="C530104">CCND1 protein, human</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="C497442">HIF1A protein, human</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="C467484">VEGFA protein, human</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 4.2.1.1</RegistryNumber>
+                    <NameOfSubstance UI="C089226">CA9 protein, human</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 6.3.2.-</RegistryNumber>
+                    <NameOfSubstance UI="C497446">VHL protein, human</NameOfSubstance>
+                </Chemical>
+            </ChemicalList>
+            <CitationSubset>IM</CitationSubset>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName UI="D000236" MajorTopicYN="N">Adenoma</DescriptorName>
+                    <QualifierName UI="Q000737" MajorTopicYN="Y">chemistry</QualifierName>
+                    <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                    <QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D018952" MajorTopicYN="N">Antigens, CD34</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000951" MajorTopicYN="N">Antigens, Neoplasm</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D051792" MajorTopicYN="N">Basic Helix-Loop-Helix Proteins</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="Y">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D014408" MajorTopicYN="N">Biomarkers, Tumor</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="Y">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000071231" MajorTopicYN="N">Carbonic Anhydrase IX</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D002256" MajorTopicYN="N">Carbonic Anhydrases</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D053379" MajorTopicYN="N">Chromogranin A</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D019938" MajorTopicYN="N">Cyclin D1</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005934" MajorTopicYN="N">Glucagon</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D051795" MajorTopicYN="N">Hypoxia-Inducible Factor 1, alpha
+                        Subunit</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="Y">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D007150" MajorTopicYN="N">Immunohistochemistry</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D007328" MajorTopicYN="N">Insulin</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D018761" MajorTopicYN="N">Multiple Endocrine Neoplasia Type
+                        1</DescriptorName>
+                    <QualifierName UI="Q000737" MajorTopicYN="N">chemistry</QualifierName>
+                    <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D009154" MajorTopicYN="N">Mutation</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D010179" MajorTopicYN="N">Pancreas</DescriptorName>
+                    <QualifierName UI="Q000737" MajorTopicYN="Y">chemistry</QualifierName>
+                    <QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D010180" MajorTopicYN="N">Pancreatectomy</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D010190" MajorTopicYN="N">Pancreatic Neoplasms</DescriptorName>
+                    <QualifierName UI="Q000737" MajorTopicYN="Y">chemistry</QualifierName>
+                    <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                    <QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D011230" MajorTopicYN="N">Precancerous Conditions</DescriptorName>
+                    <QualifierName UI="Q000737" MajorTopicYN="Y">chemistry</QualifierName>
+                    <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                    <QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D042461" MajorTopicYN="N">Vascular Endothelial Growth Factor
+                        A</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D051794" MajorTopicYN="N">Von Hippel-Lindau Tumor Suppressor
+                        Protein</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006623" MajorTopicYN="N">von Hippel-Lindau Disease</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="N">genetics</QualifierName>
+                    <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+                    <QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D000099162" MajorTopicYN="N">Endothelial PAS
+                        Domain-Containing Protein 1</DescriptorName>
+                </MeshHeading>
+            </MeshHeadingList>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2009</Year>
+                    <Month>2</Month>
+                    <Day>25</Day>
+                    <Hour>9</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2009</Year>
+                    <Month>2</Month>
+                    <Day>25</Day>
+                    <Hour>9</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2009</Year>
+                    <Month>5</Month>
+                    <Day>8</Day>
+                    <Hour>9</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>ppublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">19238077</ArticleId>
+                <ArticleId IdType="doi">10.1097/PAS.0b013e3181967992</ArticleId>
+            </ArticleIdList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>

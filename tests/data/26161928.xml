@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Manual">
+            <PMID Version="1">26161928</PMID>
+            <DateCompleted>
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>11</Day>
+            </DateCompleted>
+            <DateRevised>
+                <Year>2015</Year>
+                <Month>07</Month>
+                <Day>11</Day>
+            </DateRevised>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Electronic">1744-8301</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>11</Volume>
+                        <Issue>13</Issue>
+                        <PubDate>
+                            <Year>2015</Year>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Future oncology (London, England)</Title>
+                    <ISOAbbreviation>Future Oncol</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>KRAS exon 2 mutations influence activity of regorafenib in an
+                    SW48-based disease model of colorectal cancer.</ArticleTitle>
+                <Pagination>
+                    <StartPage>1919</StartPage>
+                    <EndPage>1929</EndPage>
+                    <MedlinePgn>1919-29</MedlinePgn>
+                </Pagination>
+                <ELocationID EIdType="doi" ValidYN="Y">10.2217/fon.15.97</ELocationID>
+                <Abstract>
+                    <AbstractText Label="AIM" NlmCategory="OBJECTIVE">To investigate the impact of
+                        KRAS mutation variants on the activity of regorafenib in SW48 colorectal
+                        cancer cells.</AbstractText>
+                    <AbstractText Label="MATERIALS &amp; METHODS" NlmCategory="METHODS">Activity of
+                        regorafenib was evaluated in isogenic SW48 KRAS wild-type (WT) and mutant
+                        cells. Subcutaneous xenografts (KRAS WT and G12C mutant variants) in
+                        NOD/SCID mice were analyzed to elucidate the effect of regorafenib treatment
+                        in vivo.</AbstractText>
+                    <AbstractText Label="RESULTS" NlmCategory="RESULTS">Compared with KRAS WT cells,
+                        all mutant variants seemed associated with some degree of resistance to
+                        regorafenib-treatment in vitro. In vivo, activation of apoptosis (TUNEL) and
+                        reduction of proliferation (Ki67) after treatment with regorafenib were more
+                        pronounced in KRAS WT tumors as compared with G12C variants.</AbstractText>
+                    <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">In SW48 cells, exon 2
+                        mutations of the KRAS gene may influence antitumor effects of regorafenib.</AbstractText>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Camaj</LastName>
+                        <ForeName>Peter</ForeName>
+                        <Initials>P</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Surgery, University Hospital Grosshadern,
+                                University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>German Cancer Consortium (DKTK), Heidelberg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Experimental Surgery, Department of Surgery,
+                                Otto-von-Guericke-University, Magdeburg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Primo</LastName>
+                        <ForeName>Stefano</ForeName>
+                        <Initials>S</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Surgery, University Hospital Grosshadern,
+                                University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Wang</LastName>
+                        <ForeName>Yan</ForeName>
+                        <Initials>Y</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Surgery, University Hospital Grosshadern,
+                                University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Experimental Surgery, Department of Surgery,
+                                Otto-von-Guericke-University, Magdeburg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Heinemann</LastName>
+                        <ForeName>Volker</ForeName>
+                        <Initials>V</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>German Cancer Consortium (DKTK), Heidelberg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Medicine III, University Hospital
+                                Grosshadern, University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Zhao</LastName>
+                        <ForeName>Yue</ForeName>
+                        <Initials>Y</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Surgery, University Hospital Grosshadern,
+                                University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Experimental Surgery, Department of Surgery,
+                                Otto-von-Guericke-University, Magdeburg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Laubender</LastName>
+                        <ForeName>Ruediger Paul</ForeName>
+                        <Initials>RP</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>German Cancer Consortium (DKTK), Heidelberg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Institute of Medical Informatics, Biometry &amp;
+                                Epidemiology, University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Stintzing</LastName>
+                        <ForeName>Sebastian</ForeName>
+                        <Initials>S</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>German Cancer Consortium (DKTK), Heidelberg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Medicine III, University Hospital
+                                Grosshadern, University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Giessen-Jung</LastName>
+                        <ForeName>Clemens</ForeName>
+                        <Initials>C</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>German Cancer Consortium (DKTK), Heidelberg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Medicine III, University Hospital
+                                Grosshadern, University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Jung</LastName>
+                        <ForeName>Andreas</ForeName>
+                        <Initials>A</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>German Cancer Consortium (DKTK), Heidelberg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Institute of Pathology, University of Munich, Munich,
+                                Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Gamba</LastName>
+                        <ForeName>Sebastian</ForeName>
+                        <Initials>S</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Surgery, University Hospital Grosshadern,
+                                University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Bruns</LastName>
+                        <ForeName>Christiane Josephine</ForeName>
+                        <Initials>CJ</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Surgery, University Hospital Grosshadern,
+                                University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>German Cancer Consortium (DKTK), Heidelberg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Division of Experimental Surgery, Department of Surgery,
+                                Otto-von-Guericke-University, Magdeburg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Modest</LastName>
+                        <ForeName>Dominik Paul</ForeName>
+                        <Initials>DP</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>German Cancer Consortium (DKTK), Heidelberg, Germany.</Affiliation>
+                        </AffiliationInfo>
+                        <AffiliationInfo>
+                            <Affiliation>Department of Medicine III, University Hospital
+                                Grosshadern, University of Munich, Munich, Germany.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                    <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>England</Country>
+                <MedlineTA>Future Oncol</MedlineTA>
+                <NlmUniqueID>101256629</NlmUniqueID>
+                <ISSNLinking>1479-6694</ISSNLinking>
+            </MedlineJournalInfo>
+            <ChemicalList>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="C117307">KRAS protein, human</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D010671">Phenylurea Compounds</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D011725">Pyridines</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>24T2A1DOYB</RegistryNumber>
+                    <NameOfSubstance UI="C559147">regorafenib</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 3.6.5.2</RegistryNumber>
+                    <NameOfSubstance UI="D016283">Proto-Oncogene Proteins p21(ras)</NameOfSubstance>
+                </Chemical>
+            </ChemicalList>
+            <CitationSubset>IM</CitationSubset>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D017209" MajorTopicYN="N">Apoptosis</DescriptorName>
+                    <QualifierName UI="Q000187" MajorTopicYN="N">drug effects</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D045744" MajorTopicYN="N">Cell Line, Tumor</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D049109" MajorTopicYN="N">Cell Proliferation</DescriptorName>
+                    <QualifierName UI="Q000187" MajorTopicYN="N">drug effects</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D015179" MajorTopicYN="N">Colorectal Neoplasms</DescriptorName>
+                    <QualifierName UI="Q000188" MajorTopicYN="N">drug therapy</QualifierName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                    <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D019008" MajorTopicYN="N">Drug Resistance, Neoplasm</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D005091" MajorTopicYN="N">Exons</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D051379" MajorTopicYN="N">Mice</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D009154" MajorTopicYN="N">Mutation</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D010671" MajorTopicYN="N">Phenylurea Compounds</DescriptorName>
+                    <QualifierName UI="Q000008" MajorTopicYN="Y">administration &amp; dosage</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D016283" MajorTopicYN="N">Proto-Oncogene Proteins p21(ras)</DescriptorName>
+                    <QualifierName UI="Q000235" MajorTopicYN="Y">genetics</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D011725" MajorTopicYN="N">Pyridines</DescriptorName>
+                    <QualifierName UI="Q000008" MajorTopicYN="Y">administration &amp; dosage</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D023041" MajorTopicYN="N">Xenograft Model Antitumor Assays</DescriptorName>
+                </MeshHeading>
+            </MeshHeadingList>
+            <KeywordList Owner="NOTNLM">
+                <Keyword MajorTopicYN="N">ELK</Keyword>
+                <Keyword MajorTopicYN="N">KRAS</Keyword>
+                <Keyword MajorTopicYN="N">MAPK pathway</Keyword>
+                <Keyword MajorTopicYN="N">colorectal cancer</Keyword>
+                <Keyword MajorTopicYN="N">regorafenib</Keyword>
+            </KeywordList>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2015</Year>
+                    <Month>7</Month>
+                    <Day>11</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2015</Year>
+                    <Month>7</Month>
+                    <Day>15</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2016</Year>
+                    <Month>4</Month>
+                    <Day>12</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>ppublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">26161928</ArticleId>
+                <ArticleId IdType="doi">10.2217/fon.15.97</ArticleId>
+            </ArticleIdList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>

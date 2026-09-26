@@ -1,0 +1,2282 @@
+<?xml version="1.0"?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset>
+    <article article-type="research-article" xml:lang="en" dtd-version="1.4">
+        <front>
+            <journal-meta>
+                <journal-id journal-id-type="nlm-ta">Cold Spring Harb Mol Case Stud</journal-id>
+                <journal-id journal-id-type="iso-abbrev">Cold Spring Harb Mol Case Stud</journal-id>
+                <journal-id journal-id-type="pmc-domain-id">2950</journal-id>
+                <journal-id journal-id-type="pmc-domain">cshmolcase</journal-id>
+                <journal-id journal-id-type="nlm-id">101660017</journal-id>
+                <journal-id journal-id-type="publisher-id">cshmcs</journal-id>
+                <journal-title-group>
+                    <journal-title>Cold Spring Harbor Molecular Case Studies</journal-title>
+                </journal-title-group>
+                <issn pub-type="epub">2373-2873</issn>
+                <publisher>
+                    <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>
+                </publisher>
+            </journal-meta>
+            <article-meta>
+                <article-id pub-id-type="pmcid">PMC6371742</article-id>
+                <article-id pub-id-type="pmcid-ver">PMC6371742.1</article-id>
+                <article-id pub-id-type="pmcaid">6371742</article-id>
+                <article-id pub-id-type="pmcaiid">6371742</article-id>
+                <article-id pub-id-type="pmid">30514790</article-id>
+                <article-id pub-id-type="doi">10.1101/mcs.a002659</article-id>
+                <article-version article-version-type="pmc-version">1</article-version>
+                <article-categories>
+                    <subj-group subj-group-type="heading">
+                        <subject>Research Article</subject>
+                    </subj-group>
+                </article-categories>
+                <title-group>
+                    <article-title>Clinical outcomes after whole-genome sequencing in patients with
+                        metastatic non-small-cell lung cancer</article-title>
+                    <alt-title alt-title-type="left-running">Outcomes after WGS in metastatic NSCLC</alt-title>
+                    <alt-title alt-title-type="right-running">Outcomes after WGS in metastatic NSCLC</alt-title>
+                </title-group>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Tsang</surname>
+                            <given-names initials="ES">Erica S.</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af1">1</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Shen</surname>
+                            <given-names initials="Y">Yaoqing</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Chooback</surname>
+                            <given-names initials="N">Negar</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af1">1</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Ho</surname>
+                            <given-names initials="C">Cheryl</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af1">1</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Jones</surname>
+                            <given-names initials="M">Martin</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Renouf</surname>
+                            <given-names initials="DJ">Daniel J.</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af1">1</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Lim</surname>
+                            <given-names initials="H">Howard</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af1">1</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Sun</surname>
+                            <given-names initials="S">Sophie</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af1">1</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Yip</surname>
+                            <given-names initials="S">Stephen</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af3">3</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Pleasance</surname>
+                            <given-names initials="E">Erin</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Ionescu</surname>
+                            <given-names initials="DN">Diana N.</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af3">3</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Mungall</surname>
+                            <given-names initials="K">Karen</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Kasaian</surname>
+                            <given-names initials="K">Katayoon</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Ma</surname>
+                            <given-names initials="Y">Yussanne</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Zhao</surname>
+                            <given-names initials="Y">Yongjun</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Mungall</surname>
+                            <given-names initials="A">Andrew</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Moore</surname>
+                            <given-names initials="R">Richard</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Jones</surname>
+                            <given-names initials="SJM">Steven J.M.</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Marra</surname>
+                            <given-names initials="M">Marco</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                        <xref ref-type="aff" rid="af4">4</xref>
+                    </contrib>
+                    <contrib contrib-type="author">
+                        <name name-style="western">
+                            <surname>Laskin</surname>
+                            <given-names initials="J">Janessa</given-names>
+                        </name>
+                        <xref ref-type="aff" rid="af2">2</xref>
+                    </contrib>
+                </contrib-group>
+                <aff id="af1"><label>1</label>Division of Medical Oncology, BC Cancer, Vancouver,
+                    British Columbia V5Z 4E6, Canada;</aff>
+                <aff id="af2"><label>2</label>Canada's Michael Smith Genome Sciences Center, BC
+                    Cancer, Vancouver, British Columbia V5Z 4E6, Canada;</aff>
+                <aff id="af3"><label>3</label>Department of Pathology and Laboratory Medicine,
+                    University of British Columbia, Vancouver, British Columbia V6T 1Z4, Canada;</aff>
+                <aff id="af4"><label>4</label>Department of Medical Genetics, University of British
+                    Columbia, Vancouver, British Columbia V6T 1Z4, Canada</aff>
+                <author-notes>
+                    <corresp>Corresponding author: <email>jlaskin@bccancer.bc.ca</email></corresp>
+                </author-notes>
+                <pub-date pub-type="ppub">
+                    <month>2</month>
+                    <year>2019</year>
+                </pub-date>
+                <volume>5</volume>
+                <issue>1</issue>
+                <issue-id pub-id-type="pmc-issue-id">329378</issue-id>
+                <elocation-id>a002659</elocation-id>
+                <history>
+                    <date date-type="received">
+                        <day>14</day>
+                        <month>1</month>
+                        <year>2018</year>
+                    </date>
+                    <date date-type="accepted">
+                        <day>5</day>
+                        <month>11</month>
+                        <year>2018</year>
+                    </date>
+                </history>
+                <pub-history>
+                    <event event-type="pmc-release">
+                        <date>
+                            <day>01</day>
+                            <month>02</month>
+                            <year>2019</year>
+                        </date>
+                    </event>
+                    <event event-type="pmc-live">
+                        <date>
+                            <day>01</day>
+                            <month>03</month>
+                            <year>2019</year>
+                        </date>
+                    </event>
+                    <event event-type="pmc-last-change">
+                        <date iso-8601-date="2023-11-03 09:25:20.837">
+                            <day>03</day>
+                            <month>11</month>
+                            <year>2023</year>
+                        </date>
+                    </event>
+                </pub-history>
+                <permissions>
+                    <copyright-statement>
+                        <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri"
+                            xlink:href="http://www.molecularcasestudies.cshlp.org/site/misc/terms.xhtml">©
+                            2019 Tsang et al.; Published by Cold Spring Harbor Laboratory Press</ext-link>
+                    </copyright-statement>
+                    <copyright-year>2019</copyright-year>
+                    <license xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">
+                        <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+                            specific-use="textmining" content-type="ccbynclicense">
+                            https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref>
+                        <license-p>This article is distributed under the terms of the <ext-link
+                                ext-link-type="uri"
+                                xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons Attribution-NonCommercial License</ext-link>, which permits
+                            reuse and redistribution, except for commercial purposes, provided that
+                            the original author and source are credited.</license-p>
+                    </license>
+                </permissions>
+                <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf"
+                    xlink:href="MCS002659Tsa.pdf" />
+                <self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf"
+                    xlink:href="MCS002659Tsa.pdf" />
+                <abstract>
+                    <p>The Personalized Onco-Genomics (POG) program at BC Cancer integrates
+                        whole-genome (DNA) and RNA sequencing into practice for metastatic
+                        malignancies. We examined the subgroup of patients with metastatic
+                        non-small-cell lung cancer (NSCLC) and report the prevalence of actionable
+                        targets, treatments, and outcomes. We identified patients who were enrolled
+                        in the POG program between 2012 and 2016 who had a tumor biopsy and blood
+                        samples with comprehensive DNA (80×, 40× normal) and RNA sequencing followed
+                        by in-depth bioinformatics to identify potential cancer drivers and
+                        actionable targets. In NSCLC cases, we compared the progression-free
+                        survival (PFS) of “POG-informed therapies” with the PFS of the last regimen
+                        prior to POG (PFS ratio). In 29 NSCLC cases, 11 were male (38%), the median
+                        age was 60.2 yr (range: 39.4–72.6), and histologies included were
+                        adenocarcinoma (93%) and squamous cell carcinoma (7%). Potential molecular
+                        targets (i.e., cancer drivers including <italic toggle="yes">TP53</italic>
+                        mutations) were identified in 26 (90%), and 21 (72%) had actionable targets.
+                        Therapies based on standard-of-care mutation analysis, such as EGFR
+                        mutations, were not considered POG-informed therapies. Thirteen received
+                        POG-informed therapies, of which three had no therapy before POG; therefore
+                        a comparator PFS could not be obtained. Of 10 patients with POG-informed
+                        therapy, median PFS ratio was 0.94 (IQR 0.2–3.4). Three (30%) had a PFS
+                        ratio ≥1.3, and three (30%) had a PFS ratio ≥0.8 and &lt;1.3. In this small
+                        cohort of NSCLC, 30% demonstrated longer PFS with POG-informed therapies.
+                        Larger studies will help clarify the role of whole-genome analysis in
+                        clinical practice.</p>
+                </abstract>
+                <kwd-group>
+                    <kwd>lung adenocarcinoma</kwd>
+                </kwd-group>
+                <counts>
+                    <page-count count="13" />
+                </counts>
+                <custom-meta-group>
+                    <custom-meta>
+                        <meta-name>pmc-status-qastatus</meta-name>
+                        <meta-value>0</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-status-live</meta-name>
+                        <meta-value>yes</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-status-embargo</meta-name>
+                        <meta-value>no</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-status-released</meta-name>
+                        <meta-value>yes</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-open-access</meta-name>
+                        <meta-value>yes</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-olf</meta-name>
+                        <meta-value>no</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-manuscript</meta-name>
+                        <meta-value>no</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-legally-suppressed</meta-name>
+                        <meta-value>no</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-has-pdf</meta-name>
+                        <meta-value>yes</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-has-supplement</meta-name>
+                        <meta-value>yes</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-pdf-only</meta-name>
+                        <meta-value>no</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-suppress-copyright</meta-name>
+                        <meta-value>no</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-is-real-version</meta-name>
+                        <meta-value>no</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-is-scanned-article</meta-name>
+                        <meta-value>no</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-preprint</meta-name>
+                        <meta-value>no</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-prop-in-epmc</meta-name>
+                        <meta-value>yes</meta-value>
+                    </custom-meta>
+                    <custom-meta>
+                        <meta-name>pmc-license-ref</meta-name>
+                        <meta-value>CC BY-NC</meta-value>
+                    </custom-meta>
+                </custom-meta-group>
+            </article-meta>
+        </front>
+        <body>
+            <sec sec-type="introduction" id="s1">
+                <title>INTRODUCTION</title>
+                <p>Lung cancer remains a prominent cause of cancer-related mortality, with an
+                    estimated 243,000 new cases and 162,500 deaths in the United States in 2016
+                    alone (<xref rid="MCS002659TSAC20" ref-type="bibr">Siegel et al. 2016</xref>).
+                    Within Canada, there were more than 20,000 deaths attributed to lung cancer in
+                    2016 (<xref rid="MCS002659TSAC4" ref-type="bibr">Canadian Cancer Society 2016</xref>).
+                    The majority of cases are classified as non-small-cell lung cancer (NSCLC), and
+                    advances in genomic analysis have altered the treatment landscape for patients
+                    with specific somatic mutations (<xref rid="MCS002659TSAC10" ref-type="bibr">Johnson
+                    et al. 2014</xref>).</p>
+                <p>Advancements in genomic technology and the recognition of the role of mutations
+                    and genetic aberrations in cancer biology have led to the development of trials
+                    examining the role of molecular profiling in treatment decisions and outcomes (<xref
+                        rid="MCS002659TSAC22" ref-type="bibr">Stratton et al. 2009</xref>; <xref
+                        rid="MCS002659TSAC16" ref-type="bibr">MacConaill and Garraway 2010</xref>; <xref
+                        rid="MCS002659TSAC21" ref-type="bibr">Simon and Roychowdhury 2013</xref>).
+                    Cancer centers around the world have created programs to incorporate and apply
+                    these genomic technologies in the oncology clinic (<xref rid="MCS002659TSAC1"
+                        ref-type="bibr">Andre et al. 2012</xref>; <xref rid="MCS002659TSAC23"
+                        ref-type="bibr">Tsimberidou et al. 2012</xref>; <xref rid="MCS002659TSAC15"
+                        ref-type="bibr">Lindsay et al. 2015</xref>). Although the majority of cancer
+                    centers, including our provincial cancer care institute the BC Cancer, utilize
+                    hotspot gene panels to help guide routine clinical care, the Personalized
+                    Onco-Genomics (POG) program is a novel and unique research initiative that
+                    integrates both whole-genome (DNA) and RNA sequencing into oncology practice for
+                    metastatic malignancies providing information above and beyond the common cancer
+                    panels (<xref rid="MCS002659TSAC12" ref-type="bibr">Laskin et al. 2015</xref>).
+                    Using an interdisciplinary approach, potential actionable targets are identified
+                    and help to guide decision-making for the treating clinician. In this study, we
+                    examined the subgroup of patients with metastatic NSCLC, focusing on the
+                    prevalence of actionable targets, treatments, and outcomes.</p>
+            </sec>
+            <sec sec-type="results" id="s2">
+                <title>RESULTS</title>
+                <p>During the study period from 2012 to 2016, 40 patients with metastatic NSCLC were
+                    enrolled in the POG program. Overall, 11 cases were excluded, of which five
+                    deteriorated clinically before POG results became available, and thus
+                    actionability could not be assigned for these individuals (see <xref
+                        ref-type="fig" rid="MCS002659TSAF1">Fig. 1</xref> for CONSORT diagram). It
+                    should be noted that in some cases, the data itself could be considered
+                    actionable, but for that particular patient it may not have been acted upon if
+                    they had clinically deteriorated or had a contraindication to a specific
+                    therapy. The added complexity of this extra layer of clinical applicability
+                    needs to be taken into account when data sharing or when considering the
+                    population impact of any intervention.</p>
+                <fig id="MCS002659TSAF1" orientation="portrait" position="float">
+                    <label>Figure 1.</label>
+                    <caption>
+                        <p>CONSORT diagram illustrating all POG patients with metastatic
+                            non-small-cell lung cancer (NSCLC).</p>
+                    </caption>
+                    <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float"
+                        orientation="portrait" xlink:href="MCS002659Tsa_F1.jpg" />
+                </fig>
+                <p>The median age at diagnosis was 60.2 yr (IQR: 50.5–64.6), and 11 (38%) were male.
+                    ECOG performance status at time of POG biopsy was 0 (<italic toggle="yes">n</italic>
+                    = 8), 1 (<italic toggle="yes">n</italic> = 20), and 2 (<italic toggle="yes">n</italic>
+                    = 1). Histologies included were adenocarcinoma (<italic toggle="yes">n</italic>
+                    = 27) and squamous cell carcinoma (<italic toggle="yes">n</italic> = 2).
+                    Seventy-six percent of patients were initiated on first-line systemic therapy
+                    prior to their POG biopsy, which included chemotherapy (<italic toggle="yes">n</italic>
+                    = 22) and targeted agents (<italic toggle="yes">n</italic> = 2). Median PFS on
+                    first-line systemic therapy measured 8.20 mo (IQR: 4.9–13.5). Baseline
+                    clinicopathologic characteristics are detailed in <xref rid="MCS002659TSATB1"
+                        ref-type="table">Table 1</xref>.</p>
+                <table-wrap id="MCS002659TSATB1" orientation="portrait" position="float">
+                    <label>Table 1.</label>
+                    <caption>
+                        <p>Baseline clinicopathologic characteristics of 29 patients with metastatic
+                            non-small-cell lung cancer (NSCLC) enrolled in POG program</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                            <col align="left" span="1" />
+                            <col align="char" char="(" span="1" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th align="left" rowspan="1" colspan="1">Baseline characteristics</th>
+                                <th align="center" rowspan="1" colspan="1"><italic toggle="yes">N</italic>
+                                    (%)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2" rowspan="1">Age (years)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">Median (IQR)</td>
+                                <td rowspan="1" colspan="1">60.2 (IQR: 50.5–64.6)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" rowspan="1">Gender</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">Female</td>
+                                <td rowspan="1" colspan="1">18 (62)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">Male</td>
+                                <td rowspan="1" colspan="1">11 (38)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" rowspan="1">ECOG performance status</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">0</td>
+                                <td rowspan="1" colspan="1">8 (28)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">20 (69)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">2</td>
+                                <td rowspan="1" colspan="1">1 (3)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" rowspan="1">Histology</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">27 (93)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">Squamous cell carcinoma</td>
+                                <td rowspan="1" colspan="1">2 (7)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" rowspan="1">First-line systemic therapy</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">Chemotherapy</td>
+                                <td rowspan="1" colspan="1">22 (76)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">Targeted agent</td>
+                                <td rowspan="1" colspan="1">2 (7)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">No first-line therapy</td>
+                                <td rowspan="1" colspan="1">5 (17)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" rowspan="1">First-line systemic therapy (months)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">Median PFS (IQR)</td>
+                                <td rowspan="1" colspan="1">8.20 (4.9–13.5)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table-wrap>
+                <p>Of 29 patients who underwent comprehensive analysis, 26 (90%) had informative
+                    findings. In five cases, none of the informative findings were actionable. For
+                    instance, one patient had a <italic toggle="yes">ROS1</italic> rearrangement,
+                    which was deemed informative but not actionable at that particular time. As new
+                    treatments are developed over time this finding would become actionable for
+                    another patient in the future. Of 21 patients with potentially actionable
+                    targets, 13 received POG-guided therapies, whereas eight did not: pending
+                    progression (<italic toggle="yes">n</italic> = 2), declined therapy (<italic
+                        toggle="yes">n</italic> = 3), clinical deterioration (<italic toggle="yes">n</italic>
+                    = 1), trial closed to enrollment (<italic toggle="yes">n</italic> = 1), and no
+                    access to actionable target (<italic toggle="yes">n</italic> = 1; <xref
+                        ref-type="fig" rid="MCS002659TSAF1">Fig. 1</xref>). Three patients who
+                    received POG-guided therapies received no therapy prior to POG; therefore, a PFS
+                    ratio could not be calculated for this cohort (<xref rid="MCS002659TSATB2"
+                        ref-type="table">Table 2</xref>). Of 10 patients with POG-informed therapy,
+                    median PFS ratio was 0.94 (IQR: 0.2–3.4). Three (30%) had a PFS ratio ≥1.3, and
+                    three (30%) had a PFS ratio ≥0.8 and &lt;1.3 (<xref ref-type="fig"
+                        rid="MCS002659TSAF2">Fig. 2</xref>). No significant correlation was
+                    demonstrated between PFS ratio and number of lines of prior therapy or time from
+                    diagnosis to POG-guided therapy. Previous therapies are detailed in <xref
+                        rid="MCS002659TSATB3" ref-type="table">Table 3</xref>. Median OS among
+                    patients who received POG-guided therapies measured 43.53 mo (95% CI:
+                    18.28–68.8).</p>
+                <fig id="MCS002659TSAF2" orientation="portrait" position="float">
+                    <label>Figure 2.</label>
+                    <caption>
+                        <p>Comparison of progression-free survivals of last line of therapy prior to
+                            POG versus POG-guided therapy.</p>
+                    </caption>
+                    <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float"
+                        orientation="portrait" xlink:href="MCS002659Tsa_F2.jpg" />
+                </fig>
+                <table-wrap id="MCS002659TSATB2" orientation="portrait" position="float">
+                    <label>Table 2.</label>
+                    <caption>
+                        <p>POG-informed therapies and outcomes for patients with metastatic NSCLC</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                            <col align="left" span="1" />
+                            <col align="char" char="." span="1" />
+                            <col align="left" span="1" />
+                            <col align="left" span="1" />
+                            <col align="char" char="." span="1" />
+                            <col align="left" span="1" />
+                            <col align="char" char="." span="1" />
+                            <col align="char" char="." span="1" />
+                            <col align="char" char="." span="1" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th align="left" rowspan="1" colspan="1">Patient</th>
+                                <th align="center" rowspan="1" colspan="1">Lines of therapy before
+                                    POG</th>
+                                <th align="center" rowspan="1" colspan="1">Informative aberrations</th>
+                                <th align="center" rowspan="1" colspan="1">Actionable aberrations</th>
+                                <th align="center" rowspan="1" colspan="1">Tier of evidence</th>
+                                <th align="center" rowspan="1" colspan="1">POG-informed therapy</th>
+                                <th align="center" rowspan="1" colspan="1">Time to POG-informed
+                                    therapy (months)</th>
+                                <th align="center" rowspan="1" colspan="1">PFS for POG-informed
+                                    therapy (months)</th>
+                                <th align="center" rowspan="1" colspan="1">PFS ratio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">3</td>
+                                <td rowspan="1" colspan="1">AKT2 (copy gain), EGFR (p.T790M, L858R),
+                                    PIK3R2 (copy loss), MET (overexpression)</td>
+                                <td rowspan="1" colspan="1">AKT2 (copy gain), EGFR (p.T790M, L858R),
+                                    PIK3R2 (copy loss), MET (overexpression)</td>
+                                <td rowspan="1" colspan="1">3</td>
+                                <td rowspan="1" colspan="1">Clovis compound 1686</td>
+                                <td rowspan="1" colspan="1">70.73</td>
+                                <td rowspan="1" colspan="1">3.77</td>
+                                <td rowspan="1" colspan="1">0.19</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">2</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">VEGFA (copy gain, overexpression)</td>
+                                <td rowspan="1" colspan="1">VEGFA (copy gain, overexpression)</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Bevacizumab</td>
+                                <td rowspan="1" colspan="1">2.90</td>
+                                <td rowspan="1" colspan="1">9.67</td>
+                                <td rowspan="1" colspan="1">1.11</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">3</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">NOTCH1 (overexpression), SDC4–NRG1
+                                    (fusion)</td>
+                                <td rowspan="1" colspan="1">NOTCH1 (overexpression), SDC4–NRG1
+                                    (fusion)</td>
+                                <td rowspan="1" colspan="1">3</td>
+                                <td rowspan="1" colspan="1">Phase 1 NOTCH trial</td>
+                                <td rowspan="1" colspan="1">14.93</td>
+                                <td rowspan="1" colspan="1">7.40</td>
+                                <td rowspan="1" colspan="1">0.84</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">4</td>
+                                <td rowspan="1" colspan="1">2</td>
+                                <td rowspan="1" colspan="1">PI3KCA (copy gain), MET (copy gain,
+                                    overexpression)</td>
+                                <td rowspan="1" colspan="1">MET (copy gain, overexpression), P13KCA
+                                    (copy gain), mutational burden</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Nivolumab</td>
+                                <td rowspan="1" colspan="1">65.40</td>
+                                <td rowspan="1" colspan="1">1.07</td>
+                                <td rowspan="1" colspan="1">0.16</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">5</td>
+                                <td rowspan="1" colspan="1">3</td>
+                                <td rowspan="1" colspan="1">EGFR (copy gain), ERBB2
+                                    (overexpression), ERBB3 (overexpression), PTEN (underexpression)</td>
+                                <td rowspan="1" colspan="1">EGFR (copy gain), ERBB2
+                                    (overexpression), ERBB3 (overexpression)</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Everolimus and erlotinib</td>
+                                <td rowspan="1" colspan="1">25.90</td>
+                                <td rowspan="1" colspan="1">1.87</td>
+                                <td rowspan="1" colspan="1">0.10</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">6</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">EML4–ALK (fusion)</td>
+                                <td rowspan="1" colspan="1">EML4–ALK (fusion)</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Crizotinib</td>
+                                <td rowspan="1" colspan="1">2.17</td>
+                                <td rowspan="1" colspan="1">30.70</td>
+                                <td rowspan="1" colspan="1">16.75<sup>a</sup></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">7</td>
+                                <td rowspan="1" colspan="1">3</td>
+                                <td rowspan="1" colspan="1">EML4–ALK (fusion), ROS1 (overexpression)</td>
+                                <td rowspan="1" colspan="1">EML4–ALK (fusion)</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Crizotinib</td>
+                                <td rowspan="1" colspan="1">8.00</td>
+                                <td rowspan="1" colspan="1">7.60</td>
+                                <td rowspan="1" colspan="1">7.86</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">8</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">ERBB2 (copy gain, p.Y772A775dup), CD274
+                                    (copy gain, overexpression)</td>
+                                <td rowspan="1" colspan="1">ERBB2 (copy gain, p.Y772A775dup), CD274
+                                    (copy gain, overexpression)</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Afatinib</td>
+                                <td rowspan="1" colspan="1">8.33</td>
+                                <td rowspan="1" colspan="1">5.13</td>
+                                <td rowspan="1" colspan="1">1.04</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">9</td>
+                                <td rowspan="1" colspan="1">3</td>
+                                <td rowspan="1" colspan="1">ERBB3 (p.P599S)</td>
+                                <td rowspan="1" colspan="1">ERBB3 (p.P599S)</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Afatinib</td>
+                                <td rowspan="1" colspan="1">26.17</td>
+                                <td rowspan="1" colspan="1">8.67</td>
+                                <td rowspan="1" colspan="1">4.19</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">10</td>
+                                <td rowspan="1" colspan="1">0</td>
+                                <td rowspan="1" colspan="1">EGFR (p.L858R)</td>
+                                <td rowspan="1" colspan="1">EGFR (p.L858R)</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Gefitinib</td>
+                                <td rowspan="1" colspan="1">80</td>
+                                <td rowspan="1" colspan="1">6.43</td>
+                                <td rowspan="1" colspan="1">N/A</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">11</td>
+                                <td rowspan="1" colspan="1">0</td>
+                                <td rowspan="1" colspan="1">ERBB2 (copy gain, p.Y772A775dup),</td>
+                                <td rowspan="1" colspan="1">ERBB2 (copy gain, p.Y772A775dup),</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Afatinib</td>
+                                <td rowspan="1" colspan="1">40.27</td>
+                                <td rowspan="1" colspan="1">2.10</td>
+                                <td rowspan="1" colspan="1">N/A</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">12</td>
+                                <td rowspan="1" colspan="1">2</td>
+                                <td rowspan="1" colspan="1">TP53 (p.Q192*), KRAS (p.G12V), EGFR
+                                    (copy gain, overexpression), MET (copy gain, overexpression),
+                                    ERBB3 (overexpression)</td>
+                                <td rowspan="1" colspan="1">KRAS (p.G12V), EGFR (copy gain,
+                                    overexpression), MET (copy gain, overexpression)</td>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Erlotinib</td>
+                                <td rowspan="1" colspan="1">32.03</td>
+                                <td rowspan="1" colspan="1">0.93</td>
+                                <td rowspan="1" colspan="1">0.22<sup>a</sup></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">13</td>
+                                <td rowspan="1" colspan="1">0</td>
+                                <td rowspan="1" colspan="1">CCDC6–RET (fusion)</td>
+                                <td rowspan="1" colspan="1">CCDC6–RET (fusion)</td>
+                                <td rowspan="1" colspan="1">2</td>
+                                <td rowspan="1" colspan="1">Vandetanib</td>
+                                <td rowspan="1" colspan="1">4.17</td>
+                                <td rowspan="1" colspan="1">5.17</td>
+                                <td rowspan="1" colspan="1">N/A</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table-wrap-foot>
+                        <fn>
+                            <p><sup>a</sup>Ongoing treatment.</p>
+                        </fn>
+                    </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="MCS002659TSATB3" orientation="portrait" position="float">
+                    <label>Table 3.</label>
+                    <caption>
+                        <p>Therapies received before POG-informed therapy</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                            <col align="left" span="1" />
+                            <col align="left" span="1" />
+                            <col align="left" span="1" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th align="left" rowspan="1" colspan="1">Study Patient ID</th>
+                                <th align="center" rowspan="1" colspan="1">Histologies</th>
+                                <th align="left" rowspan="1" colspan="1">Therapies received before
+                                    POG</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="1" colspan="1">1</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">Cisplatin/vinorelbine<break />
+                                    Cisplatin/etoposide<break />Erlotinib</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">2</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">Cisplatin/gemcitabine</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">3</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">Carboplatin/pemetrexed</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">4</td>
+                                <td rowspan="1" colspan="1">Squamous cell carcinoma</td>
+                                <td rowspan="1" colspan="1">Cisplatin/etoposide<break />
+                                    Cisplatin/gemcitabine</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">5</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">Cisplatin/docetaxel<break />Pemetrexed<break />
+                                    Bevacizumab</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">6</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">Cisplatin/pemetrexed</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">7</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">Carboplatin/gemcitabine<break />
+                                    Pemetrexed/Reolysin<break />Erlotinib</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">8</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">Cisplatin/gemcitabine</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">9</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">Cisplatin/gemcitabine<break />Pemetrexed<break />
+                                    Erlotinib</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">10</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">No prior therapies</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">11</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">No prior therapies</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">12</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">Carboplatin/gemcitabine<break />
+                                    Pemetrexed</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">13</td>
+                                <td rowspan="1" colspan="1">Adenocarcinoma</td>
+                                <td rowspan="1" colspan="1">No prior therapies</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table-wrap>
+                <p>Three patients went on to receive second-line POG-informed therapy (<xref
+                        rid="MCS002659TSATB4" ref-type="table">Table 4</xref>). Using the previous
+                    systemic therapy prior to POG as a baseline for the PFS ratio, two (67%)
+                    patients had a PFS ratio ≥1.3 and overall median PFS ratio was 1.43. No patients
+                    received third-line therapy.</p>
+                <table-wrap id="MCS002659TSATB4" orientation="portrait" position="float">
+                    <label>Table 4.</label>
+                    <caption>
+                        <p>Survival outcomes for patients who received more than one line of
+                            POG-informed therapy</p>
+                    </caption>
+                    <table frame="hsides" rules="groups">
+                        <colgroup span="1">
+                            <col align="left" span="1" />
+                            <col align="left" span="1" />
+                            <col align="left" span="1" />
+                            <col align="char" char="." span="1" />
+                            <col align="char" char="." span="1" />
+                            <col align="left" span="1" />
+                            <col align="left" span="1" />
+                            <col align="char" char="." span="1" />
+                            <col align="char" char="." span="1" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th rowspan="2" align="left" colspan="1">Patient</th>
+                                <th colspan="4" align="center" rowspan="1">First-line POG-informed
+                                    therapy</th>
+                                <th colspan="4" align="center" rowspan="1">Second-line POG-informed
+                                    therapy</th>
+                            </tr>
+                            <tr>
+                                <th align="center" rowspan="1" colspan="1">Molecular targets</th>
+                                <th align="center" rowspan="1" colspan="1">POG-informed therapy</th>
+                                <th align="center" rowspan="1" colspan="1">PFS</th>
+                                <th align="center" rowspan="1" colspan="1">PFS ratio</th>
+                                <th align="center" rowspan="1" colspan="1">Molecular targets</th>
+                                <th align="center" rowspan="1" colspan="1">POG-informed therapy</th>
+                                <th align="center" rowspan="1" colspan="1">PFS</th>
+                                <th align="center" rowspan="1" colspan="1">PFS ratio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="1" colspan="1">3</td>
+                                <td rowspan="1" colspan="1">NOTCH1</td>
+                                <td rowspan="1" colspan="1">Phase 1 NOTCH trial</td>
+                                <td rowspan="1" colspan="1">7.40</td>
+                                <td rowspan="1" colspan="1">0.84</td>
+                                <td rowspan="1" colspan="1">SDC4–NRG1 fusion</td>
+                                <td rowspan="1" colspan="1">Afatinib</td>
+                                <td rowspan="1" colspan="1">12.53</td>
+                                <td rowspan="1" colspan="1">1.43</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">7</td>
+                                <td rowspan="1" colspan="1">EML4–ALK fusion</td>
+                                <td rowspan="1" colspan="1">Crizotinib</td>
+                                <td rowspan="1" colspan="1">7.60</td>
+                                <td rowspan="1" colspan="1">7.86</td>
+                                <td rowspan="1" colspan="1">EML4–ALK fusion</td>
+                                <td rowspan="1" colspan="1">LDK378 (second-generation ALK inhibitor)</td>
+                                <td rowspan="1" colspan="1">6.73</td>
+                                <td rowspan="1" colspan="1">6.97</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">8</td>
+                                <td rowspan="1" colspan="1">ERBB2 (GoF)</td>
+                                <td rowspan="1" colspan="1">Afatinib</td>
+                                <td rowspan="1" colspan="1">8.67</td>
+                                <td rowspan="1" colspan="1">4.19</td>
+                                <td rowspan="1" colspan="1">CD274</td>
+                                <td rowspan="1" colspan="1">Nivolumab</td>
+                                <td rowspan="1" colspan="1">1.20</td>
+                                <td rowspan="1" colspan="1">0.24</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table-wrap-foot>
+                        <fn>
+                            <p>(GoF) Gain of function.</p>
+                        </fn>
+                    </table-wrap-foot>
+                </table-wrap>
+                <p>Based on genomic analysis and actionable targets, two patients were enrolled in
+                    clinical trials, six received standard therapy, and five received therapy with
+                    an off-label indication. It should be noted that when a patient received
+                    “standard therapy” that was deemed to be POG-informed, the treatment was chosen
+                    because of the POG data and analysis, rather than because it was the next
+                    treatment a patient would receive without that data. This distinction is
+                    particularly relevant when there are several standard-of-care choices,
+                    particularly in the first-line setting or for other cancers such as breast, when
+                    there are many choices that could be considered standard.</p>
+                <p>Ten actionable targets were determined based on DNA analysis, whereas nine
+                    targets were based on RNA analysis. In three cases, actionable targets were
+                    discovered using RNA analysis, but not detected with DNA. In addition, the <italic
+                        toggle="yes">EGFR</italic> and <italic toggle="yes">ALK</italic> mutations
+                    had previously not been detected as part of routine standard of care, and thus
+                    these were included as POG-guided therapies. For instance, for Patient 10, an <italic
+                        toggle="yes">EGFR</italic> mutation was detected on a biopsy from a lesion
+                    separate from the previously negative <italic toggle="yes">EGFR</italic> lung
+                    lesion on the initial standard-of-care biopsy done a year prior. For Patient 7,
+                    initial standard-of-care testing with immunohistochemistry (IHC) was equivocal
+                    (numerical score 2+/3) and fluorescent in situ hybridization (FISH) was negative
+                    with 3% positive cells. POG analysis identified an inversion event in Chromosome
+                    2, causing the <italic toggle="yes">EML4–ALK</italic> fusion gene variant 1, and
+                    a translocation with the insertion of a portion of Chromosome 2p containing the <italic
+                        toggle="yes">EML4–ALK</italic> fusion into Chromosome 12 (<xref
+                        ref-type="fig" rid="MCS002659TSAF3">Fig. 3</xref>). The complex nature of
+                    two structural variants around the <italic toggle="yes">ALK</italic> region may
+                    be the reason that FISH failed to detect this fusion.</p>
+                <fig id="MCS002659TSAF3" orientation="portrait" position="float">
+                    <label>Figure 3.</label>
+                    <caption>
+                        <p><italic toggle="yes">EML4–ALK</italic> rearrangement in Patient 7. From
+                            the <italic toggle="yes">top</italic>, fusion breakpoint is shown at the
+                            chromosomal, gene, and exon level. Fusion product containing exons 1–13
+                            of EML4 joined to exons 20–29 of ALK is shown on the <italic
+                                toggle="yes">bottom</italic>.</p>
+                    </caption>
+                    <graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float"
+                        orientation="portrait" xlink:href="MCS002659Tsa_F3.jpg" />
+                </fig>
+                <p>In our cohort, eight patients received more than one line of therapy that were
+                    not guided by POG. Median PFS ratio for this standard therapy cohort was
+                    calculated using the most recent therapies and measured 0.84 (IQR: 0.45–1.65).
+                    Three (38%) patients had a PFS ratio ≥1.3, and one (12.5%) had a PFS ratio ≥0.8
+                    and &lt;1.3. Four of these patients had actionable mutations detected from POG
+                    analysis, but two declined enrollment in a clinical trial and one patient
+                    deteriorated clinically. The fourth patient demonstrated an <italic toggle="yes">
+                    ALK</italic> fusion and high expression of <italic toggle="yes">VEGFR</italic>
+                    on POG analysis. However, this patient was already stable on crizotinib, and
+                    thus this was not considered a POG-guided therapy.</p>
+            </sec>
+            <sec sec-type="discussion" id="s3">
+                <title>DISCUSSION</title>
+                <p>Molecular profiling has rapidly come to the forefront of oncology practice,
+                    particularly since molecularly targeted agents have demonstrated improved
+                    survival outcomes in patients with specific mutations. Our study sought to
+                    characterize treatment and outcomes with the addition of a more comprehensive
+                    approach to molecular profiling, with whole-genome sequencing and transcriptome
+                    analysis.</p>
+                <p>One of the challenges with genomics-based trials has been defining a clear
+                    outcome measure, as patients are not enrolled or treated in a standard
+                    randomized or blinded fashion. In our case, the POG program is highly
+                    individualized and a simple comparison between PFS of POG-guided therapies would
+                    yield little information about the utility of molecular profiling. Thus, the PFS
+                    ratio was selected as a surrogate to characterize outcomes, as this marker uses
+                    a patient as their own control, comparing PFS with POG-guided therapy to that of
+                    a prior systemic therapy regimen. PFS ratio has also been used in other
+                    genomics-based trials in oncology (<xref rid="MCS002659TSAC24" ref-type="bibr">Von
+                    Hoff et al. 2010</xref>; <xref rid="MCS002659TSAC23" ref-type="bibr">Tsimberidou
+                    et al. 2012</xref>; <xref rid="MCS002659TSAC19" ref-type="bibr">Rodon et al.
+                    2015</xref>). In this study, 30% of patients with metastatic NSCLC and
+                    actionable targets had a PFS ratio ≥1.3, indicating a clinical benefit from
+                    POG-guided therapy. In a phase II trial also using the PFS ratio as a primary
+                    outcome, <xref rid="MCS002659TSAC24" ref-type="bibr">Von Hoff et al. (2010)</xref>
+                    used molecular profiling with IHC, FISH, and microarrays to aid in treatment
+                    selection for patients with a broad range of metastatic malignancies. A PFS
+                    ratio ≥1.3 was defined as a determinant of clinical benefit and, similar to our
+                    study, 27% of patients in their cohort met this cutoff.</p>
+                <p>In addition, different studies use varying definitions for informative or
+                    actionable targets and may have different meanings depending on the type of
+                    technology and setting used (<xref rid="MCS002659TSAC5" ref-type="bibr">Carr et
+                    al. 2016</xref>). In our study, “actionable” targets were defined as “a
+                    potential target or risk factor that affects the treatment plan,” and these did
+                    not include mutations that are cancer drivers without a clear treatment, such as <italic
+                        toggle="yes">TP53</italic> mutations. The difference between informative and
+                    actionable affects clinical decision-making, and thus a strict definition has
+                    been adhered to within our study. As genomic technologies are advancing and
+                    increasingly being integrated into patient care, a standardized approach to
+                    characterizing actionable mutations will be helpful across cancer centers around
+                    the world (<xref rid="MCS002659TSAC5" ref-type="bibr">Carr et al. 2016</xref>).</p>
+                <p>As the POG trial progressed over time, new evidence became available for
+                    pathogenic mutations and the efficacy of novel candidate therapies. Given that
+                    our study period spanned from 2012 to 2016, chosen candidate therapies may
+                    differ from 2012 compared to 2016, depending on the available evidence at the
+                    time. For instance, Patient 9 demonstrated an <italic toggle="yes">ERBB3</italic>
+                    mutation and was treated with afatinib. At the time of treatment in 2013, <xref
+                        rid="MCS002659TSAC6" ref-type="bibr">De Grève et al. (2012)</xref> reported
+                    on a number of patients with lung adenocarcinoma who derived clinical benefit
+                    with afatinib. Efficacy was later confirmed in a phase II study published in
+                    2015 (<xref rid="MCS002659TSAC7" ref-type="bibr">De Grève et al. 2015</xref>).
+                    In another instance, Patient 5 was treated with everolimus and erlotinib based
+                    on the available evidence at the time in 2013. There was preclinical evidence of
+                    a synergistic benefit of everolimus added to erlotinib to target the rapamycin
+                    (mTOR) pathway (<xref rid="MCS002659TSAC9" ref-type="bibr">Johnson et al. 2007</xref>).
+                    The phase II study of everolimus and erlotinib subsequently published in 2014
+                    did not demonstrate efficacy (<xref rid="MCS002659TSAC3" ref-type="bibr">Besse
+                    et al. 2014</xref>). Another example of evolving therapies is the recent
+                    availability of immune therapies. Once available, the tumor mutational burden
+                    was identified as a marker, and 200 somatic nonsynonymous mutations were used as
+                    a cutoff. One of the challenges of these precision medicine trials in clinical
+                    oncology is that available therapies may change over the course of the trial, as
+                    novel evidence and therapies become available. As a result, the definitions of
+                    “actionable” targets may change as well over time, particularly as the treatment
+                    landscape evolves. In addition, the data and the patient may have to be taken
+                    into account separately, as a particular mutation may be actionable but not
+                    necessarily for the patient at the time of genomic analysis.</p>
+                <p>Despite the changing landscape of precision medicine and its inherent challenges,
+                    one of the advantages with whole-genome and RNA data is the ability to
+                    retrospectively look back for variants that were previously not known to be
+                    actionable. For instance, if a new fusion is discovered, whole-genome and RNA
+                    data can easily be queried to find cases with this new fusion. This would not be
+                    possible with panel sequencing alone, which can detect only previously known
+                    variants. Thus, the ability to reanalyze whole-genome and RNA data is a
+                    significant benefit that allows the data to be useful in both the present-day
+                    and with future gene discoveries.</p>
+                <p>The POG program is unique in its comprehensive approach to molecular profiling,
+                    with both DNA and RNA sequencing used to determine informative and actionable
+                    findings. Previous studies, such as the SHIVA trial, used targeted
+                    next-generation sequencing, gene copy-number alterations, and
+                    immunohistochemistry for molecular profiling (<xref rid="MCS002659TSAC14"
+                        ref-type="bibr">Le Tourneau et al. 2015</xref>). This was a randomized trial
+                    that compared outcomes in patients with any solid tumor malignancy that were
+                    either matched to a molecularly targeted agent or received treatment chosen by
+                    their physician. All of the molecularly targeted agents used were drugs approved
+                    for clinical use. No significant difference was determined between the PFS of
+                    both groups. In the BATTLE trial, <xref rid="MCS002659TSAC11" ref-type="bibr">Kim
+                    et al. (2011)</xref> selected 11 molecular biomarkers to profile patients with
+                    metastatic NSCLC and randomized patients to molecularly targeted agents.
+                    Molecular testing was limited to 11 biomarkers, and targeted agents were agents
+                    being investigated in phase II and III trials for metastatic NSCLC, including
+                    erlotinib, vandetanib, erlotinib and bexarotene, and sorafenib. Median PFS was
+                    1.9 mo and disease control rate was 46% at 8 wk. In contrast, the POG program is
+                    much broader in its scope of genomic analysis. For instance, the <italic
+                        toggle="yes">SDC4–NRG1</italic> fusion detected in Patient 3 would not have
+                    otherwise been known, and this patient went on to demonstrate a PFS of 12.53 mo
+                    with afatinib. The <italic toggle="yes">EML4–ALK</italic> fusion in Patient 7
+                    also had not been detected with standard FISH. Furthermore, the addition of RNA
+                    sequencing may identify genetic aberrations that may not otherwise be found,
+                    broadening the potential scope for innovation and discovery of novel treatment
+                    strategies. The transcriptome data were useful for a number of practical
+                    purposes. It helped to both “validate” the DNA findings (i.e., fusion, mutation)
+                    and complement DNA findings. For instance, the genomic data were able to
+                    identify an ALK fusion, but transcriptome data can identify the high expression
+                    of ALK. In addition, transcriptome data can also detect expression-level
+                    aberrations, such as the high expression of targetable genes like <italic
+                        toggle="yes">EGFR</italic>. With whole-genome and RNA data, we are not
+                    limited to only known hotspot events but can also better characterize the
+                    overall picture of the tumor, providing more context and supporting information
+                    to actionable variants. In this relatively small cohort of NSCLC patients,
+                    actionable targets were found in three cases with only RNA analysis. Certainly,
+                    these remain case examples within a small sample size, and larger studies of the
+                    entire POG population will help to determine the incremental benefit of both
+                    broad genomic analysis and the addition of RNA sequencing (<xref
+                        rid="MCS002659TSAC13" ref-type="bibr">Laskin et al. 2016</xref>).</p>
+                <p>Prioritizing genomic targets with molecular profiling is another challenge with
+                    large-scale genomic analyses, particularly because multiple actionable targets
+                    may be identified. <xref rid="MCS002659TSAC2" ref-type="bibr">Andre et al.
+                    (2014)</xref> proposed a level of evidence scale to aid with target
+                    prioritization, ranking molecular alterations validated in early phase trials as
+                    highest compared to a predicted target without clinical data as lowest on the
+                    scale. In both the SHIVA and BATTLE trials, biomarkers had prespecified rankings
+                    to prioritize mutations (<xref rid="MCS002659TSAC11" ref-type="bibr">Kim et al.
+                    2011</xref>; <xref rid="MCS002659TSAC14" ref-type="bibr">Le Tourneau et al. 2015</xref>).
+                    In the POG program, despite our relatively small cohort of metastatic NSCLC
+                    cases, several patients had multiple actionable molecular targets.
+                    Bioinformatics analysis of each case included potential therapies previously
+                    reported in the literature that targeted POG-identified pathways. These analyses
+                    were presented in a multidisciplinary Clinical Genomics Tumor Board to discuss
+                    each actionable target and potential treatments. Previous analysis of the POG
+                    program found that the tumor board tended to focus on pathways with several
+                    abnormalities, rather than single somatic alterations, to prioritize targets (<xref
+                        rid="MCS002659TSAC12" ref-type="bibr">Laskin et al. 2015</xref>). When more
+                    than one clinically actionable target is detected and there is clinical
+                    equipoise as to the best approach, the decision is left to the patient and their
+                    treating oncologist to choose which therapy would be most appropriate.
+                    Prospective studies such as the Lung TRACERx, which will use longitudinal sample
+                    collection to characterize and investigate intratumor heterogeneity and outcomes
+                    in NSCLC, will be helpful in better delineating the changing molecular landscape
+                    during disease progression (<xref rid="MCS002659TSAC8" ref-type="bibr">Jamal-Hanjani
+                    et al. 2014</xref>). This type of longitudinal data may augment prioritization
+                    of molecular targets.</p>
+                <p>Limitations of our study include our relatively small sample size of metastatic
+                    NSCLC cases enrolled in the POG program. Genomic analysis and comparison of PFS
+                    ratios in a larger cohort may provide an improved understanding of the broader
+                    implications of these results. This largely served as a descriptive study to
+                    disseminate our institutional experience with metastatic NSCLC in a
+                    genomics-based setting.</p>
+            </sec>
+            <sec sec-type="conclusion" id="s4">
+                <title>CONCLUSION</title>
+                <p>In conclusion, we present our institutional experience with integrating
+                    whole-genome and RNA sequencing into practice for patients with metastatic
+                    NSCLC. Within this relatively small cohort of NSCLC, 30% of patients who were
+                    able to receive treatment demonstrated longer PFS with POG-informed therapies.
+                    Our population-based approach highlights the utility and advantages of
+                    whole-genome and RNA data over gene panels in informing our knowledge about
+                    cancer biology and gene discovery. Larger studies over a longitudinal basis will
+                    help clarify the role of whole-genome analysis in routine clinical practice.</p>
+            </sec>
+            <sec sec-type="methods" id="s5">
+                <title>METHODS</title>
+                <sec id="s5a">
+                    <title>Personalized Onco-Genomics Project</title>
+                    <p>BC Cancer (BCC) is responsible for coordinating cancer care for the ∼4.6
+                        million residents across British Columbia. The POG program was launched as a
+                        translational medicine study to create a multidisciplinary network of
+                        oncologists, pathologists, and bioinformaticians to apply whole-genome and
+                        transcriptome analysis to guide treatment decision-making for patients with
+                        metastatic malignancies when limited standard treatment options were
+                        available. Between 2012 and 2016, 217 patients had a fresh tumor biopsy and
+                        blood sample (to differentiate germline aberrations). The tumor samples were
+                        classified according to the World Health Organization criteria. Samples
+                        underwent comprehensive DNA (80× for tumor samples; 40× for normal DNA
+                        comparator) and RNA sequencing (200 million reads) followed by in-depth
+                        bioinformatics, including the assembly, annotation, and mining of genomic
+                        data to identify abnormalities that might be cancer “drivers” or provide
+                        actionable or treatable targets. Each case was presented and discussed in a
+                        weekly multidisciplinary molecular tumor board during which the
+                        consenting/treating medical oncologist and colleagues interacted directly
+                        with the team of genome scientists and analysts to gain a comprehensive and
+                        mutually educational understanding of the genomic findings for this
+                        individual with incurable cancer. During this meeting, “informative” targets
+                        were defined as an interesting feature that may or may not have prognostic
+                        or therapeutic relevance at this time but play a role in better
+                        understanding the biology or diagnosis of the cancer. Most of these targets
+                        were felt to play a role in carcinogenesis but had no available agents to
+                        affect the target or pathway at this time. For instance, cancer drivers,
+                        such as <italic toggle="yes">TP53</italic> mutations, were included as
+                        informative targets. In contrast, “clinically actionable” targets were
+                        considered a potential target or risk factor that affects the treatment plan
+                        (<xref rid="MCS002659TSAC12" ref-type="bibr">Laskin et al. 2015</xref>; <xref
+                            rid="MCS002659TSAC17" ref-type="bibr">Massard et al. 2017</xref>). The
+                        average time to results from biopsy measured 54.5 d. The length of time is
+                        primarily because of the in-depth personalized genome and transciptome
+                        analysis that is undertaken by a highly specialized team of
+                        bioinformaticians. This adds to the time; however, it also means that the
+                        data and the body of evidence to support any genomic target has been
+                        thoroughly explored, doing justice to the sheer volume and complexity of
+                        data that is generated for each individual patient. As the program has
+                        evolved over time, a manually curated Knowledgebase of genomic data has been
+                        assembled. This turnaround time is improving, but it is not expected to
+                        diminish rapidly or negate a personalized evaluation and analysis. POG has
+                        integrated a more time-sensitive, automated “targeted gene report” that is a
+                        first look at the whole-genome and transcriptome data with a preselected set
+                        of well-defined targets. The average turnaround time for this “targeted
+                        report” is 26 d. This manuscript is focused on comprehensive analyses rather
+                        than this targeted report. Further details regarding sequencing and
+                        bioinformatics are described in <ext-link
+                            xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri"
+                            xlink:href="http://www.molecularcasestudies.org/lookup/suppl/doi:10.1101/mcs.a002659/-/DC1">Supplemental
+                        Appendix 1</ext-link>.</p>
+                    <p>The POG project was approved by the University of British Columbia Cancer
+                        Research Ethics Board (BCCA REB ID: H14-00681) and conducted in accordance
+                        with the Declaration of Helsinki. Informed consent was obtained from the
+                        patient for profiling the tumor using RNA and whole-genome sequencing.</p>
+                </sec>
+                <sec id="s5b">
+                    <title>Patient Population</title>
+                    <p>For this study, we identified all patients enrolled in the POG program
+                        between 2012 and 2016 who had been diagnosed with metastatic NSCLC.
+                        Histologies included were adenocarcinoma, squamous cell carcinoma, and
+                        NSCLC-not otherwise specified (NSCLC-NOS). Baseline clinicopathologic and
+                        treatment data were extracted by retrospective chart review, including
+                        Eastern Cooperative Oncology Group (ECOG) performance status, treatment
+                        modalities, and outcomes. ECOG status is a standard measure of a patient's
+                        functional status that is commonly used in clinical trials (<xref
+                            rid="MCS002659TSAC18" ref-type="bibr">Oken et al. 1982</xref>).
+                        “Informative” and “actionable” targets were identified based on POG
+                        analysis, with detailed descriptions of potential pathways, along with the
+                        level of evidence behind candidate therapies and potential targets. The
+                        majority of cases included in the POG program were presented and discussed
+                        in the weekly Clinical Genomics Tumor Board, which included medical
+                        oncologists, pathologists, and bioinformaticians. A consensus of the
+                        Clinical Genomics Tumor Board, including the patient's treating clinician,
+                        was reached to identify each informative and clinically actionable target.
+                        Decisions regarding “actionable” targets and appropriate therapies were
+                        prioritized according to levels of evidence (<xref rid="MCS002659TSATB5"
+                            ref-type="table">Table 5</xref>), with known alterations and approved
+                        therapies ranking higher than those with emerging evidence. “POG-informed
+                        therapy” was defined as a treatment chosen based on an actionable target
+                        determined by POG analysis. Therapies based on standard-of-care mutation
+                        analysis, such as EGFR mutations, were not considered “POG-informed
+                        therapies,” unless this was not previously known, as the POG data are
+                        intended for discovery and innovation and not to replace a routine gene
+                        test. Overall survival (OS) data were calculated using the date of
+                        diagnosis, whereas PFS on therapy was calculated using the start date of
+                        therapy.</p>
+                    <table-wrap id="MCS002659TSATB5" orientation="portrait" position="float">
+                        <label>Table 5.</label>
+                        <caption>
+                            <p>Tiers of evidence utilized by the Clinical Genomics Tumor Board when
+                                prioritizing actionable mutations and potential therapies</p>
+                        </caption>
+                        <table frame="hsides" rules="groups">
+                            <colgroup span="1">
+                                <col align="left" span="1" />
+                                <col align="left" span="1" />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th align="left" rowspan="1" colspan="1">Tier</th>
+                                    <th align="center" rowspan="1" colspan="1">Actionable alteration
+                                        and levels of evidence</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="1" colspan="1">1</td>
+                                    <td rowspan="1" colspan="1">Known alterations with approved drug
+                                        in same cancer type</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="1" colspan="1">2</td>
+                                    <td rowspan="1" colspan="1">Known alterations with approved
+                                        therapy in different cancer types</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="1" colspan="1">3</td>
+                                    <td rowspan="1" colspan="1">Known alterations with emerging
+                                        therapeutic evidence</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="1" colspan="1">4</td>
+                                    <td rowspan="1" colspan="1">Uncharacterized oncologic
+                                        alterations identified by POG without existing evidence
+                                        based on current literature</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </table-wrap>
+                </sec>
+                <sec id="s5c">
+                    <title>Statistical Analysis</title>
+                    <p>Descriptive statistics were calculated to characterize our series of patients
+                        with metastatic NSCLC who underwent whole-genome and RNA sequencing through
+                        the POG program. Categorical variables were compared using Pearson's χ<sup>2</sup>
+                        test. PFS ratio was utilized as a surrogate to characterize outcomes where
+                        the patient acts as their own control, similar to other genomics-based
+                        trials (<xref rid="MCS002659TSAC24" ref-type="bibr">Von Hoff et al. 2010</xref>).
+                        We calculated the PFS ratio by comparing the PFS of POG-informed therapies
+                        with the PFS of the last regimen prior to POG. OS was calculated from the
+                        date of diagnosis to date of death or last follow-up. All tests were
+                        two-sided, with <italic toggle="yes">P</italic> ≤ 0.05 as the cutoff for
+                        statistical significance. SPSS version 22.0 was used for all statistical
+                        analyses (SPSS).</p>
+                </sec>
+            </sec>
+            <sec id="s6">
+                <title>ADDITIONAL INFORMATION</title>
+                <sec sec-type="data-availability" id="s6a">
+                    <title>Data Deposition and Access</title>
+                    <p>The whole-genome sequencing and RNA-seq data for this case are available as
+                        .bam files from the European Genome-Phenome Archive (EGA, <uri
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xlink:href="http://www.ebi.ac.uk/ega/home">www.ebi.ac.uk/ega/home</uri>)
+                        as part of the study EGAS00001001159, accession IDs include EGAD00001001963,
+                        EGAD00001002045, EGAD00001001965, EGAD00001001967, EGAD00001001968,
+                        EGAD00001002985, EGAD00001001969, EGAD00001001966, EGAD00001001962,
+                        EGAD00001002564, EGAD00001003011, EGAD00001002023, EGAD00001002548,
+                        EGAD00001001964, EGAD00001003005, EGAD00001001961, EGAD00001003047,
+                        EGAD00001003057, and EGAD00001003076.</p>
+                </sec>
+                <sec id="s6b">
+                    <title>Ethics Statement</title>
+                    <p>The study was approved by the University of British Columbia Research Ethics
+                        Committee (BCCA REB ID: H12-00137) and conducted in accordance with the
+                        Declaration of Helsinki. Written informed consent was obtained from each
+                        patient prior to genomic profiling. Patient identification was anonymized
+                        within the research team and an identification code was assigned to the case
+                        for communicating clinically relevant information to physicians. The
+                        patients consented to potential publication of findings. Raw sequence data
+                        and downstream analytics were maintained within a secure computing
+                        environment.</p>
+                </sec>
+                <sec id="s6c">
+                    <title>Acknowledgments</title>
+                    <p>We gratefully acknowledge the participation of our patients and families, the
+                        POG team, and the generous support of the BC Cancer Foundation. We also
+                        acknowledge contributions toward equipment and infrastructure from Canada
+                        Foundation for Innovation and the BC Knowledge Development Fund. The results
+                        published here are in part based upon data generated by the following
+                        projects and obtained from dbGaP (<uri
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xlink:href="http://www.ncbi.nlm.nih.gov/gap">
+                        http://www.ncbi.nlm.nih.gov/gap</uri>): The Cancer Genome Atlas managed by
+                        the National Cancer Institute (NCI) and the National Human Genome Research
+                        Institute (NHGRI) (<uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xlink:href="http://cancergenome.nih.gov">http://cancergenome.nih.gov</uri>
+                        ).</p>
+                </sec>
+                <sec id="s6d">
+                    <title>Author Contributions</title>
+                    <p>J.L., E.S.T., Y.S., N.C., and C.H. were responsible for the concept, design,
+                        and analysis for this study. All authors discussed the results and
+                        contributed to the final manuscript.</p>
+                </sec>
+                <sec id="s6e">
+                    <title>Funding</title>
+                    <p>This research did not receive any specific grant from funding agencies in the
+                        public, commercial, or not-for-profit sectors.</p>
+                </sec>
+                <sec id="s6f">
+                    <title>Competing Interest Statement</title>
+                    <p>The authors have declared no competing interest.</p>
+                </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+                <title>Supplementary Material</title>
+                <supplementary-material id="PMC_1" content-type="local-data" position="float"
+                    orientation="portrait">
+                    <caption>
+                        <title>Supplemental Material</title>
+                    </caption>
+                    <media xmlns:xlink="http://www.w3.org/1999/xlink" mimetype="text"
+                        mime-subtype="html" xlink:href="supp_5_1_a002659__index.html"
+                        position="float" orientation="portrait" />
+                    <media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:role="associated-file"
+                        mimetype="application" mime-subtype="msword"
+                        xlink:href="supp_mcs.a002659_Supplemental_Material.docx" position="float"
+                        orientation="portrait" />
+                </supplementary-material>
+            </sec>
+        </body>
+        <back>
+            <fn-group>
+                <fn fn-type="supplementary-material">
+                    <p>[Supplemental material is available for this article.]</p>
+                </fn>
+            </fn-group>
+            <ref-list>
+                <title>REFERENCES</title>
+                <ref id="MCS002659TSAC1">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Andre</surname>
+                            <given-names>F</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Nowak</surname>
+                            <given-names>F</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Arnedos</surname>
+                            <given-names>M</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Lacroix</surname>
+                            <given-names>L</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Viens</surname>
+                            <given-names>P</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Calvo</surname>
+                            <given-names>F</given-names>
+                        </string-name>. <year>
+                        2012</year>
+<article-title>Biomarker discovery, development, and
+                        implementation in France: a report from the French National Cancer Institute
+                        and cooperative groups</article-title>. <source>Clin Cancer Res</source>
+<volume>
+                        18</volume>: <fpage>1555</fpage>–<lpage>1560</lpage>. <pub-id
+                            pub-id-type="doi">10.1158/1078-0432.CCR-11-2201</pub-id><pub-id
+                            pub-id-type="pmid">22422408</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC2">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Andre</surname>
+                            <given-names>F</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Mardis</surname>
+                            <given-names>E</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Salm</surname>
+                            <given-names>M</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Soria</surname>
+                            <given-names>JC</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Siu</surname>
+                            <given-names>LL</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Swanton</surname>
+                            <given-names>C</given-names>
+                        </string-name>. <year>
+                        2014</year>
+<article-title>Prioritizing targets for precision cancer medicine</article-title>
+                        . <source>Ann Oncol</source>
+<volume>25</volume>: <fpage>2295</fpage>–<lpage>
+                        2303</lpage>. <pub-id pub-id-type="doi">10.1093/annonc/mdu478</pub-id><pub-id
+                            pub-id-type="pmid">25344359</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC3">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Besse</surname>
+                            <given-names>B</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Leighl</surname>
+                            <given-names>N</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Bennouna</surname>
+                            <given-names>J</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Papadimitrakopoulou</surname>
+                            <given-names>VA</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Blais</surname>
+                            <given-names>N</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Traynor</surname>
+                            <given-names>AM</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Soria</surname>
+                            <given-names>JC</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Gogov</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Miller</surname>
+                            <given-names>N</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Jehl</surname>
+                            <given-names>V</given-names>
+                        </string-name>, <etal />
+<year>
+                        2014</year>
+<article-title>Phase II study of everolimus–erlotinib in
+                        previously treated patients with advanced non-small-cell lung cancer</article-title>
+                        . <source>Ann Oncol</source>
+<volume>25</volume>: <fpage>409</fpage>–<lpage>
+                        415</lpage>. <pub-id pub-id-type="doi">10.1093/annonc/mdt536</pub-id><pub-id
+                            pub-id-type="pmid">24368400</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC4">
+                    <mixed-citation publication-type="other"><collab>Canadian Cancer Society</collab>
+                        . <year>2016</year>
+<source>Canadian Cancer Statistics 2016</source>. <comment>[Internet];
+                        c2016 [cited 2017 March 20]. <uri xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xlink:href="http://www.cancer.ca/~/media/cancer.ca/CW/cancer%20information/cancer%20101/Canadian%20cancer%20statistics/Canadian-Cancer-Statistics-2016-EN.pdf?la=en">
+                        http://www.cancer.ca/~/media/cancer.ca/CW/cancer%20information/cancer%20101/Canadian%20cancer%20statistics/Canadian-Cancer-Statistics-2016-EN.pdf?la=en</uri></comment></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC5">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Carr</surname>
+                            <given-names>TH</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>McEwen</surname>
+                            <given-names>R</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Dougherty</surname>
+                            <given-names>B</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Johnson</surname>
+                            <given-names>JH</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Dry</surname>
+                            <given-names>JR</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Lai</surname>
+                            <given-names>Z</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Ghazoui</surname>
+                            <given-names>Z</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Laing</surname>
+                            <given-names>NM</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Hodgson</surname>
+                            <given-names>DR</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Cruzalegui</surname>
+                            <given-names>F</given-names>
+                        </string-name>, <etal />
+<year>
+                        2016</year>
+<article-title>Defining actionable mutations for oncology
+                        therapeutic development</article-title>. <source>Nat Rev Cancer</source>
+<volume>
+                        16</volume>: <fpage>319</fpage>–<lpage>329</lpage>. <pub-id
+                            pub-id-type="doi">10.1038/nrc.2016.35</pub-id><pub-id pub-id-type="pmid">
+                        27112209</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC6">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>De Grève</surname>
+                            <given-names>J</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Teugels</surname>
+                            <given-names>E</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Geers</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Decoster</surname>
+                            <given-names>L</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Galdermans</surname>
+                            <given-names>D</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>De Mey</surname>
+                            <given-names>J</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Everaert</surname>
+                            <given-names>H</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Umelo</surname>
+                            <given-names>I</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>In't Veld</surname>
+                            <given-names>P</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Schallier</surname>
+                            <given-names>D</given-names>
+                        </string-name>. <year>
+                        2012</year>
+<article-title>Clinical activity of afatinib (BIBW 2992) in
+                        patients with lung adenocarcinoma with mutations in the kinase domain of
+                        HER2/neu</article-title>. <source>Lung Cancer</source>
+<volume>76</volume>: <fpage>
+                        123</fpage>–<lpage>127</lpage>. <pub-id pub-id-type="doi">
+                        10.1016/j.lungcan.2012.01.008</pub-id><pub-id pub-id-type="pmid">22325357</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC7">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>De Grève</surname>
+                            <given-names>J</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Moran</surname>
+                            <given-names>T</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Graas</surname>
+                            <given-names>MP</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Galdermans</surname>
+                            <given-names>D</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Vuylsteke</surname>
+                            <given-names>P</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Canon</surname>
+                            <given-names>JL</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Schallier</surname>
+                            <given-names>D</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Decoster</surname>
+                            <given-names>L</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Teugels</surname>
+                            <given-names>E</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Massey</surname>
+                            <given-names>D</given-names>
+                        </string-name>, <etal />
+<year>
+                        2015</year>
+<article-title>Phase II study of afatinib, an irreversible ErbB
+                        family blocker, in demographically and genotypically defined lung
+                        adenocarcinoma</article-title>. <source>Lung Cancer</source>
+<volume>88</volume>
+                        : <fpage>63</fpage>–<lpage>69</lpage>. <pub-id pub-id-type="doi">
+                        10.1016/j.lungcan.2015.01.013</pub-id><pub-id pub-id-type="pmid">25682316</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC8">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Jamal-Hanjani</surname>
+                            <given-names>M</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Hackshaw</surname>
+                            <given-names>A</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Ngai</surname>
+                            <given-names>Y</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Shaw</surname>
+                            <given-names>J</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Dive</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Quezada</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Middleton</surname>
+                            <given-names>G</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>de Bruin</surname>
+                            <given-names>E</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Le Quesne</surname>
+                            <given-names>J</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Shafi</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <etal />
+<year>
+                        2014</year>
+<article-title>Tracking genomic cancer evolution for precision
+                        medicine: the Lung TRACERx study</article-title>. <source>PLoS Biol</source>
+<volume>
+                        12</volume>: <fpage>e1001906</fpage>
+<pub-id pub-id-type="doi">
+                        10.1371/journal.pbio.1001906</pub-id><pub-id pub-id-type="pmid">25003521</pub-id><pub-id
+                            pub-id-type="pmcid">PMC4086714</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC9">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Johnson</surname>
+                            <given-names>BE</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Jackman</surname>
+                            <given-names>D</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Jänne</surname>
+                            <given-names>PA</given-names>
+                        </string-name>. <year>
+                        2007</year>
+<article-title>Rationale for a phase I trial of erlotinib and the
+                        mammalian target of rapamycin inhibitor everolimus (RAD001) for patients
+                        with relapsed non–small cell lung cancer</article-title>. <source>Clin
+                        Cancer Res</source>
+<volume>13</volume>: <fpage>s4628</fpage>–<lpage>s4631</lpage>
+                        . <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-07-0717</pub-id><pub-id
+                            pub-id-type="pmid">17671154</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC10">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Johnson</surname>
+                            <given-names>DH</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Schiller</surname>
+                            <given-names>JH</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Bunn</surname>
+                            <given-names>PA</given-names>
+                            <suffix>Jr</suffix>
+                        </string-name>. <year>2014</year>
+<article-title>Recent
+                        clinical advances in lung cancer management</article-title>. <source>J Clin
+                        Oncol</source>
+<volume>32</volume>: <fpage>973</fpage>–<lpage>982</lpage>. <pub-id
+                            pub-id-type="doi">10.1200/JCO.2013.53.1228</pub-id><pub-id
+                            pub-id-type="pmid">24567433</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC11">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Kim</surname>
+                            <given-names>ES</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Herbst</surname>
+                            <given-names>RS</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Wistuba</surname>
+                            <given-names>II</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Lee</surname>
+                            <given-names>JJ</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Blumenschein</surname>
+                            <given-names>GR</given-names>
+                            <suffix>Jr</suffix>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Tsao</surname>
+                            <given-names>A</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Stewart</surname>
+                            <given-names>DJ</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Hicks</surname>
+                            <given-names>ME</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Erasmus</surname>
+                            <given-names>J</given-names>
+                            <suffix>Jr</suffix>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Gupta</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <etal />
+<year>
+                        2011</year>
+<article-title>The BATTLE trial: personalizing therapy for lung
+                        cancer</article-title>. <source>Cancer Discov</source>
+<volume>1</volume>: <fpage>
+                        44</fpage>–<lpage>53</lpage>. <pub-id pub-id-type="doi">
+                        10.1158/2159-8274.CD-10-0010</pub-id><pub-id pub-id-type="pmid">22586319</pub-id><pub-id
+                            pub-id-type="pmcid">PMC4211116</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC12">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Laskin</surname>
+                            <given-names>J</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Jones</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Aparicio</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Chia</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Ch'ng</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Deyell</surname>
+                            <given-names>R</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Eirew</surname>
+                            <given-names>P</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Fok</surname>
+                            <given-names>A</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Gelmon</surname>
+                            <given-names>K</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Ho</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <etal />
+<year>
+                        2015</year>
+<article-title>Lessons learned from the application of
+                        whole-genome analysis to the treatment of patients with advanced cancers</article-title>
+                        . <source>Cold Spring Harb Mol Case Stud</source>
+<volume>1</volume>: <fpage>
+                        a000570</fpage>
+<pub-id pub-id-type="doi">10.1101/mcs.a000570</pub-id><pub-id
+                            pub-id-type="pmid">27148575</pub-id><pub-id pub-id-type="pmcid">
+                        PMC4850882</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC13">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Laskin</surname>
+                            <given-names>J</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Ho</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Shen</surname>
+                            <given-names>Y</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Jones</surname>
+                            <given-names>M</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Gelmon</surname>
+                            <given-names>KA</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Lim</surname>
+                            <given-names>H</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Renouf</surname>
+                            <given-names>DJ</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Yip</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Tinker</surname>
+                            <given-names>A</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Khoo</surname>
+                            <given-names>K</given-names>
+                        </string-name>, <etal />
+<year>
+                        2016</year>
+<article-title>Availability of tumour gene expression data
+                        facilitates clinical decision-making for patients with advanced cancers</article-title>
+                        . <source>Ann Oncol</source>
+<volume>27</volume>: <fpage>526</fpage>–<lpage>
+                        544</lpage>. <pub-id pub-id-type="doi">10.1093/annonc/mdv591</pub-id><pub-id
+                            pub-id-type="pmid">26646757</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC14">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Le Tourneau</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Delord</surname>
+                            <given-names>JP</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Gonçalves</surname>
+                            <given-names>A</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Gavoille</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Dubot</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Isambert</surname>
+                            <given-names>N</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Campone</surname>
+                            <given-names>M</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Trédan</surname>
+                            <given-names>O</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Massiani</surname>
+                            <given-names>MA</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Mauborgne</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <etal />
+<year>
+                        2015</year>
+<article-title>Molecularly targeted therapy based on tumour
+                        molecular profiling versus conventional therapy for advanced cancer (SHIVA):
+                        a multicentre, open-label, proof-of-concept, randomised, controlled phase 2
+                        trial</article-title>. <source>Lancet Oncol</source>
+<volume>16</volume>: <fpage>
+                        1324</fpage>–<lpage>1334</lpage>. <pub-id pub-id-type="doi">
+                        10.1016/S1470-2045(15)00188-6</pub-id><pub-id pub-id-type="pmid">26342236</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC15">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Lindsay</surname>
+                            <given-names>CR</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Shaw</surname>
+                            <given-names>E</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Walker</surname>
+                            <given-names>I</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Johnson</surname>
+                            <given-names>PW</given-names>
+                        </string-name>. <year>
+                        2015</year>
+<article-title>Lessons for molecular diagnostics in oncology from
+                        the cancer research UK stratified medicine programme</article-title>. <source>Expert
+                        Rev Mol Diagn</source>
+<volume>15</volume>: <fpage>287</fpage>–<lpage>289</lpage>
+                        . <pub-id pub-id-type="doi">10.1586/14737159.2015.992417</pub-id><pub-id
+                            pub-id-type="pmid">25547183</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC16">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>MacConaill</surname>
+                            <given-names>LE</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Garraway</surname>
+                            <given-names>LA</given-names>
+                        </string-name>. <year>
+                        2010</year>
+<article-title>Clinical implications of the cancer genome</article-title>
+                        . <source>J Clin Oncol</source>
+<volume>28</volume>: <fpage>5219</fpage>–<lpage>
+                        5228</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.2009.27.4944</pub-id><pub-id
+                            pub-id-type="pmid">20975063</pub-id><pub-id pub-id-type="pmcid">
+                        PMC3020694</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC17">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Massard</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Michiels</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Ferté</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Le Deley</surname>
+                            <given-names>MC</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Lacroix</surname>
+                            <given-names>L</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Hollebecque</surname>
+                            <given-names>A</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Verlingue</surname>
+                            <given-names>L</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Ileana</surname>
+                            <given-names>E</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Rosellini</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Ammari</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <etal />
+<year>
+                        2017</year>
+<article-title>High-throughput genomics and clinical outcome in
+                        hard-to-treat advanced cancers: results of the MOSCATO 01 trial</article-title>
+                        . <source>Cancer Discov</source>
+<volume>7</volume>: <fpage>586</fpage>–<lpage>
+                        595</lpage>. <pub-id pub-id-type="doi">10.1158/2159-8290.CD-16-1396</pub-id><pub-id
+                            pub-id-type="pmid">28365644</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC18">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Oken</surname>
+                            <given-names>MM</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Creech</surname>
+                            <given-names>RH</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Tormey</surname>
+                            <given-names>DC</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Horton</surname>
+                            <given-names>J</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Davis</surname>
+                            <given-names>TE</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>McFadden</surname>
+                            <given-names>ET</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Carbone</surname>
+                            <given-names>PP</given-names>
+                        </string-name>. <year>
+                        1982</year>
+<article-title>Toxicity and response criteria of the Eastern
+                        Cooperative Oncology Group</article-title>. <source>Am J Clin Oncol</source>
+<volume>
+                        5</volume>: <fpage>649</fpage>–<lpage>655</lpage>. <pub-id pub-id-type="doi">
+                        10.1097/00000421-198212000-00014</pub-id><pub-id pub-id-type="pmid">7165009</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC19">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Rodon</surname>
+                            <given-names>J</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Soria</surname>
+                            <given-names>JC</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Berger</surname>
+                            <given-names>R</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Batist</surname>
+                            <given-names>G</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Tsimberidou</surname>
+                            <given-names>A</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Bresson</surname>
+                            <given-names>C</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Lee</surname>
+                            <given-names>JJ</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Rubin</surname>
+                            <given-names>E</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Onn</surname>
+                            <given-names>A</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Schilsky</surname>
+                            <given-names>RL</given-names>
+                        </string-name>, <etal />
+<year>
+                        2015</year>
+<article-title>Challenges in initiating and conducting
+                        personalized cancer therapy trials: perspectives from WINTHER, a Worldwide
+                        Innovative Network (WIN) Consortium trial</article-title>. <source>Ann Oncol</source>
+<volume>
+                        26</volume>: <fpage>1791</fpage>–<lpage>1798</lpage>. <pub-id
+                            pub-id-type="doi">10.1093/annonc/mdv191</pub-id><pub-id
+                            pub-id-type="pmid">25908602</pub-id><pub-id pub-id-type="pmcid">
+                        PMC5006164</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC20">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Siegel</surname>
+                            <given-names>RL</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Miller</surname>
+                            <given-names>KD</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Jemal</surname>
+                            <given-names>A</given-names>
+                        </string-name>. <year>
+                        2016</year>
+<article-title>Cancer statistics 2016</article-title>. <source>CA
+                        Cancer J Clin</source>
+<volume>66</volume>: <fpage>7</fpage>–<lpage>30</lpage>
+                        .<pub-id pub-id-type="pmid">26742998</pub-id><pub-id pub-id-type="doi"
+                            assigning-authority="pmc">10.3322/caac.21332</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC21">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Simon</surname>
+                            <given-names>R</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Roychowdhury</surname>
+                            <given-names>S</given-names>
+                        </string-name>. <year>
+                        2013</year>
+<article-title>Implementing personalized cancer genomics in
+                        clinical trials</article-title>. <source>Nat Rev Drug Discov</source>
+<volume>
+                        12</volume>: <fpage>358</fpage>–<lpage>369</lpage>. <pub-id
+                            pub-id-type="doi">10.1038/nrd3979</pub-id><pub-id pub-id-type="pmid">
+                        23629504</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC22">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Stratton</surname>
+                            <given-names>MR</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Campbell</surname>
+                            <given-names>PJ</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Futreal</surname>
+                            <given-names>PA</given-names>
+                        </string-name>. <year>
+                        2009</year>
+<article-title>The cancer genome</article-title>. <source>Nature</source>
+<volume>
+                        458</volume>: <fpage>719</fpage>–<lpage>724</lpage>. <pub-id
+                            pub-id-type="doi">10.1038/nature07943</pub-id><pub-id pub-id-type="pmid">
+                        19360079</pub-id><pub-id pub-id-type="pmcid">PMC2821689</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC23">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Tsimberidou</surname>
+                            <given-names>AM</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Iskander</surname>
+                            <given-names>NG</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Hong</surname>
+                            <given-names>DS</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Wheler</surname>
+                            <given-names>JJ</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Falchook</surname>
+                            <given-names>GS</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Fu</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Piha-Paul</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Naing</surname>
+                            <given-names>A</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Janku</surname>
+                            <given-names>F</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Luthra</surname>
+                            <given-names>R</given-names>
+                        </string-name>, <etal />
+<year>
+                        2012</year>
+<article-title>Personalized medicine in a phase I clinical trials
+                        program: the MD Anderson Cancer Center Initiative</article-title>. <source>Clin
+                        Cancer Res</source>
+<volume>18</volume>: <fpage>6373</fpage>–<lpage>6383</lpage>
+                        . <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-12-1627</pub-id><pub-id
+                            pub-id-type="pmid">22966018</pub-id><pub-id pub-id-type="pmcid">
+                        PMC4454458</pub-id></mixed-citation>
+                </ref>
+                <ref id="MCS002659TSAC24">
+                    <mixed-citation publication-type="journal"><string-name name-style="western">
+                            <surname>Von Hoff</surname>
+                            <given-names>DD</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Stephenson</surname>
+                            <given-names>JJ</given-names>
+                            <suffix>Jr</suffix>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Rosen</surname>
+                            <given-names>P</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Loesch</surname>
+                            <given-names>DM</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Borad</surname>
+                            <given-names>MJ</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Anthony</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Jameson</surname>
+                            <given-names>G</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Brown</surname>
+                            <given-names>S</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Cantafio</surname>
+                            <given-names>N</given-names>
+                        </string-name>, <string-name
+                            name-style="western">
+                            <surname>Richards</surname>
+                            <given-names>DA</given-names>
+                        </string-name>, <etal />
+<year>
+                        2010</year>
+<article-title>Pilot study using molecular profiling of patients’
+                        tumors to find potential targets and select treatments for their refractory
+                        cancers</article-title>. <source>J Clin Oncol</source>
+<volume>28</volume>: <fpage>
+                        4877</fpage>–<lpage>4883</lpage>. <pub-id pub-id-type="doi">
+                        10.1200/JCO.2009.26.5983</pub-id><pub-id pub-id-type="pmid">20921468</pub-id></mixed-citation>
+                </ref>
+            </ref-list>
+        </back>
+    </article>
+</pmc-articleset>

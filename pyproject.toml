@@ -1,0 +1,87 @@
+[project]
+name = "article-converter"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Caralyn Reisle",email = "creisle@bcgsc.ca"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "lxml (>=6.1.3,<7.0.0)",
+    "markdownify (>=1.2.3,<2.0.0)",
+    "beautifulsoup4 (>=4.15.0,<5.0.0)",
+    "markdown (>=3.10.3,<4.0.0)",
+    "anyascii (>=0.3.3,<0.4.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "requests-cache[sqlite] (>=1.3.3,<2.0.0)",
+    "requests (>=2.34.2,<3.0.0)",
+    "pytest (>=9.1.1,<10.0.0)",
+    "pytest-cov (>=7.1.0,<8.0.0)",
+    "ruff (>=0.16.8,<0.17.0)"
+]
+
+
+[tool.poetry]
+package-mode = true
+packages = [{include = "article_converter", from = "src"}]
+include = [
+    { path = "article_converter/data/**/*", format = ["sdist", "wheel"] }
+]
+
+[tool.pytest.ini_options]
+addopts = "--cov=article_converter --cov-report=term-missing --cov-branch --xslt-cov"
+
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+extend-select = [
+    "E",   # pycodestyle errors (replaces flake8)
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes (replaces flake8)
+    "I",   # isort (replaces isort)
+    "ANN001",
+    "ANN201",
+    "S",
+    "B",
+    "UP",
+    "RUF",
+    "FURB",
+    "N",
+]
+ignore = [
+    "E501", # line length of 79 characters
+    "E203", # whitespace before : rule https://github.com/psf/black/issues/315
+    "DTZ",
+    "TRY002", # can enable in future
+    "S702", # prone to false positives
+    "S603", # prone to false positives
+    "S607", # we don't want to specify full path as we run on different servers
+]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.ruff.lint.isort]
+known-first-party = ["lims", "tests"]
+
+[tool.ruff.lint.flake8-comprehensions]
+allow-dict-calls-with-keyword-arguments = true
+
+[tool.ruff.lint.per-file-ignores]
+"test_*.py" = ["ANN", "S101"]
+"tests/**/*.py" = ["ANN", "S101"]
+
+
+[[tool.ty.overrides]]
+include = ["tests/**"]

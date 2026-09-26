@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+            <PMID Version="1">32214442</PMID>
+            <DateRevised>
+                <Year>2021</Year>
+                <Month>04</Month>
+                <Day>02</Day>
+            </DateRevised>
+            <Article PubModel="Print-Electronic">
+                <Journal>
+                    <ISSN IssnType="Print">0018-5787</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>55</Volume>
+                        <Issue>2</Issue>
+                        <PubDate>
+                            <Year>2020</Year>
+                            <Month>Apr</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Hospital pharmacy</Title>
+                    <ISOAbbreviation>Hosp Pharm</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>The SUP-ICU Trial: Does It Confirm or Condemn the Practice of Stress
+                    Ulcer Prophylaxis?</ArticleTitle>
+                <Pagination>
+                    <StartPage>96</StartPage>
+                    <EndPage>101</EndPage>
+                    <MedlinePgn>96-101</MedlinePgn>
+                </Pagination>
+                <ELocationID EIdType="doi" ValidYN="Y">10.1177/0018578719867687</ELocationID>
+                <Abstract>
+                    <AbstractText><b>Purpose:</b> Stress ulcer prophylaxis (SUP) is routinely
+                        administered to critically ill patients for the prevention of stress
+                        ulcer-induced, clinically important bleeding (CIB). Recently, the value of
+                        SUP has been questioned due to the perceived decline in CIB and the
+                        potential for infectious complications secondary to acid suppressive
+                        therapy. The SUP-ICU trial is a large, randomized controlled trial comparing
+                        intravenous pantoprazole with placebo for the indication of SUP. It is hoped
+                        that this trial would answer many of the questions pertaining to the overall
+                        value of SUP. This article will provide an in-depth assessment of the
+                        SUP-ICU trial in the context of the overall body of literature in this area.
+                        Furthermore, applications for clinical practice and recommendations on the
+                        provision of SUP are provided. <b>Summary:</b> The SUP-ICU trial revealed no
+                        difference in the primary outcome of 90-day mortality with pantoprazole but
+                        lower rates of CIB were noted (which was a secondary outcome). Overall,
+                        these data provide important insight into the value of SUP along with other
+                        questions related to the provision of SUP such as the relationship between
+                        CIB and mortality, infectious complications, and enteral nutrition. <b>
+                        Conclusions:</b> The SUP-ICU trial is a landmark trial describing the value
+                        of SUP in a modern-day setting of intensive care unit (ICU) practice. The
+                        provision of SUP should be continued in high-risk patients. Future studies
+                        are ongoing that will add further insight to this routine practice.</AbstractText>
+                    <CopyrightInformation>&#xa9; The Author(s) 2019.</CopyrightInformation>
+                </Abstract>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Barletta</LastName>
+                        <ForeName>Jeffrey F</ForeName>
+                        <Initials>JF</Initials>
+                        <Identifier Source="ORCID">0000-0002-9054-8218</Identifier>
+                        <AffiliationInfo>
+                            <Affiliation>Midwestern University, Glendale, AZ, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Buckley</LastName>
+                        <ForeName>Mitchell S</ForeName>
+                        <Initials>MS</Initials>
+                        <Identifier Source="ORCID">0000-0002-3385-8105</Identifier>
+                        <AffiliationInfo>
+                            <Affiliation>Banner-University Medical Center Phoenix, Phoenix, AZ, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>MacLaren</LastName>
+                        <ForeName>Robert</ForeName>
+                        <Initials>R</Initials>
+                        <AffiliationInfo>
+                            <Affiliation>University of Colorado, Aurora, CO, USA.</Affiliation>
+                        </AffiliationInfo>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2019</Year>
+                    <Month>08</Month>
+                    <Day>02</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Hosp Pharm</MedlineTA>
+                <NlmUniqueID>0043175</NlmUniqueID>
+                <ISSNLinking>0018-5787</ISSNLinking>
+            </MedlineJournalInfo>
+            <KeywordList Owner="NOTNLM">
+                <Keyword MajorTopicYN="N">critical care</Keyword>
+                <Keyword MajorTopicYN="N">gastrointestinal hemorrhage</Keyword>
+                <Keyword MajorTopicYN="N">pantoprazole</Keyword>
+                <Keyword MajorTopicYN="N">stress ulcer prophylaxis</Keyword>
+            </KeywordList>
+            <CoiStatement>Declaration of Conflicting Interests: The author(s) declared no potential
+                conflicts of interest with respect to the research, authorship, and/or publication
+                of this article.</CoiStatement>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2020</Year>
+                    <Month>3</Month>
+                    <Day>28</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2020</Year>
+                    <Month>3</Month>
+                    <Day>28</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2020</Year>
+                    <Month>3</Month>
+                    <Day>28</Day>
+                    <Hour>6</Hour>
+                    <Minute>1</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pmc-release">
+                    <Year>2021</Year>
+                    <Month>4</Month>
+                    <Day>1</Day>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>ppublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">32214442</ArticleId>
+                <ArticleId IdType="pmc">PMC7081478</ArticleId>
+                <ArticleId IdType="doi">10.1177/0018578719867687</ArticleId>
+                <ArticleId IdType="pii">10.1177_0018578719867687</ArticleId>
+            </ArticleIdList>
+            <ReferenceList>
+                <Reference>
+                    <Citation>Selye H. A syndrome produced by diverse nocuous agents. Nature.
+                        1936;138:32.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">9722327</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lucas CE, Sugawa C, Riddle J, Rector F, Rosenberg B, Walt AJ. Natural
+                        history and surgical dilemma of &#x201c;stress&#x201d; gastric bleeding.
+                        Arch Surg. 1971;102:266-273.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">5553299</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Skillman JJ, Bushnell LS, Goldman H, Silen W. Respiratory failure,
+                        hypotension, sepsis, and jaundice. A clinical syndrome associated with
+                        lethal hemorrhage from acute stress ulceration of the stomach. Am J Surg.
+                        1969;117:523-530.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">5771525</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Hastings PR, Skillman JJ, Bushnell LS, Silen W. Antacid titration in
+                        the prevention of acute gastrointestinal bleeding: a controlled, randomized
+                        trial in 100 critically ill patients. N Engl J Med. 1978;298:1041-1045.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">25384</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Barletta JF, Kanji S, MacLaren R, Lat I, Erstad BL.
+                        Pharmacoepidemiology of stress ulcer prophylaxis in the United States and
+                        Canada. J Crit Care. 2014;29:955-960.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">25081626</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Krag M, Perner A, Wetterslev J, et al. Prevalence and outcome of
+                        gastrointestinal bleeding and use of acid suppressants in acutely ill adult
+                        intensive care patients. Intensive Care Med. 2015;41:833-845.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">25860444</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Preslaski CR, Mueller SW, Kiser TH, Fish DN, MacLaren R. A survey of
+                        prescriber perceptions about the prevention of stress-related mucosal
+                        bleeding in the intensive care unit. J Clin Pharm Ther. 2014;39:658-662.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">25243327</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Barletta JF, Bruno JJ, Buckley MS, Cook DJ. Stress ulcer prophylaxis.
+                        Crit Care Med. 2016;44:1395-1405.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">27163192</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>MacLaren R, Kassel LE, Kiser TH, Fish DN. Proton pump inhibitors and
+                        histamine-2 receptor antagonists in the intensive care setting: focus on
+                        therapeutic and adverse events. Expert Opin Drug Saf. 2015;14:269-280.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">25423448</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Freedberg DE, Kim LS, Yang YX. The risks and benefits of long-term use
+                        of proton pump inhibitors: expert review and best practice advice from the
+                        American gastroenterological association. Gastroenterology.
+                        2017;152:706-715.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">28257716</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Farley KJ, Barned KL, Crozier TM. Inappropriate continuation of stress
+                        ulcer prophylaxis beyond the intensive care setting. Crit Care Resusc.
+                        2013;15:147-151.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">23961576</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Krag M, Perner A, Wetterslev J, Wise MP, Hylander Moller M. Stress
+                        ulcer prophylaxis versus placebo or no prophylaxis in critically ill
+                        patients. A systematic review of randomised clinical trials with
+                        meta-analysis and trial sequential analysis. Intensive Care Med.
+                        2014;40:11-22.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">24141808</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Krag M, Marker S, Perner A, et al. Pantoprazole in patients at risk
+                        for gastrointestinal bleeding in the ICU. N Engl J Med. 2018;379:2199-2208.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">30354950</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Reynolds PM, MacLaren R. Re-evaluating the utility of stress ulcer
+                        prophylaxis in the critically ill patient: a clinical scenario-based
+                        meta-analysis. Pharmacotherapy. 2018;39:408-420.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">30101529</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Cook DJ, Griffith LE, Walter SD, et al. The attributable mortality and
+                        length of intensive care unit stay of clinically important gastrointestinal
+                        bleeding in critically ill patients. Crit Care. 2001;5:368-375.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC83859</ArticleId>
+                        <ArticleId IdType="pubmed">11737927</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Cook DJ, Fuller HD, Guyatt GH, et al. Risk factors for
+                        gastrointestinal bleeding in critically ill patients. Canadian Critical Care
+                        Trials Group. N Engl J Med. 1994;330:377-381.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">8284001</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Cook D, Guyatt G, Marshall J, et al. A comparison of sucralfate and
+                        ranitidine for the prevention of upper gastrointestinal bleeding in patients
+                        requiring mechanical ventilation. Canadian Critical Care Trials Group. N
+                        Engl J Med. 1998;338:791-797.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">9504939</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Selvanderan SP, Summers MJ, Finnis ME, et al. Pantoprazole or placebo
+                        for stress ulcer prophylaxis (POP-UP): randomized double-blind exploratory
+                        study. Crit Care Med. 2016;44:1842-1850.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">27635481</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Alhazzani W, Guyatt G, Alshahrani M, et al. Withholding pantoprazole
+                        for stress ulcer prophylaxis in critically ill patients: a pilot randomized
+                        clinical trial and meta-analysis. Crit Care Med. 2017;45:1121-1129.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">28459708</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Lilly CM, Aljawadi M, Badawi O, et al. Comparative effectiveness of
+                        proton pump inhibitors vs histamine type 2 receptor blockers for preventing
+                        clinically important gastrointestinal bleeding during intensive care: a
+                        population-based study. Chest. 2018;154:557-566.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC6689080</ArticleId>
+                        <ArticleId IdType="pubmed">29856970</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>MacLaren R, Reynolds PM, Allen RR. Histamine-2 receptor antagonists vs
+                        proton pump inhibitors on gastrointestinal tract hemorrhage and infectious
+                        complications in the intensive care unit. JAMA Intern Med. 2014;174:564-574.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">24535015</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Alhazzani W, Alshamsi F, Belley-Cote E, et al. Efficacy and safety of
+                        stress ulcer prophylaxis in critically ill patients: a network meta-analysis
+                        of randomized trials. Intensive Care Med. 2018;44:1-11.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5770505</ArticleId>
+                        <ArticleId IdType="pubmed">29199388</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Bateman BT, Bykov K, Choudhry NK, et al. Type of stress ulcer
+                        prophylaxis and risk of nosocomial pneumonia in cardiac surgical patients:
+                        cohort study. BMJ. 2013;347:f5416.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC3777797</ArticleId>
+                        <ArticleId IdType="pubmed">24052582</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Herzig SJ, Howell MD, Ngo LH, Marcantonio ER. Acid-suppressive
+                        medication use and the risk for hospital-acquired pneumonia. JAMA.
+                        2009;301:2120-2128.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">19470989</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>MacLaren R, Jarvis CL, Fish DN. Use of enteral nutrition for stress
+                        ulcer prophylaxis. Ann Pharmacother. 2001;35:1614-1623.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">11793631</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Marik PE, Vasu T, Hirani A, Pachinburavan M. Stress ulcer prophylaxis
+                        in the new millennium: a systematic review and meta-analysis. Crit Care Med.
+                        2010;38:2222-2228.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">20711074</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>El-Kersh K, Jalil B, McClave SA, et al. Enteral nutrition as stress
+                        ulcer prophylaxis in critically ill patients: a randomized controlled
+                        exploratory study. J Crit Care. 2018;43:108-113.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">28865339</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Huang HB, Jiang W, Wang CY, Qin HY, Du B. Stress ulcer prophylaxis in
+                        intensive care unit patients receiving enteral nutrition: a systematic
+                        review and meta-analysis. Crit Care. 2018;22:20.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5787340</ArticleId>
+                        <ArticleId IdType="pubmed">29374489</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Barletta JF. Histamine-2-receptor antagonist administration and
+                        gastrointestinal bleeding when used for stress ulcer prophylaxis in patients
+                        with severe sepsis or septic shock. Ann Pharmacother. 2014;48:1276-1281.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">24982312</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Brown RB, Klar J, Teres D, Lemeshow S, Sands M. Prospective study of
+                        clinical bleeding in intensive care unit patients. Crit Care Med.
+                        1988;16:1171-1176.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">3191733</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Cook D, Heyland D, Griffith L, Cook R, Marshall J, Pagliarello J. Risk
+                        factors for clinically important upper gastrointestinal bleeding in patients
+                        requiring mechanical ventilation. Canadian Critical Care Trials Group. Crit
+                        Care Med. 1999;27:2812-2817.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">10628631</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Schuster DP, Rowley H, Feinstein S, McGue MK, Zuckerman GR.
+                        Prospective evaluation of the risk of upper gastrointestinal bleeding after
+                        admission to a medical intensive care unit. Am J Med. 1984;76:623-630.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">6608877</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>MacLaren R, Campbell J. Cost-effectiveness of histamine receptor-2
+                        antagonist versus proton pump inhibitor for stress ulcer prophylaxis in
+                        critically ill patients*. Crit Care Med. 2014;42:809-815.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">24365863</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Hammond DA, Kathe N, Shah A, Martin BC. Cost-effectiveness of
+                        histamine2 receptor antagonists versus proton pump inhibitors for stress
+                        ulcer prophylaxis in critically ill patients. Pharmacotherapy.
+                        2017;37:43-53.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">27809338</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Barkun AN, Adam V, Martel M, Bardou M. Cost-effectiveness analysis:
+                        stress ulcer bleeding prophylaxis with proton pump inhibitors, H2 receptor
+                        antagonists. Value Health. 2013;16:14-22.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">23337211</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Buckley MS, Park AS, Anderson CS, et al. Impact of a clinical
+                        pharmacist stress ulcer prophylaxis management program on inappropriate use
+                        in hospitalized patients. Am J Med. 2015;128:905-913.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">25820164</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation> McMaster University. Re-evaluating the inhibition of stress erosions:
+                        gastrointestinal bleeding prophylaxis in the ICU (REVISE). In:
+                        ClinicalTrials.gov [Internet]. Bethesda, MD: National Library of Medicine.
+                        https://www.clinicaltrials.gov/ct2/show/NCT03374800?term=NCT03374800&amp;rank=1Identifier:NCT03374800.
+                        Published 2000. Accessed November 27, 2018.</Citation>
+                </Reference>
+                <Reference>
+                    <Citation>Young PJ, Bagshaw SM, Forbes A, et al. A cluster randomised,
+                        crossover, registry-embedded clinical trial of proton pump inhibitors versus
+                        histamine-2 receptor blockers for ulcer prophylaxis therapy in the intensive
+                        care unit (PEPTIC study): study protocol. Crit Care Resusc. 2018;20:182-189.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pubmed">30153780</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+                <Reference>
+                    <Citation>Schefold JC, Perner A, Lange T, et al. Effects of stress ulcer
+                        prophylaxis in adult ICU patients receiving renal replacement therapy
+                        (Sup-Icu RENal, SIREN): study protocol for a pre-planned observational
+                        study. Trials. 2018;19:26.</Citation>
+                    <ArticleIdList>
+                        <ArticleId IdType="pmc">PMC5763643</ArticleId>
+                        <ArticleId IdType="pubmed">29321041</ArticleId>
+                    </ArticleIdList>
+                </Reference>
+            </ReferenceList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>
