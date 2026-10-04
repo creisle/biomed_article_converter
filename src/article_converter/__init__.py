@@ -282,32 +282,20 @@ def flatten_table(table: Tag) -> None:
 
 def cleanup_removed_content(text: str) -> str:
     # Sentinel is the only meaningful content inside () or []
-    text = compile_regex(rf"\s*[\[(]\s*[,;:\s–-]*{REMOVED_ESC}[,;:\s–-]*[\])]").sub(
-        "",
-        text,
-    )
+    text = compile_regex(rf"\s*[\[(]\s*[,;:\s–-]*{REMOVED_ESC}[,;:\s–-]*[\])]").sub("", text)
 
     # Sentinel in the middle of a list:
     # (foo, REMOVED, bar) -> (foo, bar)
     # [foo; REMOVED; bar] -> [foo; bar]
-    text = compile_regex(rf"([,;])\s*{REMOVED_ESC}\s*([,;])").sub(
-        r"\1",
-        text,
-    )
+    text = compile_regex(rf"([,;])\s*{REMOVED_ESC}\s*([,;])").sub(r"\1", text)
 
     # Sentinel at end of a list:
     # (foo, REMOVED) -> (foo)
-    text = compile_regex(rf"([,;:])\s*{REMOVED_ESC}\s*(?=[\])])").sub(
-        "",
-        text,
-    )
+    text = compile_regex(rf"([,;:])\s*{REMOVED_ESC}\s*(?=[\])])").sub("", text)
 
     # Sentinel at start of a list:
     # (REMOVED, foo) -> (foo)
-    text = compile_regex(rf"(?<=[\[(])\s*{REMOVED_ESC}\s*[,;:]\s*").sub(
-        "",
-        text,
-    )
+    text = compile_regex(rf"(?<=[\[(])\s*{REMOVED_ESC}\s*[,;:]\s*").sub("", text)
 
     # Remove remaining sentinels
     text = text.replace(REMOVED, "")
@@ -464,6 +452,66 @@ def convert_markdown_to_text(md_content: str) -> str:
     text = compile_regex(r"[ ]+(\)|\])").sub(r"\1", text)
     text = compile_regex(r"(\(|\[)[ ]+").sub(r"\1", text)
     return text
+
+
+def _local_name(tag: str) -> str:
+    """Return an XML tag name without its namespace."""
+    return tag.rsplit("}", 1)[-1]
+
+
+def split_articles_from_pubmed_xml(xml_content: str | bytes) -> dict[str, str]:
+    """Split a PubMed XML article set into individual article XML strings keyed by PMID.
+
+    Supports both ``PubmedArticle`` and ``PubmedBookArticle`` records.
+    """
+    if isinstance(xml_content, str):
+        xml_content = xml_content.encode("utf-8")
+
+    root = etree.fromstring(xml_content)
+    result: dict[str, str] = {}
+
+    for article in root.iter():
+        if _local_name(article.tag) not in {"PubmedArticle", "PubmedBookArticle"}:
+            continue
+
+        pmid = next(
+            (
+                (elem.text or "").strip()
+                for elem in article.iter()
+                if _local_name(elem.tag) == "PMID" and (elem.text or "").strip()
+            ),
+            None,
+        )
+        if pmid is None:
+            raise ValueError("PubMed article is missing a PMID")
+
+        result[pmid] = etree.tostring(article, encoding="unicode")
+
+    return result
+
+
+def is_abstract_only(
+    xml_content: str | bytes, source_type: Literal["pmc", "pubmed"] = "pmc"
+) -> bool:
+    """Return whether article XML contains only an abstract and no substantive body.
+
+    This check is currently defined for PMC/JATS XML. PubMed records are abstract-level
+    records by definition and therefore return ``True``.
+    """
+    if source_type == "pubmed":
+        return True
+    if source_type != "pmc":
+        raise ValueError(f"invalid source_type ({source_type})")
+
+    if isinstance(xml_content, str):
+        xml_content = xml_content.encode("utf-8")
+    root = etree.fromstring(xml_content)
+
+    body = next((elem for elem in root.iter() if _local_name(elem.tag) == "body"), None)
+    if body is None:
+        return True
+
+    return not any((text or "").strip() for text in body.itertext())
 
 
 def convert_format(

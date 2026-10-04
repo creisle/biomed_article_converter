@@ -29,12 +29,7 @@ _covered_templates = set()
 
 def _template_id(stylesheet, match, name, mode):
     """Return a unique identifier for an XSLT template."""
-    return (
-        str(Path(stylesheet).resolve()),
-        match or None,
-        name or None,
-        mode or None,
-    )
+    return (str(Path(stylesheet).resolve()), match or None, name or None, mode or None)
 
 
 # ---------------------------------------------------------------------------
@@ -61,12 +56,7 @@ def _register_stylesheet(path, seen=None):
     tree = etree.parse(str(path))
 
     for node in tree.xpath("//xsl:template", namespaces=XSL_NS):
-        identity = _template_id(
-            path,
-            node.get("match"),
-            node.get("name"),
-            node.get("mode"),
-        )
+        identity = _template_id(path, node.get("match"), node.get("name"), node.get("mode"))
 
         _all_templates[identity] = {
             "source": path,
@@ -77,10 +67,7 @@ def _register_stylesheet(path, seen=None):
         }
 
     # Recursively register included/imported stylesheets.
-    for node in tree.xpath(
-        "//xsl:include | //xsl:import",
-        namespaces=XSL_NS,
-    ):
+    for node in tree.xpath("//xsl:include | //xsl:import", namespaces=XSL_NS):
         href = node.get("href")
 
         if not href:
@@ -112,12 +99,7 @@ def _profile_template_identity(stylesheet, node):
 
     stylesheet = Path(stylesheet).resolve()
 
-    direct = _template_id(
-        stylesheet,
-        match,
-        name,
-        mode,
-    )
+    direct = _template_id(stylesheet, match, name, mode)
 
     if direct in _all_templates:
         return direct
@@ -152,10 +134,7 @@ def _record_profile(stylesheet, profile):
         if calls <= 0:
             continue
 
-        identity = _profile_template_identity(
-            stylesheet,
-            node,
-        )
+        identity = _profile_template_identity(stylesheet, node)
 
         if identity is not None:
             _covered_templates.add(identity)
@@ -182,16 +161,9 @@ class XSLTCoverageProxy:
         # Force profiling on during tests.
         kwargs["profile_run"] = True
 
-        result = self._transform(
-            xml,
-            *args,
-            **kwargs,
-        )
+        result = self._transform(xml, *args, **kwargs)
 
-        _record_profile(
-            self._stylesheet,
-            result.xslt_profile,
-        )
+        _record_profile(self._stylesheet, result.xslt_profile)
 
         return result
 
@@ -208,11 +180,7 @@ class XSLTCoverageProxy:
 def pytest_addoption(parser):
     group = parser.getgroup("xslt coverage")
 
-    group.addoption(
-        "--xslt-cov",
-        action="store_true",
-        help="Report XSLT template coverage",
-    )
+    group.addoption("--xslt-cov", action="store_true", help="Report XSLT template coverage")
 
     group.addoption(
         "--xslt-cov-fail-under",
@@ -245,10 +213,7 @@ def instrument_xslt(request):
 
     data_dir = Path(parser_module.__file__).parent / "data"
 
-    stylesheets = {
-        "pmc": data_dir / "pmc_mapping.xsl",
-        "pubmed": data_dir / "pubmed_mapping.xsl",
-    }
+    stylesheets = {"pmc": data_dir / "pmc_mapping.xsl", "pubmed": data_dir / "pubmed_mapping.xsl"}
 
     originals = {}
 
@@ -266,8 +231,7 @@ def instrument_xslt(request):
         originals[template_name] = parser_module.TEMPLATES[template_name]
 
         parser_module.TEMPLATES[template_name] = XSLTCoverageProxy(
-            originals[template_name],
-            stylesheet,
+            originals[template_name], stylesheet
         )
 
     yield
@@ -312,11 +276,7 @@ def _total_coverage():
 # ---------------------------------------------------------------------------
 
 
-def pytest_terminal_summary(
-    terminalreporter,
-    exitstatus,
-    config,
-):
+def pytest_terminal_summary(terminalreporter, exitstatus, config):
     if not _coverage_enabled(config):
         return
 
@@ -328,10 +288,7 @@ def pytest_terminal_summary(
         tr.write_line("No XSLT templates found.")
         return
 
-    sources = sorted(
-        {info["source"] for info in _all_templates.values()},
-        key=str,
-    )
+    sources = sorted({info["source"] for info in _all_templates.values()}, key=str)
 
     for source in sources:
         covered, total, percent = _coverage_for_source(source)
@@ -351,12 +308,7 @@ def pytest_terminal_summary(
         tr.write_line("")
         tr.write_line("Uncovered templates:")
 
-        uncovered.sort(
-            key=lambda info: (
-                str(info["source"]),
-                info["line"] or 0,
-            )
-        )
+        uncovered.sort(key=lambda info: (str(info["source"]), info["line"] or 0))
 
         for info in uncovered:
             attrs = []

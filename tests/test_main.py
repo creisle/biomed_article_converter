@@ -2,6 +2,7 @@ import os
 from functools import lru_cache
 
 import pytest
+from lxml import etree
 
 from article_converter import convert_format, convert_markdown_to_text
 
@@ -50,21 +51,9 @@ def read_test_xml(file_id):
             ["*R* <sup>2</sup>"],
         ),  # pubmed version does have a space there in the XML
         ("PMC8279135", "md", ["*R*<sup>2</sup>"]),
-        (
-            "30514790",
-            "md",
-            ["**Keywords:** lung adenocarcinoma"],
-        ),
-        (
-            "PMC6371742",
-            "md",
-            ["**Keywords:** lung adenocarcinoma"],
-        ),
-        (
-            "PMC6371742",
-            "txt",
-            ["Keywords: lung adenocarcinoma"],
-        ),
+        ("30514790", "md", ["**Keywords:** lung adenocarcinoma"]),
+        ("PMC6371742", "md", ["**Keywords:** lung adenocarcinoma"]),
+        ("PMC6371742", "txt", ["Keywords: lung adenocarcinoma"]),
         ("PMC6371742", "txt", ["\n\nCONCLUSION\n\n"]),
         ("34307865", "txt", [" evaluation.\n\n", "R ^2"]),
         (
@@ -95,11 +84,7 @@ against reversible inhibitors lapatinib and AEE788.
 | L755S | 19 | ATP binding region | Breast and gastric cancer | \\>2000 | 897 | 4 |"""
             ],
         ),
-        (
-            "PMC3203921",
-            "txt",
-            [" >2000 | 897 | 4 |"],
-        ),
+        ("PMC3203921", "txt", [" >2000 | 897 | 4 |"]),
         (
             "PMC5029658",  # row-span/col-span cells
             "md",
@@ -134,16 +119,9 @@ against reversible inhibitors lapatinib and AEE788.
         (
             "PMC1702556",
             "txt",
-            [
-                "0.8 mM dNTPs, 1 mM MgCl2, 0.2 U",
-                "post-transfection, filtered (0.45 uM)",
-            ],
+            ["0.8 mM dNTPs, 1 mM MgCl2, 0.2 U", "post-transfection, filtered (0.45 uM)"],
         ),
-        (
-            "PMC1702556",
-            "md",
-            ["DNA Analyzer (Applied Biosystems)."],
-        ),
+        ("PMC1702556", "md", ["DNA Analyzer (Applied Biosystems)."]),
         (
             "PMC1702556",
             "html",
@@ -167,7 +145,7 @@ against reversible inhibitors lapatinib and AEE788.
             "26161928",
             "txt",
             [
-                "AIM: To investigate the impact of KRAS mutation variants on the activity of regorafenib in SW48 colorectal cancer cells.",
+                "AIM: To investigate the impact of KRAS mutation variants on the activity of regorafenib in SW48 colorectal cancer cells."
             ],
         ),
         # more weird superscript notation for SNVs
@@ -175,7 +153,7 @@ against reversible inhibitors lapatinib and AEE788.
             "PMC5846801",
             "html",
             [
-                "FGFR3 in the ternary complex for the FGFR3<sup>WT</sup>, FGFR3<sup>E466K</sup>, FGFR3<sup>I538F</sup>, FGFR3<sup>N540K</sup>, and FGFR3<sup>K650E</sup>.",
+                "FGFR3 in the ternary complex for the FGFR3<sup>WT</sup>, FGFR3<sup>E466K</sup>, FGFR3<sup>I538F</sup>, FGFR3<sup>N540K</sup>, and FGFR3<sup>K650E</sup>."
             ],
         ),
         # TODO: should the text version of above be a space? currently just FGFR3^WT
@@ -219,11 +197,7 @@ against reversible inhibitors lapatinib and AEE788.
                 "PEST domain (NM_017617.4: c.[6626_6629del];[=], p.(Tyr2209CysfsTer38)) and extensive cardiovascular abnormalities consistent"
             ],
         ),
-        (
-            "29394989",
-            "txt",
-            ["73 had ?95% probability"],
-        ),
+        ("29394989", "txt", ["73 had ?95% probability"]),
         ("31558800", "md", ["BRAF<sup>ΔE1</sup>"]),
         ("31558800", "txt", ["BRAF^DeltaE1"]),
         ("30132220", "md", [" 6,331 'p53-positive (\\+) TNBC' patients "]),
@@ -234,25 +208,16 @@ def test_convert(file_id, output_format, expected_phrases):
     content = read_test_xml(file_id)
 
     html = convert_format(
-        "xml",
-        "html",
-        content,
-        input_source_type="pmc" if file_id.startswith("PMC") else "pubmed",
+        "xml", "html", content, input_source_type="pmc" if file_id.startswith("PMC") else "pubmed"
     )
     md = convert_format("html", "md", html)
     assert md == convert_format(
-        "xml",
-        "md",
-        content,
-        input_source_type="pmc" if file_id.startswith("PMC") else "pubmed",
+        "xml", "md", content, input_source_type="pmc" if file_id.startswith("PMC") else "pubmed"
     )
     assert md == convert_format("html", "md", html)
     text = convert_format("md", "txt", md)
     assert text == convert_format(
-        "xml",
-        "txt",
-        content,
-        input_source_type="pmc" if file_id.startswith("PMC") else "pubmed",
+        "xml", "txt", content, input_source_type="pmc" if file_id.startswith("PMC") else "pubmed"
     )
     assert text == convert_format("html", "txt", html)
     assert text == convert_format("md", "txt", md)
@@ -370,11 +335,7 @@ def test_main_invalid_args(monkeypatch, input, output, source_type):
             "We performed studies with Ptf1a^Cre; Kras^G12D; Setdb1^f/f, Ptf1a^Cre; Kras^G12D; Trp53^f/+; Setdb1^f/f, and Ptf1a^Cre; Kras^G12D; Trp53^f/f; Setdb1^f/f mice to investigate the effects ",
         ),
         # weird punctuation in original article
-        (
-            "29394989",
-            "73 had ?95% probability",
-            "73 had ?95% probability",
-        ),
+        ("29394989", "73 had ?95% probability", "73 had ?95% probability"),
         (
             "30820715",
             "response rate of 0%. CTC°3 adverse",
@@ -400,3 +361,84 @@ def test_main_invalid_args(monkeypatch, input, output, source_type):
 )
 def test_convert_markdown_to_text(pmid, md_content, text_content):
     assert convert_markdown_to_text(md_content).strip() == text_content.strip()
+
+
+def test_split_articles_from_pubmed_xml():
+    from article_converter import split_articles_from_pubmed_xml
+
+    root = etree.Element("PubmedArticleSet")
+    for file_id in ("32214442", "34307865"):
+        source_root = etree.fromstring(read_test_xml(file_id).encode("utf-8"))
+        root.append(source_root[0])
+    xml = etree.tostring(root, encoding="unicode")
+
+    result = split_articles_from_pubmed_xml(xml)
+
+    assert set(result) == {"32214442", "34307865"}
+    assert "<PubmedArticle" in result["32214442"]
+    assert "<PubmedArticle" in result["34307865"]
+
+
+def test_split_articles_from_pubmed_xml_supports_book_articles():
+    from article_converter import split_articles_from_pubmed_xml
+
+    xml = """\
+<PubmedArticleSet>
+  <PubmedBookArticle>
+    <BookDocument>
+      <PMID Version="1">31971751</PMID>
+      <ArticleTitle>Lung Metastasis</ArticleTitle>
+    </BookDocument>
+  </PubmedBookArticle>
+</PubmedArticleSet>
+"""
+
+    result = split_articles_from_pubmed_xml(xml)
+
+    assert set(result) == {"31971751"}
+    assert "PubmedBookArticle" in result["31971751"]
+
+
+def test_split_articles_from_pubmed_xml_requires_pmid():
+    from article_converter import split_articles_from_pubmed_xml
+
+    with pytest.raises(ValueError, match="missing a PMID"):
+        split_articles_from_pubmed_xml("<PubmedArticleSet><PubmedArticle /></PubmedArticleSet>")
+
+
+@pytest.mark.parametrize(
+    "xml,expected",
+    [
+        (
+            "<article><front><article-meta><abstract><p>Abstract</p></abstract>"
+            "</article-meta></front></article>",
+            True,
+        ),
+        (
+            "<article><front><article-meta><abstract><p>Abstract</p></abstract>"
+            "</article-meta></front><body /></article>",
+            True,
+        ),
+        (
+            "<article><front><article-meta><abstract><p>Abstract</p></abstract>"
+            "</article-meta></front><body><sec><p>Full text</p></sec></body></article>",
+            False,
+        ),
+    ],
+)
+def test_is_abstract_only_pmc(xml, expected):
+    from article_converter import is_abstract_only
+
+    assert is_abstract_only(xml, source_type="pmc") is expected
+
+
+def test_is_abstract_only_real_pmc_article():
+    from article_converter import is_abstract_only
+
+    assert is_abstract_only(read_test_xml("PMC10139909"), source_type="pmc") is False
+
+
+def test_is_abstract_only_pubmed():
+    from article_converter import is_abstract_only
+
+    assert is_abstract_only(read_test_xml("32214442"), source_type="pubmed") is True
