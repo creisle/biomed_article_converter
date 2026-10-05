@@ -536,9 +536,7 @@ def convert_format(
     if output_format not in VALID_FORMAT_TYPES:
         raise ValueError(f"invalid output_format ({output_format})")
     if source_type is None and input_format == "xml":
-        raise ValueError(
-            "xml input requires source_type to be defined as either pmc or pubmed"
-        )
+        raise ValueError("xml input requires source_type to be defined as either pmc or pubmed")
     if input_format == "xml":
         if output_format == "html":
             return convert_xml_to_html(text, source_type)

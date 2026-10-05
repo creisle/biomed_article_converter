@@ -16,10 +16,10 @@ or via the library to convert to markdown
 from biomed_article_converter import convert_format
 
 
-with open('input.xml', 'r') as fh:
+with open("input.xml", "r") as fh:
     content = fh.read()
 
-md = convert_format('xml', 'md', content, source_type='pmc')
+md = convert_format("xml", "md", content, source_type="pmc")
 ```
 
 While the xml to html conversion tries to retain as much information as possible, the simpler md and txt formats make some assumptions on what you want to keep.
