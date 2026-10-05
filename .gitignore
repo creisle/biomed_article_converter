@@ -11,3 +11,4 @@ temp.*
 *.vscode
 tarball_pkg.sh
 *.tar.gz
+.vscode
