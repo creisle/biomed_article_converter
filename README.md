@@ -7,19 +7,19 @@ This is a simple package made to convert NCBI PubMed/PMC XML formats into more c
 This can be used as command line tool or as a library. For example to convert the XML from a pmc article to html
 
 ```bash
-python -m article_converter input.xml output.html --source_type pmc
+python -m biomed_article_converter input.xml output.html --source_type pmc
 ```
 
 or via the library to convert to markdown
 
 ```python
-from article_converter import convert_format
+from biomed_article_converter import convert_format
 
 
 with open('input.xml', 'r') as fh:
     content = fh.read()
 
-md = convert_format('xml', 'md', content, input_source_type='pmc')
+md = convert_format('xml', 'md', content, source_type='pmc')
 ```
 
 While the xml to html conversion tries to retain as much information as possible, the simpler md and txt formats make some assumptions on what you want to keep.
@@ -56,14 +56,14 @@ For markdown or plain text, we cannot support the nested/complex table structure
 
 ## XML inspection helpers
 
-`article_converter` also provides small XML-structure helpers used when working with raw NCBI article responses.
+`biomed_article_converter` also provides small XML-structure helpers used when working with raw NCBI article responses.
 
 ### Split PubMed article sets
 
 PubMed `efetch` responses may contain multiple `PubmedArticle` or `PubmedBookArticle` records. Use `split_articles_from_pubmed_xml()` to split a response into individual XML documents keyed by PMID:
 
 ```python
-from article_converter import split_articles_from_pubmed_xml
+from biomed_article_converter import split_articles_from_pubmed_xml
 
 articles = split_articles_from_pubmed_xml(xml)
 
@@ -77,7 +77,7 @@ The returned values are standalone XML strings for each article. Both regular Pu
 Use `is_abstract_only()` to determine whether an article XML record contains only abstract-level content:
 
 ```python
-from article_converter import is_abstract_only
+from biomed_article_converter import is_abstract_only
 
 if is_abstract_only(xml, source_type="pmc"):
     print("PMC did not provide substantive full text")

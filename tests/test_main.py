@@ -4,7 +4,7 @@ from functools import lru_cache
 import pytest
 from lxml import etree
 
-from article_converter import convert_format, convert_markdown_to_text
+from biomed_article_converter import convert_format, convert_markdown_to_text
 
 
 @lru_cache(maxsize=4096)
@@ -208,16 +208,16 @@ def test_convert(file_id, output_format, expected_phrases):
     content = read_test_xml(file_id)
 
     html = convert_format(
-        "xml", "html", content, input_source_type="pmc" if file_id.startswith("PMC") else "pubmed"
+        "xml", "html", content, source_type="pmc" if file_id.startswith("PMC") else "pubmed"
     )
     md = convert_format("html", "md", html)
     assert md == convert_format(
-        "xml", "md", content, input_source_type="pmc" if file_id.startswith("PMC") else "pubmed"
+        "xml", "md", content, source_type="pmc" if file_id.startswith("PMC") else "pubmed"
     )
     assert md == convert_format("html", "md", html)
     text = convert_format("md", "txt", md)
     assert text == convert_format(
-        "xml", "txt", content, input_source_type="pmc" if file_id.startswith("PMC") else "pubmed"
+        "xml", "txt", content, source_type="pmc" if file_id.startswith("PMC") else "pubmed"
     )
     assert text == convert_format("html", "txt", html)
     assert text == convert_format("md", "txt", md)
@@ -258,7 +258,7 @@ def test_bad_conversions(input_format, output_format):
 def test_main_invalid_args(monkeypatch, input, output, source_type):
     monkeypatch.setattr("sys.argv", [input, output, "--source_type", source_type])
 
-    from article_converter import main
+    from biomed_article_converter import main
 
     # argparse will call sys.exit() when validation fails
     with pytest.raises(SystemExit):
@@ -364,7 +364,7 @@ def test_convert_markdown_to_text(pmid, md_content, text_content):
 
 
 def test_split_articles_from_pubmed_xml():
-    from article_converter import split_articles_from_pubmed_xml
+    from biomed_article_converter import split_articles_from_pubmed_xml
 
     root = etree.Element("PubmedArticleSet")
     for file_id in ("32214442", "34307865"):
@@ -380,7 +380,7 @@ def test_split_articles_from_pubmed_xml():
 
 
 def test_split_articles_from_pubmed_xml_supports_book_articles():
-    from article_converter import split_articles_from_pubmed_xml
+    from biomed_article_converter import split_articles_from_pubmed_xml
 
     xml = """\
 <PubmedArticleSet>
@@ -400,7 +400,7 @@ def test_split_articles_from_pubmed_xml_supports_book_articles():
 
 
 def test_split_articles_from_pubmed_xml_requires_pmid():
-    from article_converter import split_articles_from_pubmed_xml
+    from biomed_article_converter import split_articles_from_pubmed_xml
 
     with pytest.raises(ValueError, match="missing a PMID"):
         split_articles_from_pubmed_xml("<PubmedArticleSet><PubmedArticle /></PubmedArticleSet>")
@@ -427,18 +427,18 @@ def test_split_articles_from_pubmed_xml_requires_pmid():
     ],
 )
 def test_is_abstract_only_pmc(xml, expected):
-    from article_converter import is_abstract_only
+    from biomed_article_converter import is_abstract_only
 
     assert is_abstract_only(xml, source_type="pmc") is expected
 
 
 def test_is_abstract_only_real_pmc_article():
-    from article_converter import is_abstract_only
+    from biomed_article_converter import is_abstract_only
 
     assert is_abstract_only(read_test_xml("PMC10139909"), source_type="pmc") is False
 
 
 def test_is_abstract_only_pubmed():
-    from article_converter import is_abstract_only
+    from biomed_article_converter import is_abstract_only
 
     assert is_abstract_only(read_test_xml("32214442"), source_type="pubmed") is True

@@ -1,5 +1,5 @@
 [project]
-name = "article-converter"
+name = "biomed-article-converter"
 version = "0.1.0"
 description = ""
 authors = [
@@ -31,13 +31,13 @@ dev = [
 
 [tool.poetry]
 package-mode = true
-packages = [{include = "article_converter", from = "src"}]
+packages = [{include = "biomed_article_converter", from = "src"}]
 include = [
-    { path = "article_converter/data/**/*", format = ["sdist", "wheel"] }
+    { path = "biomed_article_converter/data/**/*", format = ["sdist", "wheel"] }
 ]
 
 [tool.pytest.ini_options]
-addopts = "--cov=article_converter --cov-report=term-missing --cov-branch --xslt-cov"
+addopts = "--cov=biomed_article_converter --cov-report=term-missing --cov-branch --xslt-cov"
 
 
 [tool.ruff]

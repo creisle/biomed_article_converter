@@ -518,7 +518,7 @@ def convert_format(
     input_format: Literal["xml", "html", "md"],
     output_format: Literal["html", "md", "txt"],
     text: str,
-    input_source_type: Literal["pubmed", "pmc"] | None = None,
+    source_type: Literal["pubmed", "pmc"] | None = None,
     html_omit_classes: list[str] = OMIT_CLASSES,
     html_omit_titles: list[str] = OMIT_TITLES,
 ) -> str:
@@ -527,7 +527,7 @@ def convert_format(
         input_format: The format of the file to be converted
         output_format: the target format of the output file
         text: the input text to be converted
-        input_source_type: For XML only, where the article is from
+        source_type: For XML only, where the article is from
         html_omit_classes: will remove elements from the HTML with any of the class attributes in this list
         html_omit_titles: will remove section elements from the HTML where the immediatete <h#> tag of the section matches one of these titles (case insensitive)
     """
@@ -535,23 +535,23 @@ def convert_format(
         raise ValueError(f"invalid input_format ({input_format})")
     if output_format not in VALID_FORMAT_TYPES:
         raise ValueError(f"invalid output_format ({output_format})")
-    if input_source_type is None and input_format == "xml":
+    if source_type is None and input_format == "xml":
         raise ValueError(
-            "xml input requires input_source_type to be defined as either pmc or pubmed"
+            "xml input requires source_type to be defined as either pmc or pubmed"
         )
     if input_format == "xml":
         if output_format == "html":
-            return convert_xml_to_html(text, input_source_type)
+            return convert_xml_to_html(text, source_type)
         if output_format == "md":
             return convert_html_to_md(
-                convert_xml_to_html(text, input_source_type),
+                convert_xml_to_html(text, source_type),
                 omit_classes=html_omit_classes,
                 omit_titles=html_omit_titles,
             )
         if output_format == "txt":
             return convert_markdown_to_text(
                 convert_html_to_md(
-                    convert_xml_to_html(text, input_source_type),
+                    convert_xml_to_html(text, source_type),
                     omit_classes=html_omit_classes,
                     omit_titles=html_omit_titles,
                 )
@@ -585,7 +585,7 @@ def main() -> None:
 
     input_format = args.input.split(".")[-1]
     output_format = args.output.split(".")[-1]
-    output = convert_format(input_format, output_format, data, input_source_type=args.source_type)
+    output = convert_format(input_format, output_format, data, source_type=args.source_type)
 
     with open(args.output, "w") as fh:
         fh.write(str(output))

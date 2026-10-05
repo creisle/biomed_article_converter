@@ -7,7 +7,7 @@ from pathlib import Path
 import pytest
 from lxml import etree
 
-import article_converter as parser_module
+import biomed_article_converter as parser_module
 
 XSL_NS = {"xsl": "http://www.w3.org/1999/XSL/Transform"}
 
