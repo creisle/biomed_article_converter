@@ -1,4 +1,4 @@
-# Article Converter
+# BioMed Article Converter
 
 ![Coverage](./badges/coverage.svg)
 
