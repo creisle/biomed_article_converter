@@ -1,7 +1,7 @@
 [project]
 name = "biomed-article-converter"
 version = "0.1.0"
-description = ""
+description = "convert NCBI PubMed/PMC XML formats into more common and useable downstream formats such as HTML, MD, or plain text"
 authors = [
     {name = "Caralyn Reisle",email = "creisle@bcgsc.ca"}
 ]
@@ -13,6 +13,7 @@ dependencies = [
     "markdown (>=3.10.3,<4.0.0)",
     "anyascii (>=0.3.3,<0.4.0)",
 ]
+readme = "README.md"
 
 
 [build-system]
