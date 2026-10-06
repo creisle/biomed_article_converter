@@ -415,7 +415,6 @@ def convert_markdown_to_text(md_content: str) -> str:
         else:
             replacement_text = f"^{sup.get_text().strip()}"
         # Replace the HTML tag with the new text node
-        print("supr replace", inner_text, replacement_text)
         sup.replace_with(replacement_text)
 
     inject_line_breaks_inplace(soup)
