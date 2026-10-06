@@ -1,6 +1,6 @@
 # BioMed Article Converter
 
-![Coverage](./badges/coverage.svg)
+![Coverage](https://raw.githubusercontent.com/creisle/biomed_article_converter/badges/badges/main/coverage.svg) [![PyPI version](https://img.shields.io/pypi/v/biomed-article-converter.svg?label=PyPI&cacheSeconds=300)](https://pypi.org/project/biomed-article-converter/) 
 
 This is a simple package made to convert NCBI PubMed/PMC XML formats into more common and useable downstream formats such as HTML, MD, or plain text
 
