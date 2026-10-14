@@ -86,3 +86,22 @@ if is_abstract_only(xml, source_type="pmc"):
 For PMC/JATS XML, a document is considered abstract-only when it has no substantive `<body>` content. PubMed XML records are abstract-level records by definition, so `source_type="pubmed"` returns `True`.
 
 These helpers inspect article XML structure only; they do not perform format conversion.
+
+## Crossref JATS abstracts
+
+Pass the Crossref API response's `message["abstract"]` string directly, without
+additional XML wrapping:
+
+```python
+from biomed_article_converter import convert_format
+
+abstract_xml = response.json()["message"].get("abstract")
+if abstract_xml:
+    md = convert_format("xml", "md", abstract_xml, source_type="crossref")
+```
+
+Crossref abstracts support HTML, Markdown, and plain-text output, including
+JATS section labels, paragraph boundaries, and inline formatting. Trailing
+AACR `Citation Format:` blocks are omitted. `is_abstract_only()` returns `True`
+for this source. The command line also accepts `--source_type crossref`.
+Conversion is local; it does not fetch Crossref records or look up PMIDs.

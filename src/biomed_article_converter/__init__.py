@@ -13,6 +13,8 @@ from lxml import etree
 from markdown import markdown
 from markdownify import MarkdownConverter
 
+from .crossref import crossref_to_pmc_xml
+
 OMIT_TITLES = {
     "ethics statement",
     "conflict of interest",
@@ -342,9 +344,20 @@ def prep_html_for_md(html_string: str, omit_titles: set[str], omit_classes: set[
 
 
 def convert_xml_to_html(xml_content: str, template_type: str) -> str:
-    # Compiling direct from the explicit code string literal
+    # Adapt Crossref fragments for the existing PMC stylesheet.
+    is_crossref = template_type == "crossref"
+    if is_crossref:
+        xml_content = crossref_to_pmc_xml(xml_content)
+        template_type = "pmc"
     xml_root = etree.fromstring(xml_content.encode("utf-8"))
-    return str(TEMPLATES[template_type](xml_root))
+    html = str(TEMPLATES[template_type](xml_root))
+    if is_crossref:
+        # Abstract fragments carry no article metadata. The PMC header would
+        # otherwise introduce an empty heading into Markdown/plain text.
+        soup = BeautifulSoup(html, "html.parser")
+        soup.header.decompose()
+        return str(soup)
+    return html
 
 
 def convert_html_to_md(html_content: str, omit_titles: list[str], omit_classes: list[str]) -> str:
@@ -490,14 +503,14 @@ def split_articles_from_pubmed_xml(xml_content: str | bytes) -> dict[str, str]:
 
 
 def is_abstract_only(
-    xml_content: str | bytes, source_type: Literal["pmc", "pubmed"] = "pmc"
+    xml_content: str | bytes, source_type: Literal["pmc", "pubmed", "crossref"] = "pmc"
 ) -> bool:
     """Return whether article XML contains only an abstract and no substantive body.
 
     This check is currently defined for PMC/JATS XML. PubMed records are abstract-level
-    records by definition and therefore return ``True``.
+    records by definition; Crossref abstract fragments also return ``True``.
     """
-    if source_type == "pubmed":
+    if source_type in {"pubmed", "crossref"}:
         return True
     if source_type != "pmc":
         raise ValueError(f"invalid source_type ({source_type})")
@@ -517,7 +530,7 @@ def convert_format(
     input_format: Literal["xml", "html", "md"],
     output_format: Literal["html", "md", "txt"],
     text: str,
-    source_type: Literal["pubmed", "pmc"] | None = None,
+    source_type: Literal["pubmed", "pmc", "crossref"] | None = None,
     html_omit_classes: list[str] = OMIT_CLASSES,
     html_omit_titles: list[str] = OMIT_TITLES,
 ) -> str:
@@ -526,7 +539,7 @@ def convert_format(
         input_format: The format of the file to be converted
         output_format: the target format of the output file
         text: the input text to be converted
-        source_type: For XML only, where the article is from
+        source_type: For XML only, pmc, pubmed, or crossref (abstract fragment)
         html_omit_classes: will remove elements from the HTML with any of the class attributes in this list
         html_omit_titles: will remove section elements from the HTML where the immediatete <h#> tag of the section matches one of these titles (case insensitive)
     """
@@ -535,7 +548,7 @@ def convert_format(
     if output_format not in VALID_FORMAT_TYPES:
         raise ValueError(f"invalid output_format ({output_format})")
     if source_type is None and input_format == "xml":
-        raise ValueError("xml input requires source_type to be defined as either pmc or pubmed")
+        raise ValueError("xml input requires source_type to be defined as pmc, pubmed, or crossref")
     if input_format == "xml":
         if output_format == "html":
             return convert_xml_to_html(text, source_type)
@@ -573,7 +586,7 @@ def convert_format(
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("input", help="path to the input XML file")
-    parser.add_argument("--source_type", default="pmc", choices=list(TEMPLATES))
+    parser.add_argument("--source_type", default="pmc", choices=[*TEMPLATES, "crossref"])
     parser.add_argument("output", help="path to the output HTML file")
     args = parser.parse_args()
 
